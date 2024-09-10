@@ -15,25 +15,21 @@ func grapple():
 	self.sleeping = false
 	self.set_contact_monitor(true)
 	self.set_max_contacts_reported(5)
-	print("Kissa")
 	if is_grappling:
 		is_grappling = false
 		targetPosition = Vector2(Input.get_axis("Aim_Left", "Aim_Right"), Input.get_axis("Aim_Up", "Aim_Down")).normalized()
 		apply_central_impulse(targetPosition * speed)
 
 func _physics_process(_delta: float) -> void:
-	if Input.is_action_pressed("GrappleHook_R") and is_hooked:
+	if Input.is_action_pressed("R2") and is_hooked:
 		var _current_distance = global_position.distance_to(player_body.global_position)
 		#if current_distance > hook_distance_to_player:
-	if Input.is_action_just_released("GrappleHook_R"):
+	if Input.is_action_just_released("R2"):
 		self.queue_free()
 		
 func _on_tree_entered() -> void:
 	Globals.playerGrapplingHook_R.connect(grapple)
-	print("Kissa1")
 	player_body = get_parent().get_parent().get_node("Player") as CharacterBody2D
-	if other_hook != null:
-		other_hook = get_node("GrapplingHook") as RigidBody2D
 
 func _on_tree_exiting() -> void:
 	Globals.playerGrapplingHook_R.disconnect(grapple)
