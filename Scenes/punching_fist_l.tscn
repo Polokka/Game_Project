@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://cryxopea0cyfg"]
+[gd_scene load_steps=4 format=3 uid="uid://cryxopea0cyfg"]
 
 [ext_resource type="Script" path="res://Scenes/punching_fist_l.gd" id="1_q1tmq"]
+[ext_resource type="Texture2D" uid="uid://1pft8fa3x5eb" path="res://Images/RedGreyTile.png" id="2_40grd"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fl45"]
 radius = 18.0278
@@ -15,6 +16,8 @@ metadata/_edit_group_ = true
 shape = SubResource("CircleShape2D_0fl45")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.8, 1.8)
+texture = ExtResource("2_40grd")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="tree_entered" from="." to="." method="_on_tree_entered"]

@@ -39,8 +39,8 @@ func swap_ability_r():
 		print("Nykyinen kyky ei löydy taulukosta")
 		
 #PushingFist functions
-func firePunchingFistL():
-	if punchingFistL == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0):
+func firePunchingFistL(mouseL):
+	if punchingFistL == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0) or mouseL:
 		punchingFistL = punching_fist_scene_l.instantiate()
 		add_child(punchingFistL)
 		punchingFistL.global_position = player.global_position
@@ -54,8 +54,8 @@ func firePunchingFistR():
 		Globals.playerPunchingFistR.emit()
 
 #Grappling functions
-func fireGrapplingHook():
-	if grapplingHook == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0):
+func fireGrapplingHook(mouseL):
+	if grapplingHook == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0) or mouseL:
 		grapplingHook = grappling_hook_scene.instantiate()
 		add_child(grapplingHook)
 		grapplingHook.global_position = player.global_position
@@ -80,9 +80,9 @@ func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("L2"):
 		match current_ability_l:
 			"GrapplingHook":
-				fireGrapplingHook()
+				fireGrapplingHook(Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT))
 			"PushingFist":
-				firePunchingFistL()
+				firePunchingFistL(Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT))
 			
 	if Input.is_action_just_pressed("R2"):
 		match current_ability_r:

@@ -1,55 +1,63 @@
 extends CharacterBody2D
 
-#Basic movement variables
-
-const SPEED = 400.0
+# Basic movement variables
+const SPEED = 600.0
 const JUMP_VELOCITY = -600.0
-const MAX_FALL_SPEED = 1000.0  
-var acceleration = 1300
+const MAX_FALL_SPEED = 1700.0  
+var acceleration = 2300
 var turn_acceleration = 3000
-var friction = 2200
+var friction = 1000
 
-#Air movement variables
+# Air movement variables
 const DASH_SPEED = 600
 const DASH_DURATION = 0.15
-var airDashAvaible = true
+var airDashAvailable = true
 var dash_vector = Vector2.ZERO
 var dashing_time = 0.0
 
-const MAIN_SCENE = preload("res://Scenes/main_scene.tscn")
 
-
+const FAST_FALL_MULTIPLIER = 2.5 
+var fast_falling = false
 
 func _physics_process(delta: float) -> void:
 	
 	if is_on_floor():
-		airDashAvaible = true
+		airDashAvailable = true
 		dash_vector = Vector2.ZERO
-		
-	# Add the gravity.
-	if not is_on_floor() and dash_vector == Vector2.ZERO:
-		velocity.y += Globals.GRAVITY * delta
-		if velocity.y > MAX_FALL_SPEED:
-			velocity.y = MAX_FALL_SPEED
+		fast_falling = false  # Palauta normaali tila lattialla
 
-	# Handle jump.
+	# Add gravity when in air and not dashing
+	if not is_on_floor() and dash_vector == Vector2.ZERO:
+		if Input.is_action_pressed("Down"):
+			fast_falling = true 
+		elif fast_falling and not Input.is_action_pressed("Down"):
+			fast_falling = false  
+		
+		# Apply gravity with optional fast fall multiplier
+		if velocity.y < MAX_FALL_SPEED:
+			var gravity_force = Globals.GRAVITY * delta
+			if fast_falling:
+				gravity_force *= FAST_FALL_MULTIPLIER  # Nopeampi putoaminen
+			velocity.y += gravity_force
+
+	# Handle jump
 	if Input.is_action_just_pressed("Jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 	
-	#Handle airdash.
-	if Input.is_action_just_pressed("Jump") and airDashAvaible and !is_on_floor():
-		airDashAvaible = false
+	# Handle airdash
+	if Input.is_action_just_pressed("Jump") and airDashAvailable and not is_on_floor():
+		airDashAvailable = false
 		dashing_time = DASH_DURATION
 		dash_vector = Vector2(Input.get_axis("Left", "Right"), Input.get_axis("Up", "Down")).normalized()
 
 		if dash_vector == Vector2.ZERO:
-			dash_vector += Vector2(1, 0) # Dash oikealle, jos suuntaa ei ole annettu
+			dash_vector += Vector2(1, 0)  # Dash oikealle, jos suuntaa ei ole annettu
 			
 		var horizontal_speed = dash_vector.x * DASH_SPEED * 1.8  # Horisontaalinen dash on voimakkaampi
 		var vertical_speed = dash_vector.y * DASH_SPEED * 1.2    # Vertikaalinen dash on heikompi
 		velocity += Vector2(horizontal_speed, vertical_speed)
 
-	#Stopping the dash
+	# Stopping the dash
 	if dashing_time > 0:
 		dashing_time -= delta
 	else:
@@ -68,15 +76,13 @@ func _physics_process(delta: float) -> void:
 				# Basic acceleration
 				velocity.x = move_toward(velocity.x, input_direction.x * SPEED, acceleration * delta)
 		else:
-			#Slowdown
+			# Slowdown
 			velocity.x = move_toward(velocity.x, 0, friction * delta)
+
 	move_and_slide()
-	
+
 	if Input.is_action_just_pressed("Reload Scene"):
 		reloadScene()
 	
 func reloadScene():
-	get_tree().change_scene_to_packed(MAIN_SCENE)
-	
-
-	
+	get_tree().reload_current_scene()

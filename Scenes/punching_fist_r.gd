@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var targetPosition = Vector2.ZERO
-var speed = 1800  
+var speed = 2800  
 var is_punching = false
 var is_punched = false
 var attached_to: Node = null

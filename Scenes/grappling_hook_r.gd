@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var targetPosition = Vector2.ZERO
-var speed = 1800  
+var speed = 3800  
 var is_grappling = false
 var is_hooked = false
 var attached_to: Node = null

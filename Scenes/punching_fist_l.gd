@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var targetPosition = Vector2.ZERO
-var speed = 1800  
+var speed = 3800  
 var is_punching = false
 var is_punched = false
 var attached_to: Node = null
@@ -9,6 +9,7 @@ var player_body: CharacterBody2D = null
 var hook_distance_to_player: float = 0.0
 var target_distance = Vector2.ZERO
 var other_hook: RigidBody2D = null
+var playerSpeed = 2600
 
 func punch():
 	is_punching = true
@@ -18,6 +19,9 @@ func punch():
 	if is_punching:
 		is_punching = false
 		targetPosition = Vector2(Input.get_axis("Aim_Left", "Aim_Right"), Input.get_axis("Aim_Up", "Aim_Down")).normalized()
+		if targetPosition == Vector2.ZERO:
+			var mouse_pos = get_global_mouse_position()
+			targetPosition = (mouse_pos - global_position).normalized()
 		apply_central_impulse(targetPosition * speed)
 
 func _physics_process(_delta: float) -> void:
@@ -41,7 +45,7 @@ func _on_body_entered(body: Node) -> void:
 		attached_to = body
 		self.sleeping = true
 		hook_distance_to_player = global_position.distance_to(player_body.global_position)
-		if player_body != null:
+		if player_body != null and body is TileMapLayer:
 			push_player_away()
 
 func push_player_away():
@@ -49,7 +53,7 @@ func push_player_away():
 	var player_position = player_body.global_position
 	var direction_to_hook = (fist_position - player_position).normalized()
 	
-	player_body.velocity = -direction_to_hook * speed
+	player_body.velocity = -direction_to_hook * playerSpeed
 	
 	target_distance = fist_position + direction_to_hook * hook_distance_to_player
 	
