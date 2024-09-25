@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var targetPosition = Vector2.ZERO
-var speed = 3800  
+var speed = 6000  
 var is_grappling = false
 var is_hooked = false
 var attached_to: Node = null
@@ -9,13 +9,16 @@ var player_body: CharacterBody2D = null
 var hook_distance_to_player: float = 0.0
 var target_distance = Vector2.ZERO
 var other_hook: RigidBody2D = null
-var playerSpeed = 2600
+var playerSpeed = 3000
+var audioPlayer = null
 
 func grapple():
 	is_grappling = true
 	self.sleeping = false
 	self.set_contact_monitor(true)
 	self.set_max_contacts_reported(5)
+	audioPlayer = get_tree().get_nodes_in_group("AudioPlayers")[0]
+	audioPlayer.play()
 	if is_grappling:
 		is_grappling = false
 		targetPosition = Vector2((Input.get_axis("Aim_Left", "Aim_Right") * 1.5), Input.get_axis("Aim_Up", "Aim_Down")).normalized()
@@ -33,11 +36,12 @@ func _physics_process(_delta: float) -> void:
 		
 func _on_tree_entered() -> void:
 	Globals.playerGrapplingHook.connect(grapple)
-	player_body = get_parent().get_parent().get_node("Player") as CharacterBody2D
+	player_body = get_tree().get_nodes_in_group("Player")[0] as CharacterBody2D
 
 func _on_tree_exiting() -> void:
 	Globals.playerGrapplingHook.disconnect(grapple)
 	other_hook = null
+	audioPlayer.stop()
 	
 func _on_body_entered(body: Node) -> void:
 	if body != player_body and body != other_hook:

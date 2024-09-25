@@ -3,8 +3,9 @@
 [ext_resource type="Script" path="res://Scenes/grappling_hook.gd" id="1_54g25"]
 [ext_resource type="Texture2D" uid="uid://dye71tvdht6y5" path="res://Images/BlueGreyTile.png" id="2_1gvyj"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_0fl45"]
-radius = 18.0278
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_58w64"]
+radius = 19.0
+height = 48.0
 
 [node name="GrapplingHook" type="RigidBody2D"]
 collision_layer = 2
@@ -13,7 +14,7 @@ script = ExtResource("1_54g25")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_0fl45")
+shape = SubResource("CapsuleShape2D_58w64")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(1.8, 1.8)

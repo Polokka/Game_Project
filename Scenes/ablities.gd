@@ -59,7 +59,6 @@ func fireGrapplingHook(mouseL):
 		grapplingHook = grappling_hook_scene.instantiate()
 		add_child(grapplingHook)
 		grapplingHook.global_position = player.global_position
-		#grapplingHook.global_position = global_position
 		Globals.playerGrapplingHook.emit()
 
 func fireGrapplingHook_R():

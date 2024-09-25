@@ -1,6 +1,6 @@
 extends Node
 
-const GRAVITY = 1400.0
+const GRAVITY = 1700.0
 
 
 signal playerGrapplingHook
