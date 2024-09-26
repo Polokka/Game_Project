@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cxqxvawqjwug1"]
 
 [ext_resource type="Script" path="res://Scenes/grappling_hook_r.gd" id="1_g1dma"]
-[ext_resource type="Texture2D" uid="uid://dye71tvdht6y5" path="res://Images/BlueGreyTile.png" id="2_ke210"]
+[ext_resource type="Texture2D" uid="uid://dye71tvdht6y5" path="res://Images/TileTextures/BlueGreyTile.png" id="2_ke210"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fl45"]
 radius = 18.0278

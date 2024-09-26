@@ -33,7 +33,7 @@ func _physics_process(_delta: float) -> void:
 		
 func _on_tree_entered() -> void:
 	Globals.playerPunchingFistL.connect(punch)
-	player_body = get_parent().get_parent().get_node("Player") as CharacterBody2D
+	player_body = get_tree().get_nodes_in_group("Player")[0] as CharacterBody2D
 
 func _on_tree_exiting() -> void:
 	Globals.playerPunchingFistL.disconnect(punch)

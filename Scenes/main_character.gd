@@ -6,7 +6,7 @@ const JUMP_VELOCITY = -600.0
 var maxFallSpeed = 1700.0  
 var acceleration = 2300
 var turn_acceleration = 3000
-var friction = 1400
+var friction = 1000
 var input_direction = Vector2()
 
 # Air movement variables
@@ -17,11 +17,25 @@ var dashing_time = 0.25
 const FAST_FALL_MULTIPLIER = 3 
 var fast_falling = false
 
+# RayCasts
+@onready var ray_cast_2d_left: RayCast2D = $RayCast2DLeft
+@onready var ray_cast_2d_right: RayCast2D = $RayCast2DRight
+@onready var ray_cast_2d_side_left: RayCast2D = $RayCast2DSideLeft
+@onready var ray_cast_2d_side_right: RayCast2D = $RayCast2DSideRight
+
+
 # Animation variables
 var speed = 100
 var direction = Vector2.ZERO
+var last_direction = Vector2.ZERO
 @onready var animation_tree: AnimationTree = $AnimationTree
-@onready var state_machine: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/Idle/playback")
+@onready var idle_state_machine: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/Idle/playback")
+@onready var state_machine: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/playback")
+
+# Collision
+@onready var collisionShape: CollisionShape2D = $CollisionShape2D
+const CAPSULE_COLLISION = preload("res://PlayerCharVariables/CapsuleCollision.tres")
+const CIRCLE_COLLISION = preload("res://PlayerCharVariables/CircleCollision.tres")
 
 func _physics_process(delta: float) -> void:
 	var gravity_force = Globals.GRAVITY * delta
@@ -78,7 +92,6 @@ func _physics_process(delta: float) -> void:
 		else:
 			velocity.y += adjusted_dash_y
 
-
 	# Stopping the dash
 	if dashing_time > 0 and !airDashAvailable:
 		dashing_time -= delta
@@ -94,6 +107,7 @@ func _physics_process(delta: float) -> void:
 				# Turnaround
 				velocity.x = move_toward(velocity.x, input_direction.x * SPEED, turn_acceleration * delta)
 				
+				# Lower airfriction
 			elif velocity.x > 1200 or velocity.x < -1200 and !is_on_floor():
 				velocity.x = move_toward(velocity.x, input_direction.x, friction * 0.5 * delta)
 				
@@ -106,23 +120,68 @@ func _physics_process(delta: float) -> void:
 				velocity.x = move_toward(velocity.x, 0, friction * delta)
 			else:
 				velocity.x = move_toward(velocity.x, 0, friction * 0.5 * delta)
-			
-	move_and_slide()
-	update_animation(input_direction)
 	
-	#Sliding things
-	for i in get_slide_collision_count():
-		var collision = get_slide_collision(i)
-		print("Collided with: ", collision.get_collider())
+	#Player rotation
+	var smoothness = 0.08
+	var target_rotation = null
+
+	if ray_cast_2d_left.is_colliding() or ray_cast_2d_right.is_colliding():
+		var normal_left = ray_cast_2d_left.get_collision_normal()
+		var normal_right = ray_cast_2d_right.get_collision_normal()
+		
+		var avg_normal = (normal_left + normal_right) / 2
+		avg_normal = avg_normal.normalized()
+		target_rotation = avg_normal.angle() + PI / 2
+		
+		if ray_cast_2d_side_left.is_colliding() == false and ray_cast_2d_side_right.is_colliding() == false:
+			rotation = lerp_angle(rotation, target_rotation, smoothness)
+			
+	else:
+		target_rotation = 0
+	if target_rotation == 0:
+		rotation = lerp_angle(rotation, target_rotation, smoothness)
+
+	move_and_slide()
+	
+	#Animation
+	if abs(velocity.x) >= 1500 or abs(velocity.y) >= 1500:
+		movement_animation()
+		collisionShape.shape = CIRCLE_COLLISION
+	else:
+		idle_animation(input_direction)
+		collisionShape.shape = CAPSULE_COLLISION
+	
 	
 	if Input.is_action_just_pressed("Reload Scene"):
 		reloadScene()
-		
-func update_animation(animation_direction: Vector2) -> void:
+
+
+func movement_animation():
+	state_machine.travel("Ball Demo")
+	if velocity.x < -500:
+		last_direction = Vector2(-1, 0)
+	elif velocity.x > 500:
+		last_direction = Vector2(1, 0)
+
+func idle_animation(animation_direction: Vector2) -> void:
+	state_machine.travel("Idle")
+	if velocity.x < -500:
+		last_direction = Vector2(-1, 0)
+		idle_state_machine.travel("Idle Left")
+	elif velocity.x > 500:
+		last_direction = Vector2(1, 0)
+		idle_state_machine.travel("Idle Right")
+	
+	if animation_direction == Vector2.ZERO:
+		if abs(velocity.x) < 100:
+			animation_direction = last_direction
+	
 	if animation_direction.x > 0:
-		state_machine.travel("Idle Right")
+		last_direction = Vector2(1, 0)
+		idle_state_machine.travel("Idle Right")
 	if animation_direction.x < 0:
-		state_machine.travel("Idle Left")
+		last_direction = Vector2(-1, 0)
+		idle_state_machine.travel("Idle Left")
 
 func reloadScene():
 	get_tree().reload_current_scene()

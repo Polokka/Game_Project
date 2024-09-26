@@ -1,15 +1,17 @@
-[gd_scene load_steps=39 format=3 uid="uid://fycg8gpkdyq8"]
+[gd_scene load_steps=48 format=3 uid="uid://fycg8gpkdyq8"]
 
 [ext_resource type="Script" path="res://Scenes/main_character.gd" id="1_irwrw"]
+[ext_resource type="Shape2D" uid="uid://bkdk1k5gds53e" path="res://PlayerCharVariables/CapsuleCollision.tres" id="2_vrk42"]
 [ext_resource type="Script" path="res://Scenes/camera_2d.gd" id="3_6nbut"]
-[ext_resource type="Texture2D" uid="uid://jagltsrqlryg" path="res://Images/Postmonkey.png" id="3_hd00e"]
+[ext_resource type="Texture2D" uid="uid://jagltsrqlryg" path="res://Images/PlayerImages/Postmonkey.png" id="3_hd00e"]
 [ext_resource type="AudioStream" uid="uid://4q54cjrih2tm" path="res://Sounds/PractiseProjectJungle.wav" id="4_teoho"]
 [ext_resource type="Script" path="res://Scenes/audio_stream_player_2d.gd" id="5_nasbg"]
 [ext_resource type="AudioStream" uid="uid://k0hjpvh3eq0r" path="res://Sounds/GraplingHookThrowSFX.wav" id="6_5qe2q"]
+[ext_resource type="Texture2D" uid="uid://dsm0p1h0hxk0w" path="res://Images/PlayerImages/PostmonkeyBall.png" id="7_tqedr"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i7dib"]
-radius = 24.5
-height = 58.0
+[sub_resource type="AtlasTexture" id="AtlasTexture_guiet"]
+atlas = ExtResource("7_tqedr")
+region = Rect2(0, 0, 40, 40)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wo2yd"]
 atlas = ExtResource("3_hd00e")
@@ -61,6 +63,14 @@ region = Rect2(1056, 0, 96, 96)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5008j"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_guiet")
+}],
+"loop": true,
+"name": &"Ball Demo",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wo2yd")
@@ -259,14 +269,46 @@ tracks/1/keys = {
 "values": [0, 1]
 }
 
+[sub_resource type="Animation" id="Animation_vtrcv"]
+resource_name = "Ball Demo"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Ball Demo"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nbpvm"]
 _data = {
+"Ball Demo": SubResource("Animation_vtrcv"),
 "Idle Left": SubResource("Animation_1uods"),
 "Idle Right": SubResource("Animation_7rax6"),
 "RESET": SubResource("Animation_amenr"),
 "Turn LR": SubResource("Animation_fe62b"),
 "Turn RL": SubResource("Animation_me7ru")
 }
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_uy5v3"]
+animation = &"Ball Demo"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nq80v"]
 animation = &"Idle Left"
@@ -292,7 +334,16 @@ advance_mode = 2
 switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jrqo4"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_g7nt7"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dlpst"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xl5ry"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_l03mv"]
 advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_abknt"]
@@ -300,31 +351,38 @@ advance_mode = 2
 "states/Idle Left/position" = Vector2(317, 59)
 "states/Idle Right/node" = SubResource("AnimationNodeAnimation_qtxf3")
 "states/Idle Right/position" = Vector2(614, 81)
-states/Start/position = Vector2(197, 100)
+states/Start/position = Vector2(462, 108)
 "states/Turn LR/node" = SubResource("AnimationNodeAnimation_v4u56")
 "states/Turn LR/position" = Vector2(462, 27)
 "states/Turn RL/node" = SubResource("AnimationNodeAnimation_jad2o")
-"states/Turn RL/position" = Vector2(464, 142)
-transitions = ["Idle Left", "Turn LR", SubResource("AnimationNodeStateMachineTransition_vkd4s"), "Turn LR", "Idle Right", SubResource("AnimationNodeStateMachineTransition_cndxg"), "Idle Right", "Turn RL", SubResource("AnimationNodeStateMachineTransition_b7kuh"), "Turn RL", "Idle Left", SubResource("AnimationNodeStateMachineTransition_tu36a"), "Start", "Idle Right", SubResource("AnimationNodeStateMachineTransition_jrqo4")]
+"states/Turn RL/position" = Vector2(462, 210)
+transitions = ["Idle Left", "Turn LR", SubResource("AnimationNodeStateMachineTransition_vkd4s"), "Turn LR", "Idle Right", SubResource("AnimationNodeStateMachineTransition_cndxg"), "Idle Right", "Turn RL", SubResource("AnimationNodeStateMachineTransition_b7kuh"), "Turn RL", "Idle Left", SubResource("AnimationNodeStateMachineTransition_tu36a"), "Start", "Turn RL", SubResource("AnimationNodeStateMachineTransition_g7nt7"), "Start", "Idle Left", SubResource("AnimationNodeStateMachineTransition_dlpst"), "Start", "Turn LR", SubResource("AnimationNodeStateMachineTransition_xl5ry"), "Start", "Idle Right", SubResource("AnimationNodeStateMachineTransition_l03mv")]
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dcjm2"]
 advance_mode = 2
 
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_es8sd"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_pcmdr"]
+
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_uqevx"]
+"states/Ball Demo/node" = SubResource("AnimationNodeAnimation_uy5v3")
+"states/Ball Demo/position" = Vector2(545, 50)
 states/Idle/node = SubResource("AnimationNodeStateMachine_abknt")
 states/Idle/position = Vector2(348, 59)
 states/Start/position = Vector2(122, 72)
-transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_dcjm2")]
+transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_dcjm2"), "Idle", "Ball Demo", SubResource("AnimationNodeStateMachineTransition_es8sd"), "Ball Demo", "Idle", SubResource("AnimationNodeStateMachineTransition_pcmdr")]
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(232, -1274)
 scale = Vector2(2, 2)
+floor_max_angle = 1.309
 script = ExtResource("1_irwrw")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -1)
-shape = SubResource("CapsuleShape2D_i7dib")
+position = Vector2(-0.5, -0.5)
+shape = ExtResource("2_vrk42")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(82.5, -23)
@@ -359,3 +417,19 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_uqevx")
 anim_player = NodePath("../AnimationPlayer")
+
+[node name="RayCast2DLeft" type="RayCast2D" parent="."]
+position = Vector2(-24.5, 5)
+target_position = Vector2(5, 50)
+
+[node name="RayCast2DRight" type="RayCast2D" parent="."]
+position = Vector2(22.5, 5)
+target_position = Vector2(-5, 50)
+
+[node name="RayCast2DSideLeft" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(-30, 0)
+
+[node name="RayCast2DSideRight" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(30, 0)
