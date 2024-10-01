@@ -1,0 +1,84 @@
+[gd_scene load_steps=8 format=3 uid="uid://dou886b0bgpf2"]
+
+[ext_resource type="Shader" path="res://Scenes/UI_Scenes/IrisAnimation.gdshader" id="1_r1lgs"]
+[ext_resource type="Texture2D" uid="uid://dv07sa55tv4js" path="res://Images/UI_Images/BlackCircle.png" id="2_t3fjp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_47c67"]
+shader = ExtResource("1_r1lgs")
+shader_parameter/radius = 0.0
+shader_parameter/center = Vector2(0.5, 0.5)
+
+[sub_resource type="Animation" id="Animation_fmdql"]
+resource_name = "IrisClosing"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:material:shader_parameter/radius")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.966667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_7v666"]
+resource_name = "IrisOpening"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:material:shader_parameter/radius")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.966667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.0, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_1ftcg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:material:shader_parameter/radius")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0p6kv"]
+_data = {
+"IrisClosing": SubResource("Animation_fmdql"),
+"IrisOpening": SubResource("Animation_7v666"),
+"RESET": SubResource("Animation_1ftcg")
+}
+
+[node name="CloseSceneAnim" type="CanvasLayer"]
+process_priority = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_47c67")
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1271.5
+offset_top = -1034.5
+offset_right = 1271.5
+offset_bottom = 1034.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_t3fjp")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_0p6kv")
+}

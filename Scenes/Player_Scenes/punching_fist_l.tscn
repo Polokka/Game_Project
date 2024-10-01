@@ -1,7 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://cryxopea0cyfg"]
 
-[ext_resource type="Script" path="res://Scenes/punching_fist_l.gd" id="1_q1tmq"]
+[ext_resource type="Script" path="res://Scenes/Player_Scenes/punching_fist_l.gd" id="1_q1tmq"]
 [ext_resource type="Texture2D" uid="uid://1pft8fa3x5eb" path="res://Images/TileTextures/RedGreyTile.png" id="2_40grd"]
+
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fl45"]
 radius = 18.0278

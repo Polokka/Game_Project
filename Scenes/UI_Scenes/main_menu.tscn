@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba1p0427jdxm"]
+
+[ext_resource type="Texture2D" uid="uid://jritdhifu5ys" path="res://Images/UI_Images/MainMenuImage.png" id="1_lpygl"]
+[ext_resource type="Script" path="res://Scenes/UI_Scenes/main_menu.gd" id="1_qlu0r"]
+
+[node name="MainMenu" type="Control"]
+process_priority = 1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_qlu0r")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(471, 274)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+offset_left = -8.0
+offset_right = 954.0
+offset_bottom = 634.0
+texture = ExtResource("1_lpygl")
+expand_mode = 1
+
+[node name="playButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 186.0
+offset_right = 607.0
+offset_bottom = 275.0
+
+[connection signal="pressed" from="playButton" to="." method="_on_play_button_pressed"]

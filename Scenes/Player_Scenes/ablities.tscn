@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm4bq3sjubneq"]
+
+[ext_resource type="Script" path="res://Scenes/Player_Scenes/ablities.gd" id="1_e3ms5"]
+
+[node name="Ablities" type="Node2D"]
+position = Vector2(73, 541)
+scale = Vector2(2, 2)
+script = ExtResource("1_e3ms5")

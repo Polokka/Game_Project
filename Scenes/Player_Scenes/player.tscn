@@ -1,11 +1,11 @@
 [gd_scene load_steps=48 format=3 uid="uid://fycg8gpkdyq8"]
 
-[ext_resource type="Script" path="res://Scenes/main_character.gd" id="1_irwrw"]
+[ext_resource type="Script" path="res://Scenes/Player_Scenes/main_character.gd" id="1_irwrw"]
 [ext_resource type="Shape2D" uid="uid://bkdk1k5gds53e" path="res://PlayerCharVariables/CapsuleCollision.tres" id="2_vrk42"]
-[ext_resource type="Script" path="res://Scenes/camera_2d.gd" id="3_6nbut"]
+[ext_resource type="Script" path="res://Scenes/Player_Scenes/camera_2d.gd" id="3_6nbut"]
 [ext_resource type="Texture2D" uid="uid://jagltsrqlryg" path="res://Images/PlayerImages/Postmonkey.png" id="3_hd00e"]
 [ext_resource type="AudioStream" uid="uid://4q54cjrih2tm" path="res://Sounds/PractiseProjectJungle.wav" id="4_teoho"]
-[ext_resource type="Script" path="res://Scenes/audio_stream_player_2d.gd" id="5_nasbg"]
+[ext_resource type="Script" path="res://Scenes/Player_Scenes/audio_stream_player_2d.gd" id="5_nasbg"]
 [ext_resource type="AudioStream" uid="uid://k0hjpvh3eq0r" path="res://Sounds/GraplingHookThrowSFX.wav" id="6_5qe2q"]
 [ext_resource type="Texture2D" uid="uid://dsm0p1h0hxk0w" path="res://Images/PlayerImages/PostmonkeyBall.png" id="7_tqedr"]
 
@@ -127,6 +127,34 @@ animations = [{
 "name": &"Turn RL",
 "speed": 5.0
 }]
+
+[sub_resource type="Animation" id="Animation_vtrcv"]
+resource_name = "Ball Demo"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Ball Demo"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0]
+}
 
 [sub_resource type="Animation" id="Animation_1uods"]
 resource_name = "Idle Left"
@@ -269,34 +297,6 @@ tracks/1/keys = {
 "values": [0, 1]
 }
 
-[sub_resource type="Animation" id="Animation_vtrcv"]
-resource_name = "Ball Demo"
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:animation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0.0333333),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [&"Ball Demo"]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:frame")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nbpvm"]
 _data = {
 "Ball Demo": SubResource("Animation_vtrcv"),
@@ -373,7 +373,7 @@ states/Idle/position = Vector2(348, 59)
 states/Start/position = Vector2(122, 72)
 transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_dcjm2"), "Idle", "Ball Demo", SubResource("AnimationNodeStateMachineTransition_es8sd"), "Ball Demo", "Idle", SubResource("AnimationNodeStateMachineTransition_pcmdr")]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 position = Vector2(232, -1274)
 scale = Vector2(2, 2)
 floor_max_angle = 1.309
@@ -420,11 +420,11 @@ anim_player = NodePath("../AnimationPlayer")
 
 [node name="RayCast2DLeft" type="RayCast2D" parent="."]
 position = Vector2(-24.5, 5)
-target_position = Vector2(5, 50)
+target_position = Vector2(5, 60)
 
 [node name="RayCast2DRight" type="RayCast2D" parent="."]
 position = Vector2(22.5, 5)
-target_position = Vector2(-5, 50)
+target_position = Vector2(-5, 60)
 
 [node name="RayCast2DSideLeft" type="RayCast2D" parent="."]
 position = Vector2(0, -5)

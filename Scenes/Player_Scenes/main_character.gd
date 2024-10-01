@@ -1,5 +1,8 @@
 extends CharacterBody2D
 
+#Restart testing variables
+const MAIN_SCENE = preload("res://Scenes/main_scene.tscn")
+
 # Basic movement variables
 const SPEED = 1200.0
 const JUMP_VELOCITY = -600.0
@@ -108,8 +111,12 @@ func _physics_process(delta: float) -> void:
 				velocity.x = move_toward(velocity.x, input_direction.x * SPEED, turn_acceleration * delta)
 				
 				# Lower airfriction
-			elif velocity.x > 1200 or velocity.x < -1200 and !is_on_floor():
-				velocity.x = move_toward(velocity.x, input_direction.x, friction * 0.5 * delta)
+			elif velocity.x > 1200 or velocity.x < -1200 and !is_on_floor() and sign(input_direction.x) == sign(velocity.x):
+				velocity.x = move_toward(velocity.x, input_direction.x, friction * 0.3 * delta)
+				
+				# Lower groundfriction if high speed and same inputdirection
+			elif velocity.x > 1200 or velocity.x < -1200 and is_on_floor() and sign(input_direction.x) == sign(velocity.x):
+				velocity.x = move_toward(velocity.x, input_direction.x, friction * 0.6 * delta)
 				
 			else:
 				# Basic acceleration
@@ -135,7 +142,6 @@ func _physics_process(delta: float) -> void:
 		
 		if ray_cast_2d_side_left.is_colliding() == false and ray_cast_2d_side_right.is_colliding() == false:
 			rotation = lerp_angle(rotation, target_rotation, smoothness)
-			
 	else:
 		target_rotation = 0
 	if target_rotation == 0:
@@ -144,7 +150,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	#Animation
-	if abs(velocity.x) >= 1500 or abs(velocity.y) >= 1500:
+	if abs(velocity.x) >= 1500 or abs(velocity.y) >= 1500 or abs(velocity.x + velocity.y) > 2000:
 		movement_animation()
 		collisionShape.shape = CIRCLE_COLLISION
 	else:
@@ -184,4 +190,4 @@ func idle_animation(animation_direction: Vector2) -> void:
 		idle_state_machine.travel("Idle Left")
 
 func reloadScene():
-	get_tree().reload_current_scene()
+	get_tree().change_scene_to_packed(MAIN_SCENE)

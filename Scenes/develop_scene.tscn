@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://1j180dimwu8e"]
+
+[ext_resource type="Texture2D" uid="uid://djaefu7bu51g5" path="res://Images/BackgroundTextures/DarkGreenBackgroundTile.png" id="1_n4yt8"]
+[ext_resource type="PackedScene" uid="uid://wu6uepgdijk3" path="res://Scenes/Stages/DemoStage.tscn" id="2_0qvdq"]
+[ext_resource type="PackedScene" uid="uid://bm4bq3sjubneq" path="res://Scenes/Player_Scenes/ablities.tscn" id="2_28lkl"]
+[ext_resource type="PackedScene" uid="uid://fycg8gpkdyq8" path="res://Scenes/Player_Scenes/player.tscn" id="3_if6io"]
+
+[node name="Main_Scene" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -41044.0
+offset_top = -27066.0
+offset_right = 45829.0
+offset_bottom = 23147.0
+grow_vertical = 0
+texture = ExtResource("1_n4yt8")
+
+[node name="Player" parent="." instance=ExtResource("3_if6io")]
+position = Vector2(81, -21)
+
+[node name="Ablities" parent="." instance=ExtResource("2_28lkl")]
+
+[node name="Stage" parent="." instance=ExtResource("2_0qvdq")]
+position = Vector2(-129, 1246)
