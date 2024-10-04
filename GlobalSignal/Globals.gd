@@ -11,8 +11,12 @@ const ABLITIES = preload("res://Scenes/Player_Scenes/ablities.tscn")
 const PLAYER = preload("res://Scenes/Player_Scenes/player.tscn")
 var animPlayer = null
 
+#Finishing the level
+signal finish
+var playerFinished = false
 
-func loadScene(newScene: String, oldScene: String) -> void:
+
+func loadMainScene(newScene: String, oldScene: String) -> void:
 	animPlayer = get_node("/root/Main_Scene/CloseSceneAnim/AnimationPlayer")
 	animPlayer.play("IrisClosing")
 	var lastScene = get_node(oldScene)
@@ -25,7 +29,10 @@ func loadScene(newScene: String, oldScene: String) -> void:
 		await animPlayer.animation_finished
 		lastScene.queue_free()
 		animPlayer.play("IrisOpening")
-		mainScene.add_child(player_resource)
-		mainScene.add_child(ablities_resource)
+		if not mainScene.has_node("Player"):
+			mainScene.add_child(player_resource)
+		if not mainScene.has_node("Ablities"):
+			mainScene.add_child(ablities_resource)
+		
 		mainScene.add_child(new_scene)
 		

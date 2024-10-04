@@ -11,6 +11,8 @@ var target_distance = Vector2.ZERO
 var other_hook: RigidBody2D = null
 var playerSpeed = 3000
 var audioPlayer = null
+@onready var chain: Line2D = $Chain
+
 
 func grapple():
 	is_grappling = true
@@ -28,6 +30,7 @@ func grapple():
 		apply_central_impulse(targetPosition * speed)
 
 func _physics_process(_delta: float) -> void:
+	chain.points = [player_body.global_position, self.global_position]
 	if Input.is_action_pressed("L2") and is_hooked:
 		var _current_distance = global_position.distance_to(player_body.global_position)
 		#if current_distance > hook_distance_to_player:

@@ -16,7 +16,10 @@ var input_direction = Vector2()
 const DASH_SPEED = 800
 var airDashAvailable = true
 var dash_vector = Vector2.ZERO
-var dashing_time = 0.25
+var dashing_time = 0.30
+var dash_cooldown = 5
+var dash_timer = 0
+var isDashing = false
 const FAST_FALL_MULTIPLIER = 3 
 var fast_falling = false
 
@@ -30,24 +33,34 @@ var fast_falling = false
 # Animation variables
 var speed = 100
 var direction = Vector2.ZERO
-var last_direction = Vector2.ZERO
+var facingDirection = 1
 @onready var animation_tree: AnimationTree = $AnimationTree
 @onready var idle_state_machine: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/Idle/playback")
 @onready var state_machine: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/playback")
+@onready var animPlayer = $AnimationPlayer
+@onready var playerSprite = $AnimatedSprite2D
+@onready var dash_timer_UI: AnimatedSprite2D = $UI/CanvasLayer/Opacity/DashUI/DashTimer
 
 # Collision
 @onready var collisionShape: CollisionShape2D = $CollisionShape2D
 const CAPSULE_COLLISION = preload("res://PlayerCharVariables/CapsuleCollision.tres")
 const CIRCLE_COLLISION = preload("res://PlayerCharVariables/CircleCollision.tres")
 
+#Audio
+@onready var music: AudioStreamPlayer2D = $Camera2D/Music
+var fanfare = preload("res://Sounds/FinishFanfare.wav")
+var onlyOnce = false
+
+func _ready() -> void:
+	Globals.finish.connect(finishFanfare)
+
+
 func _physics_process(delta: float) -> void:
 	var gravity_force = Globals.GRAVITY * delta
 	
 	if is_on_floor():
-		airDashAvailable = true
-		dash_vector = Vector2.ZERO
-		fast_falling = false  # Palauta normaali tila lattialla
-		dashing_time = 0.25
+		resetDash()
+		fast_falling = false
 
 	# Add gravity when in air and not dashing
 	if not is_on_floor() and dash_vector == Vector2.ZERO:
@@ -67,8 +80,16 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 	
 	# Handle airdash
+	#Timer to reset dash
+	if not airDashAvailable:
+		dash_timer_UI.play("Recharge")
+		dash_timer += delta
+		if dash_timer >= 5:
+			resetDash()
+	
 	if Input.is_action_just_pressed("Jump") and airDashAvailable and not is_on_floor():
 		airDashAvailable = false
+		isDashing = true
 		dash_vector = Vector2(Input.get_axis("Left", "Right"), Input.get_axis("Up", "Down")).normalized()
 		
 		if dash_vector == Vector2.ZERO:
@@ -76,7 +97,13 @@ func _physics_process(delta: float) -> void:
 				dash_vector += Vector2(sign(velocity.x), 0)
 			else:
 				dash_vector += Vector2(1, 0)  # Dash oikealle, jos suuntaa ei ole annettu
-			
+				
+		var angle = atan2(-dash_vector.y, dash_vector.x)
+		
+		playerSprite.flip_h = false
+		rotation = -angle
+		
+		
 		var horizontal_speed = dash_vector.x * DASH_SPEED * 1.8  # Horisontaalinen dash on voimakkaampi
 		var vertical_speed = dash_vector.y * DASH_SPEED * 1.2    # Vertikaalinen dash on heikompi
 		
@@ -99,6 +126,7 @@ func _physics_process(delta: float) -> void:
 	if dashing_time > 0 and !airDashAvailable:
 		dashing_time -= delta
 	if dashing_time <= 0:
+		isDashing = false
 		dash_vector = Vector2.ZERO
 		
 	# Movement on x axis
@@ -132,7 +160,7 @@ func _physics_process(delta: float) -> void:
 	var smoothness = 0.08
 	var target_rotation = null
 
-	if ray_cast_2d_left.is_colliding() or ray_cast_2d_right.is_colliding():
+	if ray_cast_2d_left.is_colliding() or ray_cast_2d_right.is_colliding() and !isDashing:
 		var normal_left = ray_cast_2d_left.get_collision_normal()
 		var normal_right = ray_cast_2d_right.get_collision_normal()
 		
@@ -140,54 +168,83 @@ func _physics_process(delta: float) -> void:
 		avg_normal = avg_normal.normalized()
 		target_rotation = avg_normal.angle() + PI / 2
 		
-		if ray_cast_2d_side_left.is_colliding() == false and ray_cast_2d_side_right.is_colliding() == false:
+		if ray_cast_2d_side_left.is_colliding() == false and ray_cast_2d_side_right.is_colliding() == false and !isDashing:
 			rotation = lerp_angle(rotation, target_rotation, smoothness)
 	else:
 		target_rotation = 0
-	if target_rotation == 0:
+	if target_rotation == 0 and !isDashing:
 		rotation = lerp_angle(rotation, target_rotation, smoothness)
 
 	move_and_slide()
 	
 	#Animation
-	if abs(velocity.x) >= 1500 or abs(velocity.y) >= 1500 or abs(velocity.x + velocity.y) > 2000:
-		movement_animation()
-		collisionShape.shape = CIRCLE_COLLISION
-	else:
-		idle_animation(input_direction)
-		collisionShape.shape = CAPSULE_COLLISION
+	#Facing direction in speed
+	if velocity.x < -500 and !isDashing:
+		facingDirection = -1
+		playerSprite.flip_h = true
+	elif velocity.x > 500 and !isDashing:
+		facingDirection = 1
+		playerSprite.flip_h = false
+
 	
+	#Which animation
+	if isDashing:
+		ballDash_animation()
+	elif abs(velocity.x) > 1200 or abs(velocity.y) > 1200 or abs(velocity.x + velocity.y) > 1700:
+		ball_animation()
+	elif abs(velocity.x) > 100 and input_direction:
+		running_animation()
+	else:
+		idle_animation(input_direction.x)
+		
 	
 	if Input.is_action_just_pressed("Reload Scene"):
 		reloadScene()
 
+func ballDash_animation():
+	collisionShape.shape = CIRCLE_COLLISION
+	state_machine.travel("Dash")
 
-func movement_animation():
-	state_machine.travel("Ball Demo")
-	if velocity.x < -500:
-		last_direction = Vector2(-1, 0)
-	elif velocity.x > 500:
-		last_direction = Vector2(1, 0)
+func ball_animation():
+	collisionShape.shape = CIRCLE_COLLISION
+	state_machine.travel("Ball")
 
-func idle_animation(animation_direction: Vector2) -> void:
-	state_machine.travel("Idle")
-	if velocity.x < -500:
-		last_direction = Vector2(-1, 0)
-		idle_state_machine.travel("Idle Left")
-	elif velocity.x > 500:
-		last_direction = Vector2(1, 0)
-		idle_state_machine.travel("Idle Right")
+func running_animation():
+	collisionShape.shape = CAPSULE_COLLISION
+	state_machine.travel("Running")
+
+func idle_animation(anim_input_direction) -> void:
+	collisionShape.shape = CAPSULE_COLLISION
 	
-	if animation_direction == Vector2.ZERO:
-		if abs(velocity.x) < 100:
-			animation_direction = last_direction
+	if anim_input_direction == 0:
+		anim_input_direction = facingDirection
+		idle_animation(anim_input_direction)
 	
-	if animation_direction.x > 0:
-		last_direction = Vector2(1, 0)
-		idle_state_machine.travel("Idle Right")
-	if animation_direction.x < 0:
-		last_direction = Vector2(-1, 0)
-		idle_state_machine.travel("Idle Left")
+	elif anim_input_direction != facingDirection and anim_input_direction:
+		state_machine.travel("Turn")
+		facingDirection = anim_input_direction
+		
+	else:
+		state_machine.travel("Idle")
+		
+func flipSprite():
+	playerSprite.flip_h = !playerSprite.flip_h
 
+#Other functions
+func finishFanfare():
+	if onlyOnce == false:
+		onlyOnce = true
+		music.stream = fanfare
+		music.play()
+	
+
+func resetDash():
+	airDashAvailable = true
+	dashing_time = 0.30
+	isDashing = false
+	dash_vector = Vector2.ZERO
+	dash_timer = 0
+	dash_timer_UI.play("Full")
+	
 func reloadScene():
 	get_tree().change_scene_to_packed(MAIN_SCENE)

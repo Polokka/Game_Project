@@ -1,0 +1,165 @@
+[gd_scene load_steps=25 format=3 uid="uid://dji8b03lug87v"]
+
+[ext_resource type="Texture2D" uid="uid://bl7k3256kw4kd" path="res://Images/TileTextures/BlueGreenAndRedTileset.png" id="1_yjtmi"]
+[ext_resource type="Script" path="res://Scenes/Stages/goal_area.gd" id="2_fbxf1"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/shapes/shape_open.gd" id="2_omomb"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/vertex_properties.gd" id="3_rypi2"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/shapes/point.gd" id="4_140am"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/shapes/point_array.gd" id="5_327bn"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/materials/edge_material_metadata.gd" id="6_4dkqk"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/materials/edge_material.gd" id="7_64iqk"]
+[ext_resource type="Texture2D" uid="uid://c22thxcnyquk2" path="res://Images/TileTextures/GreenTerrainEdgeTile.png" id="8_s16ul"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/normal_range.gd" id="9_051xf"]
+[ext_resource type="Script" path="res://addons/rmsmartshape/materials/shape_material.gd" id="10_lk45v"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kmodp"]
+texture = ExtResource("1_yjtmi")
+1:0/0 = 0
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_dmf50"]
+physics_layer_0/collision_layer = 6
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_kmodp")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fp56o"]
+load_path = "res://.godot/imported/BlueGreenAndRedTileset.png-3e3ce5275a40a2d3b1e4db1bb95d0c41.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_20xpy"]
+texture = SubResource("CompressedTexture2D_fp56o")
+1:0/0 = 0
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_cnb1t"]
+tile_shape = 1
+tile_layout = 4
+physics_layer_0/collision_layer = 6
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_20xpy")
+
+[sub_resource type="Resource" id="Resource_r28s6"]
+script = ExtResource("3_rypi2")
+texture_idx = 0
+flip = false
+width = 1.0
+
+[sub_resource type="Resource" id="Resource_3so51"]
+script = ExtResource("4_140am")
+position = Vector2(7973.94, 880.159)
+point_in = Vector2(0, 0)
+point_out = Vector2(0, 0)
+properties = SubResource("Resource_r28s6")
+
+[sub_resource type="Resource" id="Resource_d5ju5"]
+script = ExtResource("5_327bn")
+_points = {
+49: SubResource("Resource_3so51")
+}
+_point_order = Array[int]([49])
+_constraints = {}
+_next_key = 50
+_material_overrides = {}
+
+[sub_resource type="Resource" id="Resource_43opf"]
+script = ExtResource("7_64iqk")
+textures = Array[Texture2D]([ExtResource("8_s16ul")])
+textures_corner_outer = Array[Texture2D]([])
+textures_corner_inner = Array[Texture2D]([])
+textures_taper_left = Array[Texture2D]([])
+textures_taper_right = Array[Texture2D]([])
+randomize_texture = false
+use_corner_texture = true
+use_taper_texture = true
+fit_mode = 0
+
+[sub_resource type="Resource" id="Resource_2rqj6"]
+script = ExtResource("9_051xf")
+begin = 0.0
+distance = 360.0
+edgeRendering = Vector2(0, 0)
+
+[sub_resource type="Resource" id="Resource_r4341"]
+script = ExtResource("6_4dkqk")
+edge_material = SubResource("Resource_43opf")
+normal_range = SubResource("Resource_2rqj6")
+weld = true
+render = true
+z_index = 0
+z_as_relative = false
+offset = 0.0
+
+[sub_resource type="Resource" id="Resource_ntold"]
+script = ExtResource("10_lk45v")
+_edge_meta_materials = Array[ExtResource("6_4dkqk")]([SubResource("Resource_r4341")])
+fill_textures = Array[Texture2D]([])
+fill_texture_z_index = -10
+fill_texture_show_behind_parent = false
+fill_texture_scale = 1.0
+fill_texture_absolute_position = false
+fill_texture_absolute_rotation = false
+fill_texture_offset = Vector2(0, 0)
+fill_texture_angle_offset = 0.0
+fill_mesh_offset = 0.0
+render_offset = 0.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_srwpo"]
+size = Vector2(52, 530.999)
+
+[node name="Lvl2" type="Node2D"]
+
+[node name="GraplingTiles" type="Node2D" parent="."]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="GraplingTiles"]
+tile_set = SubResource("TileSet_dmf50")
+
+[node name="TileMapLayerAngled" type="TileMapLayer" parent="GraplingTiles"]
+tile_set = SubResource("TileSet_cnb1t")
+
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="Default" type="StaticBody2D" parent="Walls"]
+position = Vector2(-13945, -4734)
+collision_mask = 15
+
+[node name="SS2D_Shape_Open" type="Node2D" parent="Walls/Default"]
+texture_repeat = 2
+position = Vector2(10243, 1261)
+script = ExtResource("2_omomb")
+_points = SubResource("Resource_d5ju5")
+shape_material = SubResource("Resource_ntold")
+collision_offset = 1.0
+collision_polygon_node_path = NodePath("../CollisionPolygon2D")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/Default"]
+visible = false
+
+[node name="GoalArea" type="Area2D" parent="."]
+position = Vector2(251.527, 1337.15)
+script = ExtResource("2_fbxf1")
+
+[node name="GoalCollision" type="CollisionShape2D" parent="GoalArea"]
+position = Vector2(-28.4258, -111.104)
+shape = SubResource("RectangleShape2D_srwpo")
+
+[node name="BasicInst" type="RichTextLabel" parent="."]
+offset_left = 739.0
+offset_top = -1722.0
+offset_right = 1698.0
+offset_bottom = -1446.0
+theme_override_font_sizes/normal_font_size = 50
+text = "Move with wasd
+Jump with space 
+Airdash with space
+GrappleHook by holding mouse L
+Change mouse ability with mouse R
+This way ->"
+fit_content = true
+metadata/_edit_use_anchors_ = true
+
+[connection signal="body_entered" from="GoalArea" to="GoalArea" method="_on_body_entered"]

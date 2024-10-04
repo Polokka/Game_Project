@@ -20,7 +20,7 @@ grow_vertical = 0
 texture = ExtResource("1_n4yt8")
 
 [node name="Player" parent="." instance=ExtResource("3_if6io")]
-position = Vector2(81, -21)
+position = Vector2(19481.6, -14984.1)
 
 [node name="Ablities" parent="." instance=ExtResource("2_28lkl")]
 
