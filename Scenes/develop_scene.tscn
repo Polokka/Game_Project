@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://1j180dimwu8e"]
 
 [ext_resource type="Texture2D" uid="uid://djaefu7bu51g5" path="res://Images/BackgroundTextures/DarkGreenBackgroundTile.png" id="1_n4yt8"]
-[ext_resource type="PackedScene" uid="uid://wu6uepgdijk3" path="res://Scenes/Stages/DemoStage.tscn" id="2_0qvdq"]
 [ext_resource type="PackedScene" uid="uid://bm4bq3sjubneq" path="res://Scenes/Player_Scenes/ablities.tscn" id="2_28lkl"]
 [ext_resource type="PackedScene" uid="uid://fycg8gpkdyq8" path="res://Scenes/Player_Scenes/player.tscn" id="3_if6io"]
+[ext_resource type="PackedScene" uid="uid://dedliuutebnks" path="res://Scenes/Stages/Lvl3.tscn" id="4_eo32a"]
 
 [node name="Main_Scene" type="Node"]
 
@@ -20,9 +20,8 @@ grow_vertical = 0
 texture = ExtResource("1_n4yt8")
 
 [node name="Player" parent="." instance=ExtResource("3_if6io")]
-position = Vector2(19481.6, -14984.1)
+position = Vector2(31804.2, -14255.6)
 
 [node name="Ablities" parent="." instance=ExtResource("2_28lkl")]
 
-[node name="Stage" parent="." instance=ExtResource("2_0qvdq")]
-position = Vector2(-129, 1246)
+[node name="Lvl3" parent="." instance=ExtResource("4_eo32a")]

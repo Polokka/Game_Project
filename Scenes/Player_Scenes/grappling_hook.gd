@@ -11,6 +11,7 @@ var target_distance = Vector2.ZERO
 var other_hook: RigidBody2D = null
 var playerSpeed = 3000
 var audioPlayer = null
+const GRAPLING_HOOK_THROW_SFX = preload("res://Sounds/GraplingHookThrowSFX.wav")
 @onready var chain: Line2D = $Chain
 
 
@@ -20,6 +21,7 @@ func grapple():
 	self.set_contact_monitor(true)
 	self.set_max_contacts_reported(5)
 	audioPlayer = get_tree().get_nodes_in_group("AudioPlayers")[0]
+	audioPlayer.stream = GRAPLING_HOOK_THROW_SFX
 	audioPlayer.play()
 	if is_grappling:
 		is_grappling = false
@@ -31,10 +33,10 @@ func grapple():
 
 func _physics_process(_delta: float) -> void:
 	chain.points = [player_body.global_position, self.global_position]
-	if Input.is_action_pressed("L2") and is_hooked:
+	if Input.is_action_pressed("MouseL") and is_hooked:
 		var _current_distance = global_position.distance_to(player_body.global_position)
 		#if current_distance > hook_distance_to_player:
-	if Input.is_action_just_released("L2"):
+	if Input.is_action_just_released("MouseL"):
 		self.queue_free()
 		
 func _on_tree_entered() -> void:

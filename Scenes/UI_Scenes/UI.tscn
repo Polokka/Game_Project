@@ -514,7 +514,6 @@ script = ExtResource("4_hjp3y")
 
 [node name="Timer" type="Timer" parent="CanvasLayer/Opacity/TimerUI"]
 wait_time = 0.1
-autostart = true
 
 [node name="TimerLabel" type="Label" parent="CanvasLayer/Opacity/TimerUI"]
 layout_mode = 0

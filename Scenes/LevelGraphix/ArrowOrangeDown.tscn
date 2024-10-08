@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwt8x6ay2l7ul"]
+
+[ext_resource type="Texture2D" uid="uid://cdrrteefc7d6b" path="res://Images/LevelImages/ArrowOrange.png" id="1_c18pr"]
+
+[node name="ArrowOrangeDown" type="Sprite2D"]
+rotation = 3.14159
+scale = Vector2(2, 2)
+texture = ExtResource("1_c18pr")

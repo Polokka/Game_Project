@@ -21,8 +21,8 @@ func swap_ability_l():
 		current_ability_l = abilities_array_l[next_index]
 
 #PushingFist functions
-func firePunchingFistL(mouseL):
-	if punchingFistL == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0) or mouseL:
+func firePunchingFistL(mouseR):
+	if punchingFistL == null and (Input.get_axis("Aim_Left", "Aim_Right") != 0 or Input.get_axis("Aim_Up", "Aim_Down") != 0) or mouseR:
 		punchingFistL = punching_fist_scene_l.instantiate()
 		add_child(punchingFistL)
 		punchingFistL.global_position = player.global_position
@@ -39,13 +39,15 @@ func fireGrapplingHook(mouseL):
 #Choose ability based on player inputs
 func _process(_delta: float) -> void:
 	
-	if Input.is_action_just_pressed("Swap_Ability_L"):
-		swap_ability_l()
+	#if Input.is_action_just_pressed("Swap_Ability_L"):
+		#swap_ability_l()
 	
-	if Input.is_action_just_pressed("L2"):
+	if Input.is_action_just_pressed("MouseL"):
 		match current_ability_l:
 			"GrapplingHook":
 				fireGrapplingHook(Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT))
 			"PushingFist":
 				firePunchingFistL(Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT))
-			
+	
+	if Input.is_action_just_pressed("MouseR"):
+				firePunchingFistL(Input.is_mouse_button_pressed(MOUSE_BUTTON_RIGHT))

@@ -48,12 +48,13 @@ const CIRCLE_COLLISION = preload("res://PlayerCharVariables/CircleCollision.tres
 
 #Audio
 @onready var music: AudioStreamPlayer2D = $Camera2D/Music
-var fanfare = preload("res://Sounds/FinishFanfare.wav")
-var onlyOnce = false
+
+#Timer
+@onready var timer = $UI/CanvasLayer/Opacity/TimerUI
+
 
 func _ready() -> void:
-	Globals.finish.connect(finishFanfare)
-
+	Globals.resetPlayer.connect(restartLvl)
 
 func _physics_process(delta: float) -> void:
 	var gravity_force = Globals.GRAVITY * delta
@@ -197,6 +198,8 @@ func _physics_process(delta: float) -> void:
 	else:
 		idle_animation(input_direction.x)
 		
+	if Input.is_action_just_pressed("Restart"):
+		restartLvl()
 	
 	if Input.is_action_just_pressed("Reload Scene"):
 		reloadScene()
@@ -231,13 +234,7 @@ func flipSprite():
 	playerSprite.flip_h = !playerSprite.flip_h
 
 #Other functions
-func finishFanfare():
-	if onlyOnce == false:
-		onlyOnce = true
-		music.stream = fanfare
-		music.play()
 	
-
 func resetDash():
 	airDashAvailable = true
 	dashing_time = 0.30
@@ -245,6 +242,12 @@ func resetDash():
 	dash_vector = Vector2.ZERO
 	dash_timer = 0
 	dash_timer_UI.play("Full")
+	
+func restartLvl():
+	self.velocity = Vector2.ZERO
+	self.set_global_position(Vector2(0, 0))
+	timer.resetTimer()
+
 	
 func reloadScene():
 	get_tree().change_scene_to_packed(MAIN_SCENE)

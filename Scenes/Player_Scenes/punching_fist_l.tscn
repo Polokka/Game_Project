@@ -3,13 +3,12 @@
 [ext_resource type="Script" path="res://Scenes/Player_Scenes/punching_fist_l.gd" id="1_q1tmq"]
 [ext_resource type="Texture2D" uid="uid://1pft8fa3x5eb" path="res://Images/TileTextures/RedGreyTile.png" id="2_40grd"]
 
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_0fl45"]
 radius = 18.0278
 
 [node name="PunchingFist" type="RigidBody2D"]
-collision_layer = 2
-collision_mask = 2
+collision_layer = 4
+collision_mask = 4
 script = ExtResource("1_q1tmq")
 metadata/_edit_group_ = true
 
