@@ -14,10 +14,10 @@ texture_filter = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = -41044.0
-offset_top = -27066.0
-offset_right = 45829.0
-offset_bottom = 23147.0
+offset_left = -65108.0
+offset_top = -75706.0
+offset_right = 73605.0
+offset_bottom = 60523.0
 grow_vertical = 0
 texture = ExtResource("1_cku5n")
 

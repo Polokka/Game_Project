@@ -21,7 +21,7 @@ func _input(event: InputEvent) -> void:
 func _on_timer_timeout():
 	if timerStarted and not finish:
 		timePassed += 0.1
-		timer_label.text = "Timer: " + "%.1f" % timePassed
+		timer_label.text ="%.1f" % timePassed
 
 func stopTimer():
 	timer.stop()
@@ -31,5 +31,5 @@ func resetTimer():
 	timerStarted = false
 	timePassed = 0
 	timer.stop()
-	timer_label.text = "Timer: 0.0"
+	timer_label.text = "0.0"
 	finish = true

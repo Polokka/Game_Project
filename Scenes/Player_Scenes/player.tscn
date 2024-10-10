@@ -507,6 +507,7 @@ states/Turn/position = Vector2(460, 40)
 transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_v8c2c"), "Idle", "Ball", SubResource("AnimationNodeStateMachineTransition_cmd77"), "Idle", "Turn", SubResource("AnimationNodeStateMachineTransition_x0lmp"), "Turn", "Idle", SubResource("AnimationNodeStateMachineTransition_usajj"), "Running", "Ball", SubResource("AnimationNodeStateMachineTransition_q4slg"), "Ball", "Running", SubResource("AnimationNodeStateMachineTransition_tt2dc"), "Idle", "Running", SubResource("AnimationNodeStateMachineTransition_7aptu"), "Running", "Idle", SubResource("AnimationNodeStateMachineTransition_pfk1q"), "Dash", "Ball", SubResource("AnimationNodeStateMachineTransition_h24vb")]
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
+z_index = 2
 scale = Vector2(2, 2)
 floor_max_angle = 1.309
 script = ExtResource("1_irwrw")
