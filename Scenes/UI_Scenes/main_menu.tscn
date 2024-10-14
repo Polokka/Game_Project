@@ -130,7 +130,13 @@ text = "Level 3: Not set"
 fit_content = true
 autowrap_mode = 0
 
+[node name="ResetTimes" type="Button" parent="Scores"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Reset times"
+
 [connection signal="pressed" from="MainButtons/playButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="MainButtons/quitButton" to="." method="_on_quit_button_pressed"]
 [connection signal="pressed" from="Lvl select/Lvl 2" to="." method="_on_lvl_2_pressed"]
 [connection signal="pressed" from="Lvl select/Lvl 3" to="." method="_on_lvl_3_pressed"]
+[connection signal="pressed" from="Scores/ResetTimes" to="." method="_on_reset_times_pressed"]

@@ -120,19 +120,20 @@ func finishFanfare():
 		audioPlayer.stream = fanfare
 		audioPlayer.play()
 
-func wasItHighScore(lvl, newTime: String):
-	if loadData(lvl):
-		if loadData(lvl) > newTime:
+func wasItHighScore(lvl, newTime: float):
+	var savedTime = loadData(lvl)
+	if savedTime != null:
+		if savedTime > newTime or savedTime == 0:
 			saveTime(lvl, newTime)
 	else:
 		saveTime(lvl, newTime)
+		
 func saveTime(lvl, time):
 	loadSavedData()
 	savedData[lvl] = time
 	var file = FileAccess.open(savePath, FileAccess.ModeFlags.WRITE)
 	file.store_var(savedData)
 	file.close()
-
 
 func loadData(lvl):
 	loadSavedData()
@@ -149,3 +150,9 @@ func loadSavedData():
 		file.close()
 	else:
 		savedData = {}
+
+func resetTimes():
+	saveTime("Lvl1", 0)
+	saveTime("Lvl2", 0)
+	saveTime("Lvl3", 0)
+	

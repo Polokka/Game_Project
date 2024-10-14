@@ -1,4 +1,4 @@
-[gd_scene load_steps=270 format=4 uid="uid://wu6uepgdijk3"]
+[gd_scene load_steps=268 format=4 uid="uid://wu6uepgdijk3"]
 
 [ext_resource type="Script" path="res://addons/rmsmartshape/shapes/shape_open.gd" id="1_f2gom"]
 [ext_resource type="Script" path="res://addons/rmsmartshape/vertex_properties.gd" id="2_qdqfg"]
@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://ca54q1163hlnb" path="res://Scenes/LevelGraphix/GoalFlag.tscn" id="12_rdj60"]
 [ext_resource type="PackedScene" uid="uid://leadsg4mw55" path="res://Scenes/LevelGraphix/ArrowOrangeRight.tscn" id="13_x3t8d"]
 
-[sub_resource type="Resource" id="Resource_5xn8s"]
+[sub_resource type="Resource" id="Resource_kmgs5"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -25,7 +25,7 @@ script = ExtResource("3_sl41l")
 position = Vector2(7973.94, 880.159)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_5xn8s")
+properties = SubResource("Resource_kmgs5")
 
 [sub_resource type="Resource" id="Resource_j4ew8"]
 script = ExtResource("4_gtgjw")
@@ -79,7 +79,7 @@ fill_texture_angle_offset = 0.0
 fill_mesh_offset = 0.0
 render_offset = 0.0
 
-[sub_resource type="Resource" id="Resource_r23j3"]
+[sub_resource type="Resource" id="Resource_nuwo6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 5
 flip = false
@@ -90,9 +90,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(236.05, -1917.91)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_r23j3")
+properties = SubResource("Resource_nuwo6")
 
-[sub_resource type="Resource" id="Resource_wdq5j"]
+[sub_resource type="Resource" id="Resource_au5sl"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -103,9 +103,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(70.5518, -931.115)
 point_in = Vector2(-401.546, -191.783)
 point_out = Vector2(401.546, 191.783)
-properties = SubResource("Resource_wdq5j")
+properties = SubResource("Resource_au5sl")
 
-[sub_resource type="Resource" id="Resource_0l277"]
+[sub_resource type="Resource" id="Resource_t40up"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -116,9 +116,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(1530.45, -734.634)
 point_in = Vector2(-266.699, 125.858)
 point_out = Vector2(266.699, -125.858)
-properties = SubResource("Resource_0l277")
+properties = SubResource("Resource_t40up")
 
-[sub_resource type="Resource" id="Resource_um6al"]
+[sub_resource type="Resource" id="Resource_jo7ml"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -129,9 +129,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3363.88, -466.994)
 point_in = Vector2(-882.469, -141.421)
 point_out = Vector2(882.469, 141.421)
-properties = SubResource("Resource_um6al")
+properties = SubResource("Resource_jo7ml")
 
-[sub_resource type="Resource" id="Resource_veu71"]
+[sub_resource type="Resource" id="Resource_qmlhp"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -142,9 +142,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(5421.15, -340.002)
 point_in = Vector2(-463.862, -5.65698)
 point_out = Vector2(463.862, 5.65698)
-properties = SubResource("Resource_veu71")
+properties = SubResource("Resource_qmlhp")
 
-[sub_resource type="Resource" id="Resource_vpfov"]
+[sub_resource type="Resource" id="Resource_w1s6e"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -155,9 +155,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(7351.43, -657.483)
 point_in = Vector2(-260.215, 118.794)
 point_out = Vector2(260.215, -118.794)
-properties = SubResource("Resource_vpfov")
+properties = SubResource("Resource_w1s6e")
 
-[sub_resource type="Resource" id="Resource_ufa5d"]
+[sub_resource type="Resource" id="Resource_8dkxp"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -168,9 +168,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(8456.26, -1762.31)
 point_in = Vector2(-62.2256, 243.245)
 point_out = Vector2(62.2256, -243.245)
-properties = SubResource("Resource_ufa5d")
+properties = SubResource("Resource_8dkxp")
 
-[sub_resource type="Resource" id="Resource_o1aap"]
+[sub_resource type="Resource" id="Resource_ai7cp"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -181,9 +181,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(9252.22, -2839.95)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_o1aap")
+properties = SubResource("Resource_ai7cp")
 
-[sub_resource type="Resource" id="Resource_fq6q2"]
+[sub_resource type="Resource" id="Resource_2ofed"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -194,9 +194,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(9865.88, -5254.6)
 point_in = Vector2(-50.9111, 1674.43)
 point_out = Vector2(50.9111, -1674.43)
-properties = SubResource("Resource_fq6q2")
+properties = SubResource("Resource_2ofed")
 
-[sub_resource type="Resource" id="Resource_h8do7"]
+[sub_resource type="Resource" id="Resource_ypd10"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = true
@@ -207,9 +207,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(8568.67, -8355.48)
 point_in = Vector2(107.48, 113.138)
 point_out = Vector2(-107.48, -113.138)
-properties = SubResource("Resource_h8do7")
+properties = SubResource("Resource_ypd10")
 
-[sub_resource type="Resource" id="Resource_v5mtb"]
+[sub_resource type="Resource" id="Resource_gga4t"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -220,9 +220,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(8066.7, -8878.99)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_v5mtb")
+properties = SubResource("Resource_gga4t")
 
-[sub_resource type="Resource" id="Resource_3yf6j"]
+[sub_resource type="Resource" id="Resource_4a1ox"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -233,9 +233,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(5528.27, -9740.39)
 point_in = Vector2(1329, 143.676)
 point_out = Vector2(-1329, -143.676)
-properties = SubResource("Resource_3yf6j")
+properties = SubResource("Resource_4a1ox")
 
-[sub_resource type="Resource" id="Resource_pwlsk"]
+[sub_resource type="Resource" id="Resource_1jyl8"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -246,9 +246,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3378.12, -9296.78)
 point_in = Vector2(1571.45, -296.33)
 point_out = Vector2(-1571.45, 296.33)
-properties = SubResource("Resource_pwlsk")
+properties = SubResource("Resource_1jyl8")
 
-[sub_resource type="Resource" id="Resource_5smak"]
+[sub_resource type="Resource" id="Resource_mlpeh"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -259,9 +259,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(2284.45, -10601)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_5smak")
+properties = SubResource("Resource_mlpeh")
 
-[sub_resource type="Resource" id="Resource_4ntyw"]
+[sub_resource type="Resource" id="Resource_y213s"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -272,9 +272,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(2284.45, -11845.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_4ntyw")
+properties = SubResource("Resource_y213s")
 
-[sub_resource type="Resource" id="Resource_nwr37"]
+[sub_resource type="Resource" id="Resource_43r40"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -285,9 +285,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4096.64, -11841.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_nwr37")
+properties = SubResource("Resource_43r40")
 
-[sub_resource type="Resource" id="Resource_3afnu"]
+[sub_resource type="Resource" id="Resource_8fhvu"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -298,9 +298,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4783.9, -11852.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_3afnu")
+properties = SubResource("Resource_8fhvu")
 
-[sub_resource type="Resource" id="Resource_wy1xv"]
+[sub_resource type="Resource" id="Resource_ou3hy"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -311,9 +311,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4783.9, -13920.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_wy1xv")
+properties = SubResource("Resource_ou3hy")
 
-[sub_resource type="Resource" id="Resource_db4kh"]
+[sub_resource type="Resource" id="Resource_x2jkj"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -322,11 +322,11 @@ width = 1.0
 [sub_resource type="Resource" id="Resource_ts5np"]
 script = ExtResource("3_sl41l")
 position = Vector2(5623, -12479.4)
-point_in = Vector2(0, 0)
-point_out = Vector2(0, 0)
-properties = SubResource("Resource_db4kh")
+point_in = Vector2(-429.921, 96.166)
+point_out = Vector2(429.921, -96.166)
+properties = SubResource("Resource_x2jkj")
 
-[sub_resource type="Resource" id="Resource_825v5"]
+[sub_resource type="Resource" id="Resource_wirt6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -337,9 +337,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6546.85, -14013.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_825v5")
+properties = SubResource("Resource_wirt6")
 
-[sub_resource type="Resource" id="Resource_jlehe"]
+[sub_resource type="Resource" id="Resource_ewbh1"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -350,9 +350,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6538.37, -11174.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_jlehe")
+properties = SubResource("Resource_ewbh1")
 
-[sub_resource type="Resource" id="Resource_fr8yb"]
+[sub_resource type="Resource" id="Resource_lxlht"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -363,9 +363,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(8174.18, -11174.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_fr8yb")
+properties = SubResource("Resource_lxlht")
 
-[sub_resource type="Resource" id="Resource_pe1t6"]
+[sub_resource type="Resource" id="Resource_r74ct"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -376,9 +376,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6539.84, -11127.6)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_pe1t6")
+properties = SubResource("Resource_r74ct")
 
-[sub_resource type="Resource" id="Resource_tuh5p"]
+[sub_resource type="Resource" id="Resource_8g1xk"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -389,9 +389,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6539.84, -10049.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_tuh5p")
+properties = SubResource("Resource_8g1xk")
 
-[sub_resource type="Resource" id="Resource_v4vn6"]
+[sub_resource type="Resource" id="Resource_do2ie"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -402,9 +402,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(7726.37, -9720.52)
 point_in = Vector2(-683.228, -221.749)
 point_out = Vector2(683.228, 221.749)
-properties = SubResource("Resource_v4vn6")
+properties = SubResource("Resource_do2ie")
 
-[sub_resource type="Resource" id="Resource_8ngdg"]
+[sub_resource type="Resource" id="Resource_pbd1c"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -415,9 +415,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(10763.1, -7242.17)
 point_in = Vector2(-1078.78, -23.9727)
 point_out = Vector2(1078.78, 23.9727)
-properties = SubResource("Resource_8ngdg")
+properties = SubResource("Resource_pbd1c")
 
-[sub_resource type="Resource" id="Resource_2ay85"]
+[sub_resource type="Resource" id="Resource_2m6ff"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = true
@@ -428,9 +428,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(12220.9, -10054.4)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_2ay85")
+properties = SubResource("Resource_2m6ff")
 
-[sub_resource type="Resource" id="Resource_jsfx2"]
+[sub_resource type="Resource" id="Resource_k4uqg"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -441,9 +441,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(10902.1, -10054.4)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_jsfx2")
+properties = SubResource("Resource_k4uqg")
 
-[sub_resource type="Resource" id="Resource_o5pk0"]
+[sub_resource type="Resource" id="Resource_ojrhb"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -454,9 +454,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(10894.5, -11356.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_o5pk0")
+properties = SubResource("Resource_ojrhb")
 
-[sub_resource type="Resource" id="Resource_ycamj"]
+[sub_resource type="Resource" id="Resource_fvlka"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -467,9 +467,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(17094, -11354.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_ycamj")
+properties = SubResource("Resource_fvlka")
 
-[sub_resource type="Resource" id="Resource_rk05a"]
+[sub_resource type="Resource" id="Resource_3qh0x"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -480,9 +480,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(17735.9, -12184.8)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_rk05a")
+properties = SubResource("Resource_3qh0x")
 
-[sub_resource type="Resource" id="Resource_68jt2"]
+[sub_resource type="Resource" id="Resource_h0cjm"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -493,9 +493,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(18468.3, -12184.8)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_68jt2")
+properties = SubResource("Resource_h0cjm")
 
-[sub_resource type="Resource" id="Resource_jurlh"]
+[sub_resource type="Resource" id="Resource_d4yl1"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -506,9 +506,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(18466.7, -12047.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_jurlh")
+properties = SubResource("Resource_d4yl1")
 
-[sub_resource type="Resource" id="Resource_7wmo7"]
+[sub_resource type="Resource" id="Resource_gwmw7"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -519,9 +519,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(18955.1, -12047.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_7wmo7")
+properties = SubResource("Resource_gwmw7")
 
-[sub_resource type="Resource" id="Resource_ci4nu"]
+[sub_resource type="Resource" id="Resource_uwpbd"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -532,9 +532,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(18955.1, -12928.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_ci4nu")
+properties = SubResource("Resource_uwpbd")
 
-[sub_resource type="Resource" id="Resource_te3cm"]
+[sub_resource type="Resource" id="Resource_xkrhq"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -545,9 +545,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(19753.7, -12928.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_te3cm")
+properties = SubResource("Resource_xkrhq")
 
-[sub_resource type="Resource" id="Resource_edhji"]
+[sub_resource type="Resource" id="Resource_vh4ia"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -558,9 +558,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20246.6, -13542.6)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_edhji")
+properties = SubResource("Resource_vh4ia")
 
-[sub_resource type="Resource" id="Resource_h8cvi"]
+[sub_resource type="Resource" id="Resource_orhtd"]
 script = ExtResource("2_qdqfg")
 texture_idx = 3
 flip = false
@@ -571,9 +571,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20444.4, -13542.6)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_h8cvi")
+properties = SubResource("Resource_orhtd")
 
-[sub_resource type="Resource" id="Resource_r3gu6"]
+[sub_resource type="Resource" id="Resource_f4uu6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -584,9 +584,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20585.8, -13452)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_r3gu6")
+properties = SubResource("Resource_f4uu6")
 
-[sub_resource type="Resource" id="Resource_2j3gd"]
+[sub_resource type="Resource" id="Resource_mqh5a"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -597,9 +597,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20738.8, -13606.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_2j3gd")
+properties = SubResource("Resource_mqh5a")
 
-[sub_resource type="Resource" id="Resource_krog8"]
+[sub_resource type="Resource" id="Resource_nhcvk"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -610,9 +610,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20720.1, -13662.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_krog8")
+properties = SubResource("Resource_nhcvk")
 
-[sub_resource type="Resource" id="Resource_58ui2"]
+[sub_resource type="Resource" id="Resource_ff6n6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -623,9 +623,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(20807, -13719.4)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_58ui2")
+properties = SubResource("Resource_ff6n6")
 
-[sub_resource type="Resource" id="Resource_p3epm"]
+[sub_resource type="Resource" id="Resource_211sk"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -633,12 +633,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_n84bu"]
 script = ExtResource("3_sl41l")
-position = Vector2(20639.2, -14195.9)
+position = Vector2(20512.2, -14091.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_p3epm")
+properties = SubResource("Resource_211sk")
 
-[sub_resource type="Resource" id="Resource_tif0j"]
+[sub_resource type="Resource" id="Resource_xilcy"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -646,12 +646,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_cv0bf"]
 script = ExtResource("3_sl41l")
-position = Vector2(20128.5, -15132.1)
-point_in = Vector2(0, 0)
-point_out = Vector2(0, 0)
-properties = SubResource("Resource_tif0j")
+position = Vector2(19941.2, -14979.7)
+point_in = Vector2(125.717, 181.839)
+point_out = Vector2(-125.717, -181.839)
+properties = SubResource("Resource_xilcy")
 
-[sub_resource type="Resource" id="Resource_fd5ht"]
+[sub_resource type="Resource" id="Resource_y3k81"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -659,12 +659,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_755nf"]
 script = ExtResource("3_sl41l")
-position = Vector2(19518.2, -15132.1)
+position = Vector2(19502.3, -14986.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_fd5ht")
+properties = SubResource("Resource_y3k81")
 
-[sub_resource type="Resource" id="Resource_00j8f"]
+[sub_resource type="Resource" id="Resource_f76hw"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -675,9 +675,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(19518.2, -16136.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_00j8f")
+properties = SubResource("Resource_f76hw")
 
-[sub_resource type="Resource" id="Resource_boetl"]
+[sub_resource type="Resource" id="Resource_2lvo3"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -688,9 +688,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(19929.3, -16136.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_boetl")
+properties = SubResource("Resource_2lvo3")
 
-[sub_resource type="Resource" id="Resource_umfgi"]
+[sub_resource type="Resource" id="Resource_1h636"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -701,9 +701,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(21324.6, -13122.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_umfgi")
+properties = SubResource("Resource_1h636")
 
-[sub_resource type="Resource" id="Resource_dn3um"]
+[sub_resource type="Resource" id="Resource_bh6w2"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -711,25 +711,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_u5ucp"]
 script = ExtResource("3_sl41l")
-position = Vector2(24129.5, -13122.3)
+position = Vector2(22516.8, -13102.1)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_dn3um")
+properties = SubResource("Resource_bh6w2")
 
-[sub_resource type="Resource" id="Resource_ndlq7"]
-script = ExtResource("2_qdqfg")
-texture_idx = 0
-flip = false
-width = 1.0
-
-[sub_resource type="Resource" id="Resource_jgwpc"]
-script = ExtResource("3_sl41l")
-position = Vector2(24124.3, -16855.3)
-point_in = Vector2(0, 0)
-point_out = Vector2(0, 0)
-properties = SubResource("Resource_ndlq7")
-
-[sub_resource type="Resource" id="Resource_rqqq0"]
+[sub_resource type="Resource" id="Resource_gex26"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -737,12 +724,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_7m7px"]
 script = ExtResource("3_sl41l")
-position = Vector2(22411, -16856.8)
+position = Vector2(22607, -16796.2)
 point_in = Vector2(144.162, 80.0898)
 point_out = Vector2(-144.162, -80.0898)
-properties = SubResource("Resource_rqqq0")
+properties = SubResource("Resource_gex26")
 
-[sub_resource type="Resource" id="Resource_7ow8e"]
+[sub_resource type="Resource" id="Resource_64u1j"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -753,9 +740,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(22265.5, -17045.4)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_7ow8e")
+properties = SubResource("Resource_64u1j")
 
-[sub_resource type="Resource" id="Resource_0akkn"]
+[sub_resource type="Resource" id="Resource_cdh6m"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -766,9 +753,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(22265.4, -17659.4)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_0akkn")
+properties = SubResource("Resource_cdh6m")
 
-[sub_resource type="Resource" id="Resource_yp615"]
+[sub_resource type="Resource" id="Resource_kfbyh"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -779,9 +766,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(23289.2, -19796.1)
 point_in = Vector2(-12.7129, 398.357)
 point_out = Vector2(12.7129, -398.357)
-properties = SubResource("Resource_yp615")
+properties = SubResource("Resource_kfbyh")
 
-[sub_resource type="Resource" id="Resource_osflf"]
+[sub_resource type="Resource" id="Resource_ur4db"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -792,9 +779,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(22406, -20777.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_osflf")
+properties = SubResource("Resource_ur4db")
 
-[sub_resource type="Resource" id="Resource_61axb"]
+[sub_resource type="Resource" id="Resource_jhuoi"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -805,9 +792,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(21314, -20833.8)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_61axb")
+properties = SubResource("Resource_jhuoi")
 
-[sub_resource type="Resource" id="Resource_wn7ag"]
+[sub_resource type="Resource" id="Resource_1phvn"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -818,9 +805,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(19626.7, -20607.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_wn7ag")
+properties = SubResource("Resource_1phvn")
 
-[sub_resource type="Resource" id="Resource_8r7i0"]
+[sub_resource type="Resource" id="Resource_ho37l"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -831,9 +818,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(19621.4, -18914.9)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_8r7i0")
+properties = SubResource("Resource_ho37l")
 
-[sub_resource type="Resource" id="Resource_dncjl"]
+[sub_resource type="Resource" id="Resource_krb6n"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -844,9 +831,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(21495.5, -18914.9)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_dncjl")
+properties = SubResource("Resource_krb6n")
 
-[sub_resource type="Resource" id="Resource_2c68u"]
+[sub_resource type="Resource" id="Resource_vy8q7"]
 script = ExtResource("2_qdqfg")
 texture_idx = 3
 flip = false
@@ -857,7 +844,7 @@ script = ExtResource("3_sl41l")
 position = Vector2(21740.8, -18919.2)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_2c68u")
+properties = SubResource("Resource_vy8q7")
 
 [sub_resource type="Resource" id="Resource_4nfeq"]
 script = ExtResource("4_gtgjw")
@@ -911,7 +898,6 @@ _points = {
 60: SubResource("Resource_jt1o2"),
 63: SubResource("Resource_j3kup"),
 64: SubResource("Resource_u5ucp"),
-65: SubResource("Resource_jgwpc"),
 66: SubResource("Resource_7m7px"),
 68: SubResource("Resource_k7h75"),
 69: SubResource("Resource_i6abl"),
@@ -923,12 +909,12 @@ _points = {
 75: SubResource("Resource_6x2ww"),
 77: SubResource("Resource_bnhhg")
 }
-_point_order = Array[int]([1, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 63, 64, 65, 66, 68, 69, 70, 71, 72, 73, 74, 75, 77])
+_point_order = Array[int]([1, 3, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 63, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 77])
 _constraints = {}
-_next_key = 78
+_next_key = 79
 _material_overrides = {}
 
-[sub_resource type="Resource" id="Resource_88yp4"]
+[sub_resource type="Resource" id="Resource_6msil"]
 script = ExtResource("2_qdqfg")
 texture_idx = 8
 flip = false
@@ -939,9 +925,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-471.72, -1028.33)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_88yp4")
+properties = SubResource("Resource_6msil")
 
-[sub_resource type="Resource" id="Resource_mb2is"]
+[sub_resource type="Resource" id="Resource_exek2"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -952,9 +938,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(445.962, -1264.66)
 point_in = Vector2(-72.5416, -61.8387)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_mb2is")
+properties = SubResource("Resource_exek2")
 
-[sub_resource type="Resource" id="Resource_32tc3"]
+[sub_resource type="Resource" id="Resource_cgy4r"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -965,9 +951,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(1144.15, -1288.41)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_32tc3")
+properties = SubResource("Resource_cgy4r")
 
-[sub_resource type="Resource" id="Resource_dcjee"]
+[sub_resource type="Resource" id="Resource_n73x2"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -978,9 +964,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(2222.06, -928.037)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_dcjee")
+properties = SubResource("Resource_n73x2")
 
-[sub_resource type="Resource" id="Resource_5wmxg"]
+[sub_resource type="Resource" id="Resource_3r0fn"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -991,9 +977,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4073.65, -777.782)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_5wmxg")
+properties = SubResource("Resource_3r0fn")
 
-[sub_resource type="Resource" id="Resource_o22tc"]
+[sub_resource type="Resource" id="Resource_nohm8"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1004,9 +990,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(5706.51, -1271.67)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_o22tc")
+properties = SubResource("Resource_nohm8")
 
-[sub_resource type="Resource" id="Resource_to0xr"]
+[sub_resource type="Resource" id="Resource_l4568"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1017,9 +1003,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6079.45, -2148.58)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_to0xr")
+properties = SubResource("Resource_l4568")
 
-[sub_resource type="Resource" id="Resource_wu838"]
+[sub_resource type="Resource" id="Resource_kyjmq"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1030,9 +1016,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6815.24, -3055.72)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_wu838")
+properties = SubResource("Resource_kyjmq")
 
-[sub_resource type="Resource" id="Resource_okfd0"]
+[sub_resource type="Resource" id="Resource_4a2kh"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1043,9 +1029,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6795.08, -4648.26)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_okfd0")
+properties = SubResource("Resource_4a2kh")
 
-[sub_resource type="Resource" id="Resource_wojh4"]
+[sub_resource type="Resource" id="Resource_db16q"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1056,9 +1042,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6298.24, -6093.95)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_wojh4")
+properties = SubResource("Resource_db16q")
 
-[sub_resource type="Resource" id="Resource_02814"]
+[sub_resource type="Resource" id="Resource_y8ps6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1069,9 +1055,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4604.81, -6341.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_02814")
+properties = SubResource("Resource_y8ps6")
 
-[sub_resource type="Resource" id="Resource_t2omp"]
+[sub_resource type="Resource" id="Resource_1h2yq"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1082,9 +1068,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(1998.07, -6303.25)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_t2omp")
+properties = SubResource("Resource_1h2yq")
 
-[sub_resource type="Resource" id="Resource_kff1d"]
+[sub_resource type="Resource" id="Resource_jfwlc"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1095,9 +1081,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(685.181, -7463.92)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_kff1d")
+properties = SubResource("Resource_jfwlc")
 
-[sub_resource type="Resource" id="Resource_3k5pe"]
+[sub_resource type="Resource" id="Resource_wnq5t"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1108,9 +1094,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(440.262, -13505.5)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_3k5pe")
+properties = SubResource("Resource_wnq5t")
 
-[sub_resource type="Resource" id="Resource_s7xed"]
+[sub_resource type="Resource" id="Resource_m8h4b"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1121,9 +1107,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(2086.39, -11603.9)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_s7xed")
+properties = SubResource("Resource_m8h4b")
 
-[sub_resource type="Resource" id="Resource_gam5x"]
+[sub_resource type="Resource" id="Resource_8nw2s"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1134,9 +1120,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3469.29, -11603.9)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_gam5x")
+properties = SubResource("Resource_8nw2s")
 
-[sub_resource type="Resource" id="Resource_1rwok"]
+[sub_resource type="Resource" id="Resource_yyqtt"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1147,9 +1133,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3469.29, -13632.8)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_1rwok")
+properties = SubResource("Resource_yyqtt")
 
-[sub_resource type="Resource" id="Resource_elhnk"]
+[sub_resource type="Resource" id="Resource_wom7b"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1160,9 +1146,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(4670.64, -13632.8)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_elhnk")
+properties = SubResource("Resource_wom7b")
 
-[sub_resource type="Resource" id="Resource_2dc3l"]
+[sub_resource type="Resource" id="Resource_4ejpl"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1171,11 +1157,11 @@ width = 1.0
 [sub_resource type="Resource" id="Resource_k5nqr"]
 script = ExtResource("3_sl41l")
 position = Vector2(4942.95, -12602.3)
-point_in = Vector2(0, 0)
-point_out = Vector2(0, 0)
-properties = SubResource("Resource_2dc3l")
+point_in = Vector2(-223.571, -80.8662)
+point_out = Vector2(223.571, 80.8662)
+properties = SubResource("Resource_4ejpl")
 
-[sub_resource type="Resource" id="Resource_8ot8d"]
+[sub_resource type="Resource" id="Resource_gopij"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1186,9 +1172,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(5674.44, -13766.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_8ot8d")
+properties = SubResource("Resource_gopij")
 
-[sub_resource type="Resource" id="Resource_xptfc"]
+[sub_resource type="Resource" id="Resource_g7rd6"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1199,9 +1185,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(6550.1, -13766.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_xptfc")
+properties = SubResource("Resource_g7rd6")
 
-[sub_resource type="Resource" id="Resource_1h7ch"]
+[sub_resource type="Resource" id="Resource_e4axo"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1212,7 +1198,7 @@ script = ExtResource("3_sl41l")
 position = Vector2(6630.19, -11406.3)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_1h7ch")
+properties = SubResource("Resource_e4axo")
 
 [sub_resource type="Resource" id="Resource_d8hq3"]
 script = ExtResource("4_gtgjw")
@@ -1245,7 +1231,7 @@ _constraints = {}
 _next_key = 35
 _material_overrides = {}
 
-[sub_resource type="Resource" id="Resource_kn0l0"]
+[sub_resource type="Resource" id="Resource_p85uc"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1256,9 +1242,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-11157.5, -789.047)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_kn0l0")
+properties = SubResource("Resource_p85uc")
 
-[sub_resource type="Resource" id="Resource_urcgd"]
+[sub_resource type="Resource" id="Resource_41xgx"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1269,9 +1255,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-9411.37, 87.5968)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_urcgd")
+properties = SubResource("Resource_41xgx")
 
-[sub_resource type="Resource" id="Resource_7mwmy"]
+[sub_resource type="Resource" id="Resource_oxo23"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1282,9 +1268,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-9974.42, 1064.02)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_7mwmy")
+properties = SubResource("Resource_oxo23")
 
-[sub_resource type="Resource" id="Resource_rmatj"]
+[sub_resource type="Resource" id="Resource_niecf"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1295,9 +1281,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-10972.2, 1078.27)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_rmatj")
+properties = SubResource("Resource_niecf")
 
-[sub_resource type="Resource" id="Resource_qq543"]
+[sub_resource type="Resource" id="Resource_nf50i"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1308,9 +1294,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-9967.29, 1099.65)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_qq543")
+properties = SubResource("Resource_nf50i")
 
-[sub_resource type="Resource" id="Resource_45xe4"]
+[sub_resource type="Resource" id="Resource_u57qi"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1321,9 +1307,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-9300.89, 2047.57)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_45xe4")
+properties = SubResource("Resource_u57qi")
 
-[sub_resource type="Resource" id="Resource_vn0nj"]
+[sub_resource type="Resource" id="Resource_vs2d4"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1334,9 +1320,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-8360.03, 3292.42)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_vn0nj")
+properties = SubResource("Resource_vs2d4")
 
-[sub_resource type="Resource" id="Resource_v5pwh"]
+[sub_resource type="Resource" id="Resource_qjb6h"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1347,9 +1333,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-7375.3, 1995.39)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_v5pwh")
+properties = SubResource("Resource_qjb6h")
 
-[sub_resource type="Resource" id="Resource_fuovh"]
+[sub_resource type="Resource" id="Resource_1v0i5"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1360,9 +1346,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-8190.57, 1986.71)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_fuovh")
+properties = SubResource("Resource_1v0i5")
 
-[sub_resource type="Resource" id="Resource_6hlsq"]
+[sub_resource type="Resource" id="Resource_lp554"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1373,9 +1359,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-8190.57, -605.813)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_6hlsq")
+properties = SubResource("Resource_lp554")
 
-[sub_resource type="Resource" id="Resource_21y4i"]
+[sub_resource type="Resource" id="Resource_j0ial"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1386,9 +1372,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-1409.17, -605.813)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_21y4i")
+properties = SubResource("Resource_j0ial")
 
-[sub_resource type="Resource" id="Resource_udwb7"]
+[sub_resource type="Resource" id="Resource_ljtu5"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1399,9 +1385,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-770.003, -1050.55)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_udwb7")
+properties = SubResource("Resource_ljtu5")
 
-[sub_resource type="Resource" id="Resource_nuffh"]
+[sub_resource type="Resource" id="Resource_n2fx1"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1412,9 +1398,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-14.5205, -1050.55)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_nuffh")
+properties = SubResource("Resource_n2fx1")
 
-[sub_resource type="Resource" id="Resource_0qtsm"]
+[sub_resource type="Resource" id="Resource_hh0hp"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1425,9 +1411,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-13.3862, -2283.72)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_0qtsm")
+properties = SubResource("Resource_hh0hp")
 
-[sub_resource type="Resource" id="Resource_5pnwb"]
+[sub_resource type="Resource" id="Resource_r7d8y"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = true
@@ -1438,9 +1424,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-197.47, -2283.72)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_5pnwb")
+properties = SubResource("Resource_r7d8y")
 
-[sub_resource type="Resource" id="Resource_pxca5"]
+[sub_resource type="Resource" id="Resource_vk46l"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1451,9 +1437,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-197.47, -2903.32)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_pxca5")
+properties = SubResource("Resource_vk46l")
 
-[sub_resource type="Resource" id="Resource_mglfw"]
+[sub_resource type="Resource" id="Resource_vqs08"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1464,9 +1450,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(1005.81, -2903.32)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_mglfw")
+properties = SubResource("Resource_vqs08")
 
-[sub_resource type="Resource" id="Resource_mura1"]
+[sub_resource type="Resource" id="Resource_prke1"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1477,9 +1463,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(506.964, -2937.76)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_mura1")
+properties = SubResource("Resource_prke1")
 
-[sub_resource type="Resource" id="Resource_0qvde"]
+[sub_resource type="Resource" id="Resource_najex"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1487,12 +1473,12 @@ width = 1.0
 
 [sub_resource type="Resource" id="Resource_j4u78"]
 script = ExtResource("3_sl41l")
-position = Vector2(519.676, -5268.58)
-point_in = Vector2(0, 0)
-point_out = Vector2(0, 0)
-properties = SubResource("Resource_0qvde")
+position = Vector2(519.676, -5056.91)
+point_in = Vector2(-35.2793, 342.698)
+point_out = Vector2(35.2793, -342.698)
+properties = SubResource("Resource_najex")
 
-[sub_resource type="Resource" id="Resource_stl8s"]
+[sub_resource type="Resource" id="Resource_6ew8d"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1503,9 +1489,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(1456.24, -5268.58)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_stl8s")
+properties = SubResource("Resource_6ew8d")
 
-[sub_resource type="Resource" id="Resource_dc107"]
+[sub_resource type="Resource" id="Resource_37vs7"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1516,9 +1502,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(2773.38, -5243.89)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_dc107")
+properties = SubResource("Resource_37vs7")
 
-[sub_resource type="Resource" id="Resource_13gl4"]
+[sub_resource type="Resource" id="Resource_cmema"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1529,9 +1515,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3151.92, -5360.67)
 point_in = Vector2(-95.7539, 125.992)
 point_out = Vector2(95.7539, -125.992)
-properties = SubResource("Resource_13gl4")
+properties = SubResource("Resource_cmema")
 
-[sub_resource type="Resource" id="Resource_ywmvw"]
+[sub_resource type="Resource" id="Resource_o43fi"]
 script = ExtResource("2_qdqfg")
 texture_idx = 2
 flip = false
@@ -1542,9 +1528,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3241.82, -5552.45)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_ywmvw")
+properties = SubResource("Resource_o43fi")
 
-[sub_resource type="Resource" id="Resource_dm4ex"]
+[sub_resource type="Resource" id="Resource_bbd3c"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1555,9 +1541,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3239.71, -6107.76)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_dm4ex")
+properties = SubResource("Resource_bbd3c")
 
-[sub_resource type="Resource" id="Resource_ystou"]
+[sub_resource type="Resource" id="Resource_nk4qt"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1568,9 +1554,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3239.65, -6803.98)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_ystou")
+properties = SubResource("Resource_nk4qt")
 
-[sub_resource type="Resource" id="Resource_r6oyb"]
+[sub_resource type="Resource" id="Resource_e4c5t"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1581,9 +1567,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3924.38, -7864.94)
 point_in = Vector2(9.51172, 380.547)
 point_out = Vector2(-9.51172, -380.547)
-properties = SubResource("Resource_r6oyb")
+properties = SubResource("Resource_e4c5t")
 
-[sub_resource type="Resource" id="Resource_phbll"]
+[sub_resource type="Resource" id="Resource_wufnc"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1594,9 +1580,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3362.83, -8725.26)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_phbll")
+properties = SubResource("Resource_wufnc")
 
-[sub_resource type="Resource" id="Resource_4iero"]
+[sub_resource type="Resource" id="Resource_kpita"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1607,9 +1593,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(3217.68, -7394.53)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_4iero")
+properties = SubResource("Resource_kpita")
 
-[sub_resource type="Resource" id="Resource_onxjs"]
+[sub_resource type="Resource" id="Resource_7cgvt"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1620,7 +1606,7 @@ script = ExtResource("3_sl41l")
 position = Vector2(3330.04, -6110.37)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_onxjs")
+properties = SubResource("Resource_7cgvt")
 
 [sub_resource type="Resource" id="Resource_vxffj"]
 script = ExtResource("4_gtgjw")
@@ -1660,7 +1646,7 @@ _constraints = {}
 _next_key = 69
 _material_overrides = {}
 
-[sub_resource type="Resource" id="Resource_r6vxv"]
+[sub_resource type="Resource" id="Resource_8frji"]
 script = ExtResource("2_qdqfg")
 texture_idx = 20
 flip = false
@@ -1671,9 +1657,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-969.613, 751.059)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_r6vxv")
+properties = SubResource("Resource_8frji")
 
-[sub_resource type="Resource" id="Resource_bxdhl"]
+[sub_resource type="Resource" id="Resource_dxw06"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1684,9 +1670,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-1658.76, 871.69)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_bxdhl")
+properties = SubResource("Resource_dxw06")
 
-[sub_resource type="Resource" id="Resource_xule3"]
+[sub_resource type="Resource" id="Resource_xmeug"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1697,9 +1683,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-971.83, 875.124)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_xule3")
+properties = SubResource("Resource_xmeug")
 
-[sub_resource type="Resource" id="Resource_cjbpi"]
+[sub_resource type="Resource" id="Resource_3xk6y"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1710,9 +1696,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-1655.2, 758.084)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_cjbpi")
+properties = SubResource("Resource_3xk6y")
 
-[sub_resource type="Resource" id="Resource_tgsaq"]
+[sub_resource type="Resource" id="Resource_j54ij"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1723,9 +1709,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-1707.18, 757.892)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_tgsaq")
+properties = SubResource("Resource_j54ij")
 
-[sub_resource type="Resource" id="Resource_oeg5u"]
+[sub_resource type="Resource" id="Resource_pric0"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1736,9 +1722,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-1710.55, 932.799)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_oeg5u")
+properties = SubResource("Resource_pric0")
 
-[sub_resource type="Resource" id="Resource_ue055"]
+[sub_resource type="Resource" id="Resource_840lt"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1749,9 +1735,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-910.014, 932.799)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_ue055")
+properties = SubResource("Resource_840lt")
 
-[sub_resource type="Resource" id="Resource_u01yq"]
+[sub_resource type="Resource" id="Resource_sfspi"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1762,9 +1748,9 @@ script = ExtResource("3_sl41l")
 position = Vector2(-904.969, 756.211)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_u01yq")
+properties = SubResource("Resource_sfspi")
 
-[sub_resource type="Resource" id="Resource_hvyhb"]
+[sub_resource type="Resource" id="Resource_5y4he"]
 script = ExtResource("2_qdqfg")
 texture_idx = 0
 flip = false
@@ -1775,7 +1761,7 @@ script = ExtResource("3_sl41l")
 position = Vector2(-952.059, 756.211)
 point_in = Vector2(0, 0)
 point_out = Vector2(0, 0)
-properties = SubResource("Resource_hvyhb")
+properties = SubResource("Resource_5y4he")
 
 [sub_resource type="Resource" id="Resource_l3xlj"]
 script = ExtResource("4_gtgjw")
@@ -1860,7 +1846,7 @@ collision_polygon_node_path = NodePath("../CollisionPolygon2D")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D"]
 modulate = Color(1, 1, 1, 0.3)
-polygon = PackedVector2Array(249.483, -1909.22, 167.412, -1782.41, 91.9392, -1648.74, 53.5158, -1571.68, 17.5337, -1490.38, -13.7622, -1406.91, -26.8662, -1365.29, -37.9939, -1323.86, -46.8319, -1283, -53.1326, -1242.87, -55.2188, -1223.41, -56.5865, -1204.15, -57.1899, -1185.25, -57.0001, -1166.74, -55.989, -1148.66, -54.1299, -1131.03, -51.3971, -1113.9, -47.7655, -1097.29, -43.2102, -1081.23, -37.7058, -1065.73, -31.2251, -1050.83, -23.7382, -1036.53, -15.2108, -1022.84, -5.60408, -1009.79, 5.12646, -997.374, 17.0301, -985.614, 30.1597, -974.526, 44.5702, -964.134, 60.3167, -954.464, 77.4812, -945.537, 156.286, -910.714, 243.034, -877.508, 336.337, -846.243, 434.701, -817.262, 641.893, -767.142, 853.487, -729.575, 957.353, -716.241, 1058.36, -706.883, 1155.02, -701.8, 1245.93, -701.264, 1329.87, -705.548, 1368.5, -709.551, 1404.94, -714.849, 1438.86, -721.45, 1470.21, -729.401, 1484.62, -733.816, 1498.4, -738.591, 1511.4, -743.687, 1523.99, -749.272, 1537.2, -755.069, 1551.36, -760.435, 1566.08, -765.216, 1581.36, -769.432, 1597.19, -773.098, 1613.69, -776.256, 1647.9, -780.978, 1684.39, -783.792, 1723, -784.789, 1763.69, -784.078, 1806.56, -781.752, 1898.05, -772.696, 1997.7, -758.333, 2219.33, -716.745, 3366.47, -482.782, 3993.9, -404.214, 4550.12, -368.574, 5421.15, -356.002, 5515.88, -357.321, 5625.45, -363.106, 5880.01, -386.41, 6460.03, -467.855, 7001.79, -572.581, 7208.45, -624.898, 7286.83, -649.431, 7318.47, -660.999, 7344.76, -672.025, 7369.78, -684.525, 7397.71, -700.456, 7461.99, -742.264, 7535.02, -795.464, 7614.93, -858.383, 7788.27, -1007.03, 7966.89, -1174.65, 8136.21, -1348.03, 8281.64, -1513.96, 8340.59, -1589.67, 8388.16, -1658.56, 8406.88, -1689.55, 8422.14, -1718.26, 8428.25, -1731.38, 8433.43, -1743.85, 8437.6, -1755.49, 8440.89, -1766.77, 8444.4, -1778.95, 8449, -1792.32, 8454.5, -1806.36, 8460.91, -1821.17, 8476.07, -1852.43, 8494.44, -1886.4, 8539.31, -1960.66, 8593.83, -2042.56, 8865.05, -2402.3, 9239.49, -2849.65, 9263.16, -2883.86, 9290.82, -2927.61, 9326.98, -2989.58, 9370.05, -3070.02, 9418.45, -3169.2, 9470.61, -3287.41, 9524.96, -3424.95, 9579.93, -3582.08, 9633.95, -3759.11, 9685.43, -3956.32, 9732.82, -4173.99, 9774.53, -4412.42, 9808.99, -4671.88, 9834.64, -4952.68, 9849.89, -5255.06, 9850.95, -5410.23, 9844.91, -5563.13, 9832.23, -5713.64, 9813.34, -5861.59, 9788.68, -6006.85, 9758.69, -6149.26, 9723.81, -6288.66, 9684.53, -6424.78, 9594.26, -6687.31, 9491.54, -6935.21, 9379.87, -7167.37, 9262.79, -7382.56, 9143.85, -7579.54, 9026.66, -7756.96, 8811.27, -8048.83, 8645.3, -8247.91, 8556.99, -8344.55, 8056.98, -8866.28, 7849.58, -8979.18, 7607.13, -9099.18, 7289.68, -9241.05, 6910.08, -9389.64, 6480.99, -9529.85, 6252.14, -9592.02, 6015.66, -9646.46, 5773.27, -9691.24, 5526.53, -9724.48, 5117.91, -9758.76, 4970.99, -9762.2, 4909.21, -9760.79, 4853.96, -9757.42, 4804.54, -9752.17, 4760.15, -9745.13, 4719.93, -9736.39, 4683.05, -9726.03, 4648.62, -9714.11, 4615.79, -9700.67, 4583.7, -9685.76, 4551.53, -9669.41, 4405.9, -9591.01, 4312.07, -9545.34, 4195.94, -9496.4, 4051.17, -9444.86, 3871.38, -9391.38, 3650.17, -9336.57, 3380.99, -9281.04, 3238.7, -9258.57, 3107.89, -9246.63, 3046.39, -9244.39, 2987.72, -9244.58, 2931.66, -9247.08, 2878.16, -9251.84, 2827.17, -9258.78, 2778.62, -9267.82, 2732.47, -9278.88, 2688.67, -9291.9, 2647.16, -9306.79, 2607.89, -9323.48, 2570.82, -9341.88, 2535.9, -9361.92, 2503.07, -9383.51, 2472.3, -9406.58, 2443.53, -9431.02, 2416.71, -9456.75, 2391.79, -9483.69, 2368.72, -9511.75, 2347.43, -9540.82, 2327.87, -9570.84, 2309.98, -9601.7, 2293.7, -9633.33, 2278.97, -9665.64, 2265.72, -9698.54, 2253.9, -9731.95, 2243.43, -9765.79, 2234.27, -9799.98, 2226.31, -9834.57, 2213.95, -9903.83, 2205.78, -9973.36, 2201.34, -10042.4, 2200.15, -10110.3, 2201.74, -10176.4, 2205.65, -10240.2, 2218.5, -10357.7, 2234.99, -10458.2, 2251.41, -10536.4, 2268.58, -10603, 2273.15, -11856.8, 4096.53, -11857.3, 4772.5, -11863.4, 4779.73, -13935.6, 5623.12, -12495.4, 6551.16, -14028.9, 6549.7, -11185.4, 8190.18, -11174.4, 6551.31, -11116.4, 6552.41, -10059, 6881, -9983.43, 7731.35, -9735.72, 7764.81, -9723.51, 7799.01, -9708.42, 7833.9, -9690.58, 7869.49, -9670.1, 7905.78, -9647.09, 7942.86, -9621.57, 8018.77, -9563.83, 8097.51, -9497.42, 8178.91, -9423.1, 8348.96, -9254.16, 9108.09, -8418.1, 9519.56, -7989.8, 9728.92, -7794.97, 9939.41, -7620.96, 10044.4, -7543.92, 10149.3, -7474.36, 10253.8, -7413.07, 10305.7, -7385.88, 10357.6, -7361, 10409.2, -7338.58, 10460.6, -7318.72, 10511.8, -7301.5, 10562.7, -7287.01, 10613.4, -7275.35, 10663.7, -7266.6, 10713.7, -7260.84, 10763.4, -7258.17, 10812.2, -7259.09, 10859.9, -7263.96, 10906.7, -7272.67, 10952.5, -7285.07, 10997.3, -7301.07, 11041.3, -7320.54, 11084.4, -7343.38, 11126.6, -7369.47, 11168, -7398.69, 11208.5, -7430.93, 11248.1, -7466.07, 11286.8, -7503.97, 11324.6, -7544.52, 11361.6, -7587.59, 11397.7, -7633.05, 11432.9, -7680.66, 11500.9, -7782.46, 11565.3, -7891.6, 11626.3, -8007.15, 11683.8, -8127.95, 11789.1, -8381.78, 11881.3, -8644.27, 11961, -8907.19, 12028.5, -9162.06, 12129.1, -9614.71, 12208.7, -10044.1, 10890.8, -10043.1, 10883.2, -11367.5, 17086.9, -11368.6, 17728.8, -12199.2, 18479.7, -12196, 18478.1, -12058.5, 18943.8, -12058.6, 18943.8, -12939.6, 19746.8, -12942.7, 20239.7, -13557, 20448.9, -13558, 20584, -13467.9, 20723.2, -13609.9, 20705, -13667.8, 20791.8, -13724.5, 20624.6, -14189.4, 20120.3, -15118.3, 19506.9, -15120.8, 19506.9, -16147.8, 19937.9, -16150, 21333.2, -13135.8, 24118.2, -13133.6, 24113.2, -16843.8, 23322, -16810, 22739.3, -16806.8, 22621.8, -16810.9, 22524.5, -16817.8, 22484.5, -16822.4, 22451, -16827.9, 22436.6, -16831, 22423.9, -16834.5, 22412.8, -16838.3, 22403.6, -16842.6, 22389.6, -16850.7, 22376.8, -16858.7, 22364.8, -16866.9, 22353.6, -16875.2, 22343.1, -16883.6, 22333.3, -16892, 22324.3, -16900.5, 22315.9, -16909, 22308.1, -16917.5, 22301, -16925.9, 22294.4, -16934.3, 22288.5, -16942.6, 22283, -16950.7, 22278.2, -16958.7, 22273.8, -16966.5, 22269.8, -16974.2, 22263.3, -16988.5, 22258.4, -17001.7, 22254.8, -17013.6, 22252.3, -17023.9, 22250.8, -17032.4, 22249.9, -17038.9, 22249.6, -17043.2, 22249.5, -17045.1, 22249.9, -17663.4, 22758.3, -18585.8, 23109.3, -19300.8, 23175.1, -19456.9, 23226.4, -19595.1, 23245.6, -19655.7, 23260, -19710.2, 23265.3, -19734.6, 23269.3, -19757.3, 23272, -19778, 23273.2, -19796.6, 23273.1, -19814.3, 23271.9, -19832.3, 23269.4, -19850.7, 23265.8, -19869.3, 23261, -19888.2, 23255.1, -19907.3, 23248.2, -19926.7, 23240.2, -19946.3, 23231.2, -19966.1, 23221.4, -19985.9, 23198.7, -20026.3, 23172.7, -20067, 23143.7, -20107.9, 23112, -20148.9, 23078, -20189.6, 23003.8, -20270.5, 22924.2, -20349, 22841.9, -20424, 22678.9, -20559.3, 22536.4, -20667, 22400.8, -20762.1, 21314.7, -20817.8, 19638.7, -20596.9, 19632.7, -18926.2, 21495.4, -18930.9, 21740.5, -18935.2, 21741.1, -18903.2, 21495.6, -18898.9, 19610.1, -18903.6, 19614.7, -20618.1, 21313.3, -20849.8, 22411.2, -20792.3, 22555.2, -20692.9, 22698.7, -20584.3, 22862.9, -20448.1, 22946.3, -20372.2, 23026.9, -20292.7, 23102, -20210.7, 23136.9, -20168.9, 23169.4, -20127, 23199.3, -20084.9, 23226.1, -20042.8, 23249.6, -20000.9, 23260.1, -19979.8, 23269.6, -19959, 23278.1, -19938.1, 23285.5, -19917.4, 23291.8, -19896.8, 23297, -19876.3, 23301, -19855.9, 23303.7, -19835.6, 23305.1, -19815.5, 23305.2, -19795.6, 23303.8, -19774.9, 23301, -19752.5, 23296.7, -19728.5, 23291.2, -19702.7, 23276.3, -19646.8, 23256.7, -19584.7, 23204.9, -19445.1, 23138.4, -19287.5, 22786.7, -18571, 22280.9, -17655.4, 22281.5, -17045.7, 22281.5, -17045.1, 22281.8, -17042.2, 22282.4, -17037.3, 22283.6, -17030.5, 22285.7, -17022, 22288.7, -17012, 22292.9, -17000.7, 22298.6, -16988.1, 22301.9, -16981.7, 22305.7, -16974.9, 22310, -16967.9, 22314.8, -16960.8, 22320, -16953.5, 22325.8, -16946.1, 22332.1, -16938.6, 22339, -16931.1, 22346.6, -16923.5, 22354.7, -16915.8, 22363.6, -16908.2, 22373.1, -16900.6, 22383.4, -16893, 22394.4, -16885.5, 22406.2, -16878.1, 22418.4, -16871, 22424.8, -16868, 22433.3, -16865, 22444.2, -16862.1, 22457, -16859.3, 22488.9, -16854.1, 22527.5, -16849.7, 22623.5, -16842.9, 22739.8, -16838.8, 23321.4, -16842, 24135.4, -16866.8, 24140.8, -13111, 21316, -13108.8, 19920.7, -16123, 19529.5, -16125.2, 19529.5, -15143.4, 20136.7, -15145.9, 20653.8, -14202.4, 20822.2, -13714.3, 20735.2, -13657.2, 20754.4, -13602.7, 20587.6, -13436.1, 20439.9, -13527.2, 20253.5, -13528.2, 19760.6, -12913.9, 18966.4, -12917, 18966.4, -12036, 18455.3, -12036.1, 18456.9, -12173.6, 17743, -12170.4, 17101.1, -11339.8, 10905.8, -11344.9, 10913.4, -10065.7, 12233.1, -10064.7, 12160.5, -9608.53, 12059.6, -9154.49, 11991.8, -8898.45, 11911.8, -8634.32, 11819, -8370.34, 11713, -8114.93, 11654.9, -7992.8, 11593.2, -7876, 11527.9, -7765.44, 11459.1, -7662.27, 11423.1, -7613.59, 11386.3, -7567.21, 11348.5, -7523.18, 11309.7, -7481.61, 11269.9, -7442.66, 11229, -7406.44, 11187.2, -7373.1, 11144.3, -7342.78, 11100.3, -7315.62, 11055.3, -7291.76, 11009.2, -7271.35, 10962, -7254.53, 10913.8, -7241.47, 10864.5, -7232.29, 10814.1, -7227.15, 10762.8, -7226.17, 10711, -7228.95, 10659.1, -7234.92, 10607, -7243.98, 10554.7, -7256.02, 10502.3, -7270.94, 10449.7, -7288.62, 10397.1, -7308.98, 10344.3, -7331.9, 10291.4, -7357.28, 10238.3, -7385.09, 10132.3, -7447.21, 10026.1, -7517.68, 9919.75, -7595.72, 9707.82, -7770.91, 9497.11, -7967, 9084.71, -8396.26, 8325.83, -9232.04, 8156.85, -9399.93, 8076.4, -9473.37, 7998.76, -9538.86, 7924.09, -9595.65, 7888.14, -9620.39, 7852.94, -9642.71, 7818.63, -9662.45, 7785.26, -9679.52, 7752.85, -9693.83, 7721.39, -9705.32, 6872.78, -9952.5, 6527.27, -10039.2, 6528.37, -11138.8, 8158.18, -11173.8, 6527.04, -11162.8, 6542.54, -13998.1, 5622.88, -12463.4, 4788.07, -13904.8, 4795.3, -11841, 4096.75, -11825.3, 2295.75, -11834.2, 2300.32, -10599, 2282.57, -10529.2, 2266.44, -10452.3, 2250.2, -10353.4, 2237.54, -10237.5, 2233.71, -10175, 2232.15, -10110.2, 2233.31, -10043.7, 2237.65, -9976.26, 2245.61, -9908.52, 2257.67, -9840.97, 2265.32, -9807.71, 2274.18, -9774.66, 2284.27, -9742.02, 2295.65, -9709.85, 2308.37, -9678.25, 2322.49, -9647.3, 2338.06, -9617.05, 2355.13, -9587.6, 2373.75, -9559.02, 2393.99, -9531.37, 2415.9, -9504.73, 2439.54, -9479.17, 2464.98, -9454.77, 2492.26, -9431.59, 2521.47, -9409.7, 2552.66, -9389.18, 2585.91, -9370.1, 2621.27, -9352.54, 2658.82, -9336.59, 2698.63, -9322.31, 2740.77, -9309.79, 2785.28, -9299.11, 2832.25, -9290.37, 2881.74, -9283.64, 2933.79, -9279.01, 2988.48, -9276.57, 3045.86, -9276.39, 3105.85, -9278.56, 3234.75, -9290.33, 3375.26, -9312.52, 3643.09, -9367.78, 3862.97, -9422.25, 4041.23, -9475.28, 4184.35, -9526.23, 4298.85, -9574.49, 4391.31, -9619.49, 4536.7, -9697.76, 4569.71, -9714.54, 4602.98, -9730, 4637.32, -9744.05, 4673.48, -9756.57, 4712.21, -9767.45, 4754.24, -9776.58, 4800.34, -9783.89, 4851.29, -9789.3, 4907.87, -9792.76, 4971, -9794.2, 5119.62, -9790.71, 5530.01, -9756.29, 5778.31, -9722.84, 6022.16, -9677.79, 6259.93, -9623.06, 6490.15, -9560.51, 6920.88, -9419.76, 7302.04, -9270.57, 7620.76, -9128.14, 7864.34, -9007.58, 8076.42, -8891.7, 8580.35, -8366.42, 8669.41, -8268.96, 8836.45, -8068.58, 9052.89, -7775.29, 9170.9, -7596.63, 9290.55, -7398.49, 9408.35, -7181.96, 9520.75, -6948.27, 9624.18, -6698.64, 9715.04, -6434.42, 9754.71, -6296.98, 9789.87, -6156.44, 9820.12, -6012.83, 9844.99, -5866.3, 9864.05, -5717.01, 9876.85, -5565.11, 9882.94, -5410.76, 9881.87, -5254.14, 9866.56, -4950.41, 9840.79, -4668.32, 9806.16, -4407.55, 9764.22, -4167.83, 9716.55, -3948.87, 9664.74, -3750.4, 9610.34, -3572.13, 9554.95, -3413.78, 9500.14, -3275.07, 9447.47, -3155.72, 9398.54, -3055.45, 9354.91, -2973.96, 9318.16, -2910.99, 9289.84, -2866.2, 9264.95, -2830.25, 8890.1, -2382.39, 8619.93, -2024.06, 8566.33, -1943.51, 8522.21, -1870.51, 8504.55, -1837.84, 8490, -1807.83, 8484.08, -1794.17, 8479.04, -1781.28, 8474.92, -1769.32, 8471.63, -1757.85, 8468.04, -1745.6, 8463.28, -1732.31, 8457.53, -1718.48, 8450.78, -1703.99, 8434.71, -1673.76, 8415.03, -1641.19, 8366.39, -1570.74, 8306.3, -1493.57, 8159.7, -1326.3, 7989.29, -1151.8, 7809.64, -983.215, 7635.25, -833.661, 7554.35, -769.956, 7480.14, -715.909, 7414.36, -673.134, 7384.86, -656.303, 7358.1, -642.941, 7330.16, -631.21, 7297.1, -619.126, 7217.16, -594.106, 7008.76, -541.349, 6465.29, -436.291, 5883.7, -354.623, 5627.75, -331.189, 5516.94, -325.339, 5421.15, -324.002, 4548.87, -336.599, 3990.88, -372.356, 3361.29, -451.206, 2213.18, -685.342, 1992.46, -726.764, 1894.19, -740.93, 1804.12, -749.846, 1762.55, -752.098, 1723.13, -752.79, 1686.03, -751.834, 1651.32, -749.161, 1618.89, -744.682, 1603.81, -741.791, 1589.23, -738.414, 1575.28, -734.567, 1561.98, -730.247, 1549.31, -725.448, 1536.91, -719.996, 1523.73, -714.156, 1509.48, -708.569, 1494.54, -703.394, 1478.83, -698.584, 1445.85, -690.223, 1410.3, -683.302, 1372.45, -677.796, 1332.33, -673.643, 1246.66, -669.272, 1154.08, -669.814, 1056.05, -674.967, 953.839, -684.435, 848.65, -697.943, 635.331, -735.822, 426.416, -786.353, 326.73, -815.719, 232.227, -847.388, 144.094, -881.128, 63.6224, -916.693, 44.549, -926.619, 26.8251, -937.505, 10.4623, -949.307, -4.55471, -961.99, -18.2412, -975.512, -30.6146, -989.826, -41.6959, -1004.88, -51.511, -1020.63, -60.0912, -1037.02, -67.4726, -1053.99, -73.6956, -1071.5, -78.8034, -1089.5, -82.8406, -1107.96, -85.8528, -1126.83, -87.8853, -1146.08, -88.9826, -1165.68, -89.1881, -1185.59, -88.5443, -1205.8, -87.0924, -1226.25, -84.8569, -1247.06, -78.2894, -1288.87, -69.0944, -1331.39, -57.587, -1374.25, -44.0159, -1417.34, -12.0914, -1502.48, 24.5582, -1585.3, 63.6787, -1663.76, 140.035, -1798.98, 222.617, -1926.6)
+polygon = PackedVector2Array(249.483, -1909.22, 167.412, -1782.41, 91.9392, -1648.74, 53.5158, -1571.68, 17.5337, -1490.38, -13.7622, -1406.91, -26.8662, -1365.29, -37.9939, -1323.86, -46.8319, -1283, -53.1326, -1242.87, -55.2188, -1223.41, -56.5865, -1204.15, -57.1899, -1185.25, -57.0001, -1166.74, -55.989, -1148.66, -54.1299, -1131.03, -51.3971, -1113.9, -47.7655, -1097.29, -43.2102, -1081.23, -37.7058, -1065.73, -31.2251, -1050.83, -23.7382, -1036.53, -15.2108, -1022.84, -5.60408, -1009.79, 5.12646, -997.374, 17.0301, -985.614, 30.1597, -974.526, 44.5702, -964.134, 60.3167, -954.464, 77.4812, -945.537, 156.286, -910.714, 243.034, -877.508, 336.337, -846.243, 434.701, -817.262, 641.893, -767.142, 853.487, -729.575, 957.353, -716.241, 1058.36, -706.883, 1155.02, -701.8, 1245.93, -701.264, 1329.87, -705.548, 1368.5, -709.551, 1404.94, -714.849, 1438.86, -721.45, 1470.21, -729.401, 1484.62, -733.816, 1498.4, -738.591, 1511.4, -743.687, 1523.99, -749.272, 1537.2, -755.069, 1551.36, -760.435, 1566.08, -765.216, 1581.36, -769.432, 1597.19, -773.098, 1613.69, -776.256, 1647.9, -780.978, 1684.39, -783.792, 1723, -784.789, 1763.69, -784.078, 1806.56, -781.752, 1898.05, -772.696, 1997.7, -758.333, 2219.33, -716.745, 3366.47, -482.782, 3993.9, -404.214, 4550.12, -368.574, 5421.15, -356.002, 5515.88, -357.321, 5625.45, -363.106, 5880.01, -386.41, 6460.03, -467.855, 7001.79, -572.581, 7208.45, -624.898, 7286.83, -649.431, 7318.47, -660.999, 7344.76, -672.025, 7369.78, -684.525, 7397.71, -700.456, 7461.99, -742.264, 7535.02, -795.464, 7614.93, -858.383, 7788.27, -1007.03, 7966.89, -1174.65, 8136.21, -1348.03, 8281.64, -1513.96, 8340.59, -1589.67, 8388.16, -1658.56, 8406.88, -1689.55, 8422.14, -1718.26, 8428.25, -1731.38, 8433.43, -1743.85, 8437.6, -1755.49, 8440.89, -1766.77, 8444.4, -1778.95, 8449, -1792.32, 8454.5, -1806.36, 8460.91, -1821.17, 8476.07, -1852.43, 8494.44, -1886.4, 8539.31, -1960.66, 8593.83, -2042.56, 8865.05, -2402.3, 9239.49, -2849.65, 9263.16, -2883.86, 9290.82, -2927.61, 9326.98, -2989.58, 9370.05, -3070.02, 9418.45, -3169.2, 9470.61, -3287.41, 9524.96, -3424.95, 9579.93, -3582.08, 9633.95, -3759.11, 9685.43, -3956.32, 9732.82, -4173.99, 9774.53, -4412.42, 9808.99, -4671.88, 9834.64, -4952.68, 9849.89, -5255.06, 9850.95, -5410.23, 9844.91, -5563.13, 9832.23, -5713.64, 9813.34, -5861.59, 9788.68, -6006.85, 9758.69, -6149.26, 9723.81, -6288.66, 9684.53, -6424.78, 9594.26, -6687.31, 9491.54, -6935.21, 9379.87, -7167.37, 9262.79, -7382.56, 9143.85, -7579.54, 9026.66, -7756.96, 8811.27, -8048.83, 8645.3, -8247.91, 8556.99, -8344.55, 8056.98, -8866.28, 7849.58, -8979.18, 7607.13, -9099.18, 7289.68, -9241.05, 6910.08, -9389.64, 6480.99, -9529.85, 6252.14, -9592.02, 6015.66, -9646.46, 5773.27, -9691.24, 5526.53, -9724.48, 5117.91, -9758.76, 4970.99, -9762.2, 4909.21, -9760.79, 4853.96, -9757.42, 4804.54, -9752.17, 4760.15, -9745.13, 4719.93, -9736.39, 4683.05, -9726.03, 4648.62, -9714.11, 4615.79, -9700.67, 4583.7, -9685.76, 4551.53, -9669.41, 4405.9, -9591.01, 4312.07, -9545.34, 4195.94, -9496.4, 4051.17, -9444.86, 3871.38, -9391.38, 3650.17, -9336.57, 3380.99, -9281.04, 3238.7, -9258.57, 3107.89, -9246.63, 3046.39, -9244.39, 2987.72, -9244.58, 2931.66, -9247.08, 2878.16, -9251.84, 2827.17, -9258.78, 2778.62, -9267.82, 2732.47, -9278.88, 2688.67, -9291.9, 2647.16, -9306.79, 2607.89, -9323.48, 2570.82, -9341.88, 2535.9, -9361.92, 2503.07, -9383.51, 2472.3, -9406.58, 2443.53, -9431.02, 2416.71, -9456.75, 2391.79, -9483.69, 2368.72, -9511.75, 2347.43, -9540.82, 2327.87, -9570.84, 2309.98, -9601.7, 2293.7, -9633.33, 2278.97, -9665.64, 2265.72, -9698.54, 2253.9, -9731.95, 2243.43, -9765.79, 2234.27, -9799.98, 2226.31, -9834.57, 2213.95, -9903.83, 2205.78, -9973.36, 2201.34, -10042.4, 2200.15, -10110.3, 2201.74, -10176.4, 2205.65, -10240.2, 2218.5, -10357.7, 2234.99, -10458.2, 2251.41, -10536.4, 2268.58, -10603, 2273.15, -11856.8, 4096.53, -11857.3, 4772.5, -11863.4, 4781.6, -13936, 4869.81, -13686.4, 4951.09, -13444.4, 5057.02, -13169.8, 5117.66, -13032.3, 5182.71, -12900.5, 5251.56, -12779.3, 5287.05, -12724.3, 5323.26, -12673.6, 5360.1, -12627.9, 5378.56, -12607.3, 5397.17, -12588, 5415.85, -12570.3, 5434.56, -12554.3, 5453.29, -12539.9, 5472, -12527.3, 5490.67, -12516.5, 5509.27, -12507.5, 5527.79, -12500.5, 5546.22, -12495.3, 5564.56, -12492.2, 5582.86, -12491.1, 5601.16, -12492, 5619.6, -12495, 5638.36, -12500.1, 5657.43, -12507.1, 5676.72, -12515.8, 5696.2, -12526.3, 5715.85, -12538.5, 5735.64, -12552.4, 5755.53, -12567.9, 5775.51, -12584.9, 5795.56, -12603.4, 5815.55, -12623.2, 5855.82, -12667.2, 5895.9, -12715.9, 5935.67, -12768.9, 6014.24, -12886.3, 6090.24, -13014.8, 6231.73, -13289.5, 6353.19, -13559.8, 6448.04, -13793.1, 6549.7, -14029.2, 6549.7, -11185.4, 8190.18, -11174.4, 6551.31, -11116.4, 6552.41, -10059, 6881, -9983.43, 7731.35, -9735.72, 7764.81, -9723.51, 7799.01, -9708.42, 7833.9, -9690.58, 7869.49, -9670.1, 7905.78, -9647.09, 7942.86, -9621.57, 8018.77, -9563.83, 8097.51, -9497.42, 8178.91, -9423.1, 8348.96, -9254.16, 9108.09, -8418.1, 9519.56, -7989.8, 9728.92, -7794.97, 9939.41, -7620.96, 10044.4, -7543.92, 10149.3, -7474.36, 10253.8, -7413.07, 10305.7, -7385.88, 10357.6, -7361, 10409.2, -7338.58, 10460.6, -7318.72, 10511.8, -7301.5, 10562.7, -7287.01, 10613.4, -7275.35, 10663.7, -7266.6, 10713.7, -7260.84, 10763.4, -7258.17, 10812.2, -7259.09, 10859.9, -7263.96, 10906.7, -7272.67, 10952.5, -7285.07, 10997.3, -7301.07, 11041.3, -7320.54, 11084.4, -7343.38, 11126.6, -7369.47, 11168, -7398.69, 11208.5, -7430.93, 11248.1, -7466.07, 11286.8, -7503.97, 11324.6, -7544.52, 11361.6, -7587.59, 11397.7, -7633.05, 11432.9, -7680.66, 11500.9, -7782.46, 11565.3, -7891.6, 11626.3, -8007.15, 11683.8, -8127.95, 11789.1, -8381.78, 11881.3, -8644.27, 11961, -8907.19, 12028.5, -9162.06, 12129.1, -9614.71, 12208.7, -10044.1, 10890.8, -10043.1, 10883.2, -11367.5, 17086.9, -11368.6, 17728.8, -12199.2, 18479.7, -12196, 18478.1, -12058.5, 18943.8, -12058.6, 18943.8, -12939.6, 19746.8, -12942.7, 20239.7, -13557, 20448.9, -13558, 20584, -13467.9, 20723.2, -13609.9, 20705, -13667.8, 20791.2, -13722, 20499.2, -14081.8, 19928, -14970.7, 19922.5, -14978.2, 19916.7, -14985.3, 19910.7, -14992, 19904.5, -14998.1, 19898.2, -15003.9, 19891.6, -15009.2, 19884.8, -15014, 19877.9, -15018.5, 19870.8, -15022.7, 19863.5, -15026.4, 19856, -15029.8, 19848.4, -15032.8, 19840.6, -15035.5, 19832.7, -15037.9, 19824.7, -15040, 19816.5, -15041.7, 19808.3, -15043.2, 19800, -15044.3, 19782.8, -15045.8, 19765.5, -15046.2, 19748, -15045.7, 19730.4, -15044.2, 19712.8, -15042, 19695.4, -15039, 19678.2, -15035.5, 19644.6, -15026.8, 19613.2, -15016.9, 19584.6, -15006.3, 19559.7, -14996, 19523.1, -14978.9, 19494, -14972.4, 19507, -16147.9, 19937.9, -16150, 21333.3, -13135.7, 22505.9, -13113.9, 22600, -14919.8, 22637.7, -16185.3, 22628.5, -16613.6, 22622.2, -16684.6, 22618.3, -16713.7, 22614.1, -16738.3, 22609.4, -16758, 22604.7, -16772.3, 22600.7, -16780.3, 22597.2, -16783.5, 22542.4, -16816.4, 22483.6, -16855.9, 22372.4, -16938.2, 22251.1, -17038.5, 22249.9, -17663.4, 22758.3, -18585.8, 23109.3, -19300.8, 23175.1, -19456.9, 23226.4, -19595.1, 23245.6, -19655.7, 23260, -19710.2, 23265.3, -19734.6, 23269.3, -19757.3, 23272, -19778, 23273.2, -19796.6, 23273.1, -19814.3, 23271.9, -19832.3, 23269.4, -19850.7, 23265.8, -19869.3, 23261, -19888.2, 23255.1, -19907.3, 23248.2, -19926.7, 23240.2, -19946.3, 23231.2, -19966.1, 23221.4, -19985.9, 23198.7, -20026.3, 23172.7, -20067, 23143.7, -20107.9, 23112, -20148.9, 23078, -20189.6, 23003.8, -20270.5, 22924.2, -20349, 22841.9, -20424, 22678.9, -20559.3, 22536.4, -20667, 22400.8, -20762.1, 21314.7, -20817.8, 19638.7, -20596.9, 19632.7, -18926.2, 21495.4, -18930.9, 21740.5, -18935.2, 21741.1, -18903.2, 21495.6, -18898.9, 19610.1, -18903.6, 19614.7, -20618.1, 21313.3, -20849.8, 22411.2, -20792.3, 22555.2, -20692.9, 22698.7, -20584.3, 22862.9, -20448.1, 22946.3, -20372.2, 23026.9, -20292.7, 23102, -20210.7, 23136.9, -20168.9, 23169.4, -20127, 23199.3, -20084.9, 23226.1, -20042.8, 23249.6, -20000.9, 23260.1, -19979.8, 23269.6, -19959, 23278.1, -19938.1, 23285.5, -19917.4, 23291.8, -19896.8, 23297, -19876.3, 23301, -19855.9, 23303.7, -19835.6, 23305.1, -19815.5, 23305.2, -19795.6, 23303.8, -19774.9, 23301, -19752.5, 23296.7, -19728.5, 23291.2, -19702.7, 23276.3, -19646.8, 23256.7, -19584.7, 23204.9, -19445.1, 23138.4, -19287.5, 22786.7, -18571, 22280.9, -17655.4, 22279.9, -17052.3, 22392, -16963.5, 22502, -16882, 22559.5, -16843.4, 22616.8, -16808.9, 22626.3, -16799.5, 22634.1, -16784.9, 22640.2, -16766.8, 22645.4, -16744.7, 22650, -16718.6, 22654, -16688.2, 22660.5, -16615.4, 22669.7, -16185.2, 22631.9, -14918.5, 22527.7, -13090.4, 21315.9, -13108.9, 19920.7, -16123, 19529.4, -16125.1, 19510.7, -14999.7, 19508.9, -15007.6, 19546.8, -15025.3, 19573, -15036.1, 19602.8, -15047.1, 19635.8, -15057.6, 19671, -15066.7, 19689.5, -15070.5, 19708.1, -15073.6, 19727.1, -15076, 19746.2, -15077.6, 19765.4, -15078.2, 19784.6, -15077.7, 19803.6, -15076.1, 19813.2, -15074.8, 19822.6, -15073.1, 19832, -15071.1, 19841.3, -15068.7, 19850.5, -15066, 19859.6, -15062.8, 19868.6, -15059.2, 19877.4, -15055.2, 19886.1, -15050.8, 19894.6, -15045.8, 19902.9, -15040.4, 19911, -15034.6, 19918.9, -15028.2, 19926.5, -15021.4, 19933.9, -15014, 19941, -15006.1, 19947.8, -14997.7, 19954.4, -14988.8, 20525.2, -14100.4, 20822.8, -13716.8, 20735.2, -13657.2, 20754.4, -13602.7, 20587.6, -13436.1, 20439.9, -13527.2, 20253.5, -13528.2, 19760.6, -12913.9, 18966.4, -12917, 18966.4, -12036, 18455.3, -12036.1, 18456.9, -12173.6, 17743, -12170.4, 17101.1, -11339.8, 10905.8, -11344.9, 10913.4, -10065.7, 12233.1, -10064.7, 12160.5, -9608.53, 12059.6, -9154.49, 11991.8, -8898.45, 11911.8, -8634.32, 11819, -8370.34, 11713, -8114.93, 11654.9, -7992.8, 11593.2, -7876, 11527.9, -7765.44, 11459.1, -7662.27, 11423.1, -7613.59, 11386.3, -7567.21, 11348.5, -7523.18, 11309.7, -7481.61, 11269.9, -7442.66, 11229, -7406.44, 11187.2, -7373.1, 11144.3, -7342.78, 11100.3, -7315.62, 11055.3, -7291.76, 11009.2, -7271.35, 10962, -7254.53, 10913.8, -7241.47, 10864.5, -7232.29, 10814.1, -7227.15, 10762.8, -7226.17, 10711, -7228.95, 10659.1, -7234.92, 10607, -7243.98, 10554.7, -7256.02, 10502.3, -7270.94, 10449.7, -7288.62, 10397.1, -7308.98, 10344.3, -7331.9, 10291.4, -7357.28, 10238.3, -7385.09, 10132.3, -7447.21, 10026.1, -7517.68, 9919.75, -7595.72, 9707.82, -7770.91, 9497.11, -7967, 9084.71, -8396.26, 8325.83, -9232.04, 8156.85, -9399.93, 8076.4, -9473.37, 7998.76, -9538.86, 7924.09, -9595.65, 7888.14, -9620.39, 7852.94, -9642.71, 7818.63, -9662.45, 7785.26, -9679.52, 7752.85, -9693.83, 7721.39, -9705.32, 6872.78, -9952.5, 6527.27, -10039.2, 6528.37, -11138.8, 8158.18, -11173.8, 6527.04, -11162.8, 6544, -13997.8, 6477.87, -13781.5, 6382.61, -13547.2, 6260.56, -13275.6, 6118.25, -12999.3, 6041.32, -12869.3, 5961.78, -12750.4, 5921.07, -12696.1, 5879.98, -12646.2, 5838.62, -12601.1, 5817.68, -12580.3, 5796.75, -12561, 5775.74, -12543.1, 5754.65, -12526.7, 5733.49, -12511.8, 5712.25, -12498.6, 5690.92, -12487.1, 5669.52, -12477.4, 5648.03, -12469.6, 5626.4, -12463.8, 5604.57, -12460.2, 5582.67, -12459.1, 5560.87, -12460.4, 5539.24, -12464.1, 5517.82, -12470, 5496.64, -12478.1, 5475.7, -12488.2, 5455.02, -12500.1, 5434.59, -12513.9, 5414.39, -12529.4, 5394.42, -12546.6, 5374.66, -12565.3, 5355.12, -12585.5, 5335.71, -12607.2, 5297.77, -12654.3, 5260.59, -12706.3, 5224.2, -12762.7, 5154.44, -12885.5, 5088.67, -13018.7, 5027.44, -13157.6, 4920.99, -13433.5, 4839.29, -13676.7, 4786.19, -13904.4, 4795.3, -11841, 4096.75, -11825.3, 2295.75, -11834.2, 2300.32, -10599, 2282.57, -10529.2, 2266.44, -10452.3, 2250.2, -10353.4, 2237.54, -10237.5, 2233.71, -10175, 2232.15, -10110.2, 2233.31, -10043.7, 2237.65, -9976.26, 2245.61, -9908.52, 2257.67, -9840.97, 2265.32, -9807.71, 2274.18, -9774.66, 2284.27, -9742.02, 2295.65, -9709.85, 2308.37, -9678.25, 2322.49, -9647.3, 2338.06, -9617.05, 2355.13, -9587.6, 2373.75, -9559.02, 2393.99, -9531.37, 2415.9, -9504.73, 2439.54, -9479.17, 2464.98, -9454.77, 2492.26, -9431.59, 2521.47, -9409.7, 2552.66, -9389.18, 2585.91, -9370.1, 2621.27, -9352.54, 2658.82, -9336.59, 2698.63, -9322.31, 2740.77, -9309.79, 2785.28, -9299.11, 2832.25, -9290.37, 2881.74, -9283.64, 2933.79, -9279.01, 2988.48, -9276.57, 3045.86, -9276.39, 3105.85, -9278.56, 3234.75, -9290.33, 3375.26, -9312.52, 3643.09, -9367.78, 3862.97, -9422.25, 4041.23, -9475.28, 4184.35, -9526.23, 4298.85, -9574.49, 4391.31, -9619.49, 4536.7, -9697.76, 4569.71, -9714.54, 4602.98, -9730, 4637.32, -9744.05, 4673.48, -9756.57, 4712.21, -9767.45, 4754.24, -9776.58, 4800.34, -9783.89, 4851.29, -9789.3, 4907.87, -9792.76, 4971, -9794.2, 5119.62, -9790.71, 5530.01, -9756.29, 5778.31, -9722.84, 6022.16, -9677.79, 6259.93, -9623.06, 6490.15, -9560.51, 6920.88, -9419.76, 7302.04, -9270.57, 7620.76, -9128.14, 7864.34, -9007.58, 8076.42, -8891.7, 8580.35, -8366.42, 8669.41, -8268.96, 8836.45, -8068.58, 9052.89, -7775.29, 9170.9, -7596.63, 9290.55, -7398.49, 9408.35, -7181.96, 9520.75, -6948.27, 9624.18, -6698.64, 9715.04, -6434.42, 9754.71, -6296.98, 9789.87, -6156.44, 9820.12, -6012.83, 9844.99, -5866.3, 9864.05, -5717.01, 9876.85, -5565.11, 9882.94, -5410.76, 9881.87, -5254.14, 9866.56, -4950.41, 9840.79, -4668.32, 9806.16, -4407.55, 9764.22, -4167.83, 9716.55, -3948.87, 9664.74, -3750.4, 9610.34, -3572.13, 9554.95, -3413.78, 9500.14, -3275.07, 9447.47, -3155.72, 9398.54, -3055.45, 9354.91, -2973.96, 9318.16, -2910.99, 9289.84, -2866.2, 9264.95, -2830.25, 8890.1, -2382.39, 8619.93, -2024.06, 8566.33, -1943.51, 8522.21, -1870.51, 8504.55, -1837.84, 8490, -1807.83, 8484.08, -1794.17, 8479.04, -1781.28, 8474.92, -1769.32, 8471.63, -1757.85, 8468.04, -1745.6, 8463.28, -1732.31, 8457.53, -1718.48, 8450.78, -1703.99, 8434.71, -1673.76, 8415.03, -1641.19, 8366.39, -1570.74, 8306.3, -1493.57, 8159.7, -1326.3, 7989.29, -1151.8, 7809.64, -983.215, 7635.25, -833.661, 7554.35, -769.956, 7480.14, -715.909, 7414.36, -673.134, 7384.86, -656.303, 7358.1, -642.941, 7330.16, -631.21, 7297.1, -619.126, 7217.16, -594.106, 7008.76, -541.349, 6465.29, -436.291, 5883.7, -354.623, 5627.75, -331.189, 5516.94, -325.339, 5421.15, -324.002, 4548.87, -336.599, 3990.88, -372.356, 3361.29, -451.206, 2213.18, -685.342, 1992.46, -726.764, 1894.19, -740.93, 1804.12, -749.846, 1762.55, -752.098, 1723.13, -752.79, 1686.03, -751.834, 1651.32, -749.161, 1618.89, -744.682, 1603.81, -741.791, 1589.23, -738.414, 1575.28, -734.567, 1561.98, -730.247, 1549.31, -725.448, 1536.91, -719.996, 1523.73, -714.156, 1509.48, -708.569, 1494.54, -703.394, 1478.83, -698.584, 1445.85, -690.223, 1410.3, -683.302, 1372.45, -677.796, 1332.33, -673.643, 1246.66, -669.272, 1154.08, -669.814, 1056.05, -674.967, 953.839, -684.435, 848.65, -697.943, 635.331, -735.822, 426.416, -786.353, 326.73, -815.719, 232.227, -847.388, 144.094, -881.128, 63.6224, -916.693, 44.549, -926.619, 26.8251, -937.505, 10.4623, -949.307, -4.55471, -961.99, -18.2412, -975.512, -30.6146, -989.826, -41.6959, -1004.88, -51.511, -1020.63, -60.0912, -1037.02, -67.4726, -1053.99, -73.6956, -1071.5, -78.8034, -1089.5, -82.8406, -1107.96, -85.8528, -1126.83, -87.8853, -1146.08, -88.9826, -1165.68, -89.1881, -1185.59, -88.5443, -1205.8, -87.0924, -1226.25, -84.8569, -1247.06, -78.2894, -1288.87, -69.0944, -1331.39, -57.587, -1374.25, -44.0159, -1417.34, -12.0914, -1502.48, 24.5582, -1585.3, 63.6787, -1663.76, 140.035, -1798.98, 222.617, -1926.6)
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Walls"]
 position = Vector2(-1834, -232)
@@ -1878,7 +1864,7 @@ collision_polygon_node_path = NodePath("../CollisionPolygon2D")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/StaticBody2D2"]
 visible = false
 modulate = Color(1, 1, 1, 0.3)
-polygon = PackedVector2Array(2056.3, -1704.54, 2488.34, -1846.02, 2801.6, -1930.46, 2917.1, -1949.18, 2939.62, -1950.1, 2958.39, -1949.11, 2967.17, -1947.7, 2975.12, -1945.56, 2982.57, -1942.39, 2983.33, -1941.05, 3679.45, -1965.24, 4758.27, -1604.71, 6604.95, -1454.69, 8228.83, -1944.58, 8598.74, -2817.83, 9333.13, -3721.97, 9312.32, -5306.52, 8821.03, -6742.63, 7136.77, -6986.33, 4525.51, -6949.25, 3203.73, -8118.05, 2967.37, -14181.4, 4626.04, -12279.5, 5990.98, -12276.2, 5990.98, -14305.1, 7213.4, -14306.5, 7478.36, -13279.1, 8199.7, -14441.3, 9094.22, -14438.8, 9179.18, -12067.8, 9147.2, -12066.8, 9071.98, -14415.8, 8215.18, -14413.3, 7473.54, -13247.5, 7193.88, -14281.1, 6013.6, -14282.5, 6013.6, -12253.6, 4612.74, -12250.3, 2979.15, -14151.6, 3232.63, -8131.79, 4536.63, -6979.25, 7138.85, -7018.27, 8841.45, -6767.27, 9343.84, -5312, 9363.35, -3711.47, 8626.16, -2801.33, 8250.19, -1920.76, 6608.35, -1422.87, 4751.85, -1573.36, 3674.85, -1933.58, 2974.59, -1910.27, 2967.43, -1914.2, 2964.78, -1915.28, 2960.5, -1916.4, 2955.01, -1917.29, 2939.42, -1918.1, 2920.31, -1917.34, 2808.34, -1899.18, 2497.49, -1815.35, 2066.26, -1674.12)
+polygon = PackedVector2Array(2056.3, -1704.54, 2488.34, -1846.02, 2801.6, -1930.46, 2917.1, -1949.18, 2939.62, -1950.1, 2958.39, -1949.11, 2967.17, -1947.7, 2975.12, -1945.56, 2982.57, -1942.39, 2983.33, -1941.05, 3679.45, -1965.24, 4758.27, -1604.71, 6604.95, -1454.69, 8228.83, -1944.58, 8598.74, -2817.83, 9333.13, -3721.97, 9312.32, -5306.52, 8821.03, -6742.63, 7136.77, -6986.33, 4525.51, -6949.25, 3203.73, -8118.05, 2967.37, -14181.4, 4626.04, -12279.5, 5990.98, -12276.2, 5990.98, -14305.1, 7214.33, -14305.7, 7271.78, -13811.3, 7307.1, -13628.6, 7354.2, -13463.7, 7382.33, -13395.1, 7397.43, -13365.7, 7413.3, -13339.8, 7429.77, -13317.8, 7446.96, -13299.9, 7455.34, -13292.9, 7463.98, -13286.9, 7472.66, -13282.1, 7481.15, -13278.4, 7489.37, -13276.2, 7497.79, -13275.5, 7506.82, -13276.2, 7516.56, -13278.4, 7527.02, -13282.2, 7538.13, -13287.5, 7549.82, -13294.4, 7561.85, -13302.8, 7587.74, -13324.5, 7614.63, -13351.4, 7671.68, -13420.5, 7791.93, -13604.3, 7911.24, -13822.2, 8198.81, -14440.8, 9094.22, -14438.8, 9179.18, -12067.8, 9147.2, -12066.8, 9071.98, -14415.8, 8216.07, -14413.8, 7939.83, -13807.8, 7819.37, -13587.8, 7697.45, -13401.6, 7638.32, -13329.9, 7609.36, -13300.9, 7581.29, -13277.4, 7567.13, -13267.5, 7553.22, -13259.3, 7539.34, -13252.6, 7525.45, -13247.7, 7511.55, -13244.6, 7497.65, -13243.5, 7483.9, -13244.7, 7470.75, -13248.2, 7458.54, -13253.4, 7447.02, -13259.8, 7435.96, -13267.5, 7425.14, -13276.5, 7405.38, -13297.1, 7386.82, -13321.8, 7369.53, -13350.1, 7353.27, -13381.7, 7323.97, -13453.2, 7275.98, -13621.2, 7240.13, -13806.5, 7192.95, -14281.9, 6013.6, -14282.5, 6013.6, -12253.6, 4612.74, -12250.3, 2979.15, -14151.6, 3232.63, -8131.79, 4536.63, -6979.25, 7138.85, -7018.27, 8841.45, -6767.27, 9343.84, -5312, 9363.35, -3711.47, 8626.16, -2801.33, 8250.19, -1920.76, 6608.35, -1422.87, 4751.85, -1573.36, 3674.85, -1933.58, 2974.59, -1910.27, 2967.43, -1914.2, 2964.78, -1915.28, 2960.5, -1916.4, 2955.01, -1917.29, 2939.42, -1918.1, 2920.31, -1917.34, 2808.34, -1899.18, 2497.49, -1815.35, 2066.26, -1674.12)
 
 [node name="Stage 5" type="StaticBody2D" parent="Walls"]
 position = Vector2(8247, -12790)
@@ -1896,7 +1882,7 @@ collision_polygon_node_path = NodePath("../CollisionPolygon2D")
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Walls/Stage 5"]
 visible = false
 modulate = Color(1, 1, 1, 0.3)
-polygon = PackedVector2Array(-907.321, 457.654, 846.956, 1344, 276.683, 2338.82, -713.2, 2339.32, 283.234, 2346.53, 955.039, 3299.14, 1882.99, 4537.42, 2853.33, 3263.43, 2041.06, 3258.96, 2041.12, 643.874, 8829.04, 639.92, 9468.21, 195.183, 10217.2, 199.131, 10218.3, -1011.41, 10034.2, -1011.41, 10034.2, -1653.63, 11232.8, -1642.87, 10738.2, -1665.88, 10751.4, -4018.92, 11699.4, -4023.58, 13016.4, -3998.89, 13061.2, -3999.4, 13167.3, -4009.85, 13229.1, -4022.86, 13259.6, -4031.92, 13289.1, -4043, 13316.8, -4056.17, 13342.2, -4071.72, 13353.4, -4080.14, 13364, -4089.27, 13373.6, -4099, 13382.2, -4109.41, 13412.9, -4152.8, 13435.3, -4190.4, 13450.8, -4222.09, 13460.6, -4247.79, 13466, -4267.48, 13468.4, -4281.12, 13468.9, -4288.77, 13468.9, -4292.54, 13561, -4838.8, 13471.6, -4835.28, 13467.7, -5548.68, 13816.2, -5940.86, 13941.7, -6110, 14050.4, -6285.41, 14093.1, -6371.2, 14125.5, -6454.26, 14137.1, -6493.77, 14145.5, -6532.06, 14150.3, -6568.7, 14151.4, -6603.64, 14149, -6638.17, 14143.8, -6673.14, 14125.3, -6745.31, 14097.4, -6818.26, 14061.6, -6891.14, 13972.4, -7034.27, 13870.8, -7166.49, 13680.9, -7372.07, 13611.4, -7449.26, 13476.6, -6131.79, 13444.8, -6135.26, 13600.3, -7479.26, 13703.6, -7394.62, 13895.3, -7187.12, 13998.7, -7052.5, 14089.6, -6906.67, 14126.7, -6831.03, 14155.8, -6755.02, 14175.2, -6679.49, 14180.8, -6641.61, 14183.4, -6604.24, 14182.2, -6566.13, 14177, -6526.57, 14168.2, -6485.85, 14155.8, -6443.92, 14122.4, -6358.24, 14078.4, -6269.84, 13968.1, -6092.02, 13841, -5920.65, 13497.6, -5537.28, 13493.9, -4858.24, 13585.1, -4859.94, 13500.8, -4290.36, 13500.9, -4287.98, 13500.1, -4277.28, 13497.2, -4260.5, 13491, -4237.82, 13480.1, -4209.35, 13463.4, -4175.17, 13439.7, -4135.37, 13407.6, -4089.93, 13397.3, -4077.5, 13385.8, -4065.92, 13373.5, -4055.22, 13360.1, -4045.24, 13332.1, -4028.04, 13301.6, -4013.54, 13269.8, -4001.59, 13237, -3991.84, 13172.2, -3978.22, 13062.9, -3967.44, 13016.3, -3966.89, 11699.1, -3991.58, 10774, -3996.24, 10761.7, -1687.65, 11264.8, -1641.77, 10056.8, -1631.01, 10056.8, -1034.03, 10240.9, -1034.03, 10239.8, 221.769, 9477.79, 225.717, 8838.62, 670.454, 2063.74, 666.5, 2063.8, 3236.46, 2882.07, 3249.35, 1882.95, 4569.42, 929.182, 3318, 268.186, 2374.77, -745.2, 2339.22, 260.478, 2311.22, 816.304, 1353.19, -921.679, 486.252)
+polygon = PackedVector2Array(-907.321, 457.654, 846.956, 1344, 276.683, 2338.82, -713.2, 2339.32, 283.234, 2346.53, 955.039, 3299.14, 1882.99, 4537.42, 2853.33, 3263.43, 2041.06, 3258.96, 2041.12, 643.874, 8829.04, 639.92, 9468.21, 195.183, 10217.2, 199.131, 10218.3, -1011.41, 10034.2, -1011.41, 10034.2, -1653.63, 11232.8, -1642.87, 10738.2, -1665.88, 10746.7, -3797.11, 10749.2, -3814.6, 10753.1, -3830.98, 10758.2, -3846.67, 10764.6, -3861.66, 10772.2, -3875.94, 10780.9, -3889.5, 10790.7, -3902.34, 10801.7, -3914.66, 10825.9, -3936.65, 10853.7, -3956.25, 10884.5, -3973.44, 10918.1, -3988.49, 10991.4, -4012.32, 11072.1, -4029.3, 11243.6, -4046.25, 11558.9, -4038.66, 11700.2, -4023.55, 13016.4, -3998.89, 13061.2, -3999.4, 13167.3, -4009.85, 13229.1, -4022.86, 13259.6, -4031.92, 13289.1, -4043, 13316.8, -4056.17, 13342.2, -4071.72, 13353.4, -4080.14, 13364, -4089.27, 13373.6, -4099, 13382.2, -4109.41, 13412.9, -4152.8, 13435.3, -4190.4, 13450.8, -4222.09, 13460.6, -4247.79, 13466, -4267.48, 13468.4, -4281.12, 13468.9, -4288.77, 13468.9, -4292.54, 13561, -4838.8, 13471.6, -4835.28, 13467.7, -5548.68, 13816.2, -5940.86, 13941.7, -6110, 14050.4, -6285.41, 14093.1, -6371.2, 14125.5, -6454.26, 14137.1, -6493.77, 14145.5, -6532.06, 14150.3, -6568.7, 14151.4, -6603.64, 14149, -6638.17, 14143.8, -6673.14, 14125.3, -6745.31, 14097.4, -6818.26, 14061.6, -6891.14, 13972.4, -7034.27, 13870.8, -7166.49, 13680.9, -7372.07, 13611.4, -7449.26, 13476.6, -6131.79, 13444.8, -6135.26, 13600.3, -7479.26, 13703.6, -7394.62, 13895.3, -7187.12, 13998.7, -7052.5, 14089.6, -6906.67, 14126.7, -6831.03, 14155.8, -6755.02, 14175.2, -6679.49, 14180.8, -6641.61, 14183.4, -6604.24, 14182.2, -6566.13, 14177, -6526.57, 14168.2, -6485.85, 14155.8, -6443.92, 14122.4, -6358.24, 14078.4, -6269.84, 13968.1, -6092.02, 13841, -5920.65, 13497.6, -5537.28, 13493.9, -4858.24, 13585.1, -4859.94, 13500.8, -4290.36, 13500.9, -4287.98, 13500.1, -4277.28, 13497.2, -4260.5, 13491, -4237.82, 13480.1, -4209.35, 13463.4, -4175.17, 13439.7, -4135.37, 13407.6, -4089.93, 13397.3, -4077.5, 13385.8, -4065.92, 13373.5, -4055.22, 13360.1, -4045.24, 13332.1, -4028.04, 13301.6, -4013.54, 13269.8, -4001.59, 13237, -3991.84, 13172.2, -3978.22, 13062.9, -3967.44, 13016.3, -3966.89, 11698.2, -3991.61, 11556.8, -4006.73, 11244.8, -4014.27, 11077, -3997.67, 10999.7, -3981.4, 10929.6, -3958.63, 10898.8, -3944.83, 10870.7, -3929.16, 10845.9, -3911.68, 10824.4, -3892.14, 10815.4, -3881.97, 10807.1, -3871.11, 10799.8, -3859.76, 10793.4, -3847.87, 10788.1, -3835.42, 10783.9, -3822.36, 10780.7, -3808.66, 10778.6, -3794.71, 10761.7, -1687.64, 11264.8, -1641.77, 10056.8, -1631.01, 10056.8, -1034.03, 10240.9, -1034.03, 10239.8, 221.769, 9477.79, 225.717, 8838.62, 670.454, 2063.74, 666.5, 2063.8, 3236.46, 2882.07, 3249.35, 1882.95, 4569.42, 929.182, 3318, 268.186, 2374.77, -745.2, 2339.22, 260.478, 2311.22, 816.304, 1353.19, -921.679, 486.252)
 
 [node name="Stage 6" type="StaticBody2D" parent="Walls"]
 position = Vector2(-13945, -4734)
@@ -1923,19 +1909,23 @@ tile_map_data = PackedByteArray("AAC6AKr/AAACAAAAAAC6AKv/AAACAAAAAAC6AKz/AAACAAA
 tile_set = SubResource("TileSet_vtht3")
 
 [node name="TileMapLayerAngled" type="TileMapLayer" parent="GraplingTiles"]
-tile_map_data = PackedByteArray("AADqASkBAAACAAAAAADqASoBAAACAAAAAADqASsBAAACAAAAAADqASwBAAACAAAAAADqAS0BAAACAAAAAADqAS4BAAACAAAAAADqAS8BAAACAAAAAADqATABAAACAAAAAADqATEBAAACAAAAAADqATIBAAACAAAAAADqATMBAAACAAAAAADqATQBAAACAAAAAADqATUBAAACAAAAAADqATYBAAACAAAAAADqATcBAAACAAAAAADqATgBAAACAAAAAADqATkBAAACAAAAAADqAToBAAACAAAAAADqATsBAAACAAAAAADqATwBAAACAAAAAADqAT0BAAACAAAAAADqAT4BAAACAAAAAADqAT8BAAACAAAAAADqAUABAAACAAAAAADqAUEBAAACAAAAAADqAUIBAAACAAAAAADqAUMBAAACAAAAAADqAUQBAAACAAAAAADqAUUBAAACAAAAAADqAUYBAAACAAAAAADqAUcBAAACAAAAAADqAUgBAAACAAAAAADqAUkBAAACAAAAAADqAUoBAAACAAAAAADqAUsBAAACAAAAAADrASkBAAACAAAAAADrASoBAAACAAAAAADrASsBAAACAAAAAADrASwBAAACAAAAAADrAS0BAAACAAAAAADrAS4BAAACAAAAAADrAS8BAAACAAAAAADrATABAAACAAAAAADrATEBAAACAAAAAADrATIBAAACAAAAAADrATMBAAACAAAAAADrATQBAAACAAAAAADrATUBAAACAAAAAADrATYBAAACAAAAAADrATcBAAACAAAAAADrATgBAAACAAAAAADrATkBAAACAAAAAADrAToBAAACAAAAAADrATsBAAACAAAAAADrATwBAAACAAAAAADrAT0BAAACAAAAAADrAT4BAAACAAAAAADrAT8BAAACAAAAAADrAUABAAACAAAAAADrAUEBAAACAAAAAADrAUIBAAACAAAAAADrAUMBAAACAAAAAADrAUQBAAACAAAAAADrAUUBAAACAAAAAADrAUYBAAACAAAAAADrAUcBAAACAAAAAADrAUgBAAACAAAAAADrAUkBAAACAAAAAADrAUoBAAACAAAAAADrAUsBAAACAAAAAADsASkBAAACAAAAAADsASoBAAACAAAAAADsASsBAAACAAAAAADsASwBAAACAAAAAADsAS0BAAACAAAAAADsAS4BAAACAAAAAADsAS8BAAACAAAAAADsATABAAACAAAAAADsATEBAAACAAAAAADsATIBAAACAAAAAADsATMBAAACAAAAAADsATQBAAACAAAAAADsATUBAAACAAAAAADsATYBAAACAAAAAADsATcBAAACAAAAAADsATgBAAACAAAAAADsATkBAAACAAAAAADsAToBAAACAAAAAADsATsBAAACAAAAAADsATwBAAACAAAAAADsAT0BAAACAAAAAADsAT4BAAACAAAAAADsAT8BAAACAAAAAADsAUABAAACAAAAAADsAUEBAAACAAAAAADsAUIBAAACAAAAAADsAUMBAAACAAAAAADsAUQBAAACAAAAAADsAUUBAAACAAAAAADsAUYBAAACAAAAAADsAUcBAAACAAAAAADsAUgBAAACAAAAAADsAUkBAAACAAAAAADsAUoBAAACAAAAAADsAUsBAAACAAAAAADtASkBAAACAAAAAADtASoBAAACAAAAAADtASsBAAACAAAAAADtASwBAAACAAAAAADtAS0BAAACAAAAAADtAS4BAAACAAAAAADtAS8BAAACAAAAAADtATABAAACAAAAAADtATEBAAACAAAAAADtATIBAAACAAAAAADtATMBAAACAAAAAADtATQBAAACAAAAAADtATUBAAACAAAAAADtATYBAAACAAAAAADtATcBAAACAAAAAADtATgBAAACAAAAAADtATkBAAACAAAAAADtAToBAAACAAAAAADtATsBAAACAAAAAADtATwBAAACAAAAAADtAT0BAAACAAAAAADtAT4BAAACAAAAAADtAT8BAAACAAAAAADtAUABAAACAAAAAADtAUEBAAACAAAAAADtAUIBAAACAAAAAADtAUMBAAACAAAAAADtAUQBAAACAAAAAADtAUUBAAACAAAAAADtAUYBAAACAAAAAADtAUcBAAACAAAAAADtAUgBAAACAAAAAADtAUkBAAACAAAAAADtAUoBAAACAAAAAADtAUsBAAACAAAAAADuASkBAAACAAAAAADuASoBAAACAAAAAADuASsBAAACAAAAAADuASwBAAACAAAAAADuAS0BAAACAAAAAADuAS4BAAACAAAAAADuAS8BAAACAAAAAADuATABAAACAAAAAADuATEBAAACAAAAAADuATIBAAACAAAAAADuATMBAAACAAAAAADuATQBAAACAAAAAADuATUBAAACAAAAAADuATYBAAACAAAAAADuATcBAAACAAAAAADuATgBAAACAAAAAADuATkBAAACAAAAAADuAToBAAACAAAAAADuATsBAAACAAAAAADuATwBAAACAAAAAADuAT0BAAACAAAAAADuAT4BAAACAAAAAADuAT8BAAACAAAAAADuAUABAAACAAAAAADuAUEBAAACAAAAAADuAUIBAAACAAAAAADuAUMBAAACAAAAAADuAUQBAAACAAAAAADuAUUBAAACAAAAAADuAUYBAAACAAAAAADuAUcBAAACAAAAAADuAUgBAAACAAAAAADuAUkBAAACAAAAAADuAUoBAAACAAAAAADuAUsBAAACAAAAAADvASkBAAACAAAAAADvASoBAAACAAAAAADvASsBAAACAAAAAADvASwBAAACAAAAAADvAS0BAAACAAAAAADvAS4BAAACAAAAAADvAS8BAAACAAAAAADvATABAAACAAAAAADvATEBAAACAAAAAADvATIBAAACAAAAAADvATMBAAACAAAAAADvATQBAAACAAAAAADvATUBAAACAAAAAADvATYBAAACAAAAAADvATcBAAACAAAAAADvATgBAAACAAAAAADvATkBAAACAAAAAADvAToBAAACAAAAAADvATsBAAACAAAAAADvATwBAAACAAAAAADvAT0BAAACAAAAAADvAT4BAAACAAAAAADvAT8BAAACAAAAAADvAUABAAACAAAAAADvAUEBAAACAAAAAADvAUIBAAACAAAAAADvAUMBAAACAAAAAADvAUQBAAACAAAAAADvAUUBAAACAAAAAADvAUYBAAACAAAAAADvAUcBAAACAAAAAADvAUgBAAACAAAAAADvAUkBAAACAAAAAADvAUoBAAACAAAAAADvAUsBAAACAAAAAABOAfoAAAACAAAAAABOAfsAAAACAAAAAABOAfwAAAACAAAAAABOAf0AAAACAAAAAABOAf4AAAACAAAAAABOAf8AAAACAAAAAABOAQABAAACAAAAAABPAfoAAAACAAAAAABPAfsAAAACAAAAAABPAfwAAAACAAAAAABPAf0AAAACAAAAAABPAf4AAAACAAAAAABPAf8AAAACAAAAAABPAQABAAACAAAAAABQAfoAAAACAAAAAABQAfsAAAACAAAAAABQAfwAAAACAAAAAABQAf0AAAACAAAAAABQAf4AAAACAAAAAABQAf8AAAACAAAAAABQAQABAAACAAAAAABRAfoAAAACAAAAAABRAfsAAAACAAAAAABRAfwAAAACAAAAAABRAf0AAAACAAAAAABRAf4AAAACAAAAAABRAf8AAAACAAAAAABRAQABAAACAAAAAABSAfoAAAACAAAAAABSAfsAAAACAAAAAABSAfwAAAACAAAAAABSAf0AAAACAAAAAABSAf4AAAACAAAAAABSAf8AAAACAAAAAABSAQABAAACAAAAAABTAfoAAAACAAAAAABTAfsAAAACAAAAAABTAfwAAAACAAAAAABTAf0AAAACAAAAAABTAf4AAAACAAAAAABTAf8AAAACAAAAAABTAQABAAACAAAAAABUAfoAAAACAAAAAABUAfsAAAACAAAAAABUAfwAAAACAAAAAABUAf0AAAACAAAAAABUAf4AAAACAAAAAABUAf8AAAACAAAAAABUAQABAAACAAAAAABVAfoAAAACAAAAAABVAfsAAAACAAAAAABVAfwAAAACAAAAAABVAf0AAAACAAAAAABVAf4AAAACAAAAAABVAf8AAAACAAAAAABVAQABAAACAAAAAABWAfoAAAACAAAAAABWAfsAAAACAAAAAABWAfwAAAACAAAAAABWAf0AAAACAAAAAABWAf4AAAACAAAAAABWAf8AAAACAAAAAABWAQABAAACAAAAAABXAfoAAAACAAAAAABXAfsAAAACAAAAAABXAfwAAAACAAAAAABXAf0AAAACAAAAAABXAf4AAAACAAAAAABXAf8AAAACAAAAAABXAQABAAACAAAAAABYAfoAAAACAAAAAABYAfsAAAACAAAAAABYAfwAAAACAAAAAABYAf0AAAACAAAAAABYAf4AAAACAAAAAABYAf8AAAACAAAAAABYAQABAAACAAAAAABZAfoAAAACAAAAAABZAfsAAAACAAAAAABZAfwAAAACAAAAAABZAf0AAAACAAAAAABZAf4AAAACAAAAAABZAf8AAAACAAAAAABZAQABAAACAAAAAABaAfoAAAACAAAAAABaAfsAAAACAAAAAABaAfwAAAACAAAAAABaAf0AAAACAAAAAABaAf4AAAACAAAAAABaAf8AAAACAAAAAABaAQABAAACAAAAAABbAfoAAAACAAAAAABbAfsAAAACAAAAAABbAfwAAAACAAAAAABbAf0AAAACAAAAAABbAf4AAAACAAAAAABbAf8AAAACAAAAAABbAQABAAACAAAAAABcAfoAAAACAAAAAABcAfsAAAACAAAAAABcAfwAAAACAAAAAABcAf0AAAACAAAAAABcAf4AAAACAAAAAABcAf8AAAACAAAAAABcAQABAAACAAAAAABdAfoAAAACAAAAAABdAfsAAAACAAAAAABdAfwAAAACAAAAAABdAf0AAAACAAAAAABdAf4AAAACAAAAAABdAf8AAAACAAAAAABdAQABAAACAAAAAABeAfoAAAACAAAAAABeAfsAAAACAAAAAABeAfwAAAACAAAAAABeAf0AAAACAAAAAABeAf4AAAACAAAAAABeAf8AAAACAAAAAABeAQABAAACAAAAAABfAfoAAAACAAAAAABfAfsAAAACAAAAAABfAfwAAAACAAAAAABfAf0AAAACAAAAAABfAf4AAAACAAAAAABfAf8AAAACAAAAAABfAQABAAACAAAAAABgAfoAAAACAAAAAABgAfsAAAACAAAAAABgAfwAAAACAAAAAABgAf0AAAACAAAAAABgAf4AAAACAAAAAABgAf8AAAACAAAAAABgAQABAAACAAAAAABhAfoAAAACAAAAAABhAfsAAAACAAAAAABhAfwAAAACAAAAAABhAf0AAAACAAAAAABhAf4AAAACAAAAAABhAf8AAAACAAAAAABhAQABAAACAAAAAABiAfoAAAACAAAAAABiAfsAAAACAAAAAABiAfwAAAACAAAAAABiAf0AAAACAAAAAABiAf4AAAACAAAAAABiAf8AAAACAAAAAABiAQABAAACAAAAAABjAfoAAAACAAAAAABjAfsAAAACAAAAAABjAfwAAAACAAAAAABjAf0AAAACAAAAAABjAf4AAAACAAAAAABjAf8AAAACAAAAAABjAQABAAACAAAAAABkAfoAAAACAAAAAABkAfsAAAACAAAAAABkAfwAAAACAAAAAABkAf0AAAACAAAAAABkAf4AAAACAAAAAABkAf8AAAACAAAAAABkAQABAAACAAAAAABlAfoAAAACAAAAAABlAfsAAAACAAAAAABlAfwAAAACAAAAAABlAf0AAAACAAAAAABlAf4AAAACAAAAAABlAf8AAAACAAAAAABlAQABAAACAAAAAABmAfoAAAACAAAAAABmAfsAAAACAAAAAABmAfwAAAACAAAAAABmAf0AAAACAAAAAABmAf4AAAACAAAAAABmAf8AAAACAAAAAABmAQABAAACAAAAAABnAfoAAAACAAAAAABnAfsAAAACAAAAAABnAfwAAAACAAAAAABnAf0AAAACAAAAAABnAf4AAAACAAAAAABnAf8AAAACAAAAAABnAQABAAACAAAAAABoAfoAAAACAAAAAABoAfsAAAACAAAAAABoAfwAAAACAAAAAABoAf0AAAACAAAAAABoAf4AAAACAAAAAABoAf8AAAACAAAAAABoAQABAAACAAAAAABpAfoAAAACAAAAAABpAfsAAAACAAAAAABpAfwAAAACAAAAAABpAf0AAAACAAAAAABpAf4AAAACAAAAAABpAf8AAAACAAAAAABpAQABAAACAAAAAABqAfoAAAACAAAAAABqAfsAAAACAAAAAABqAfwAAAACAAAAAABqAf0AAAACAAAAAABqAf4AAAACAAAAAABqAf8AAAACAAAAAABqAQABAAACAAAAAABrAfoAAAACAAAAAABrAfsAAAACAAAAAABrAfwAAAACAAAAAABrAf0AAAACAAAAAABrAf4AAAACAAAAAABrAf8AAAACAAAAAABrAQABAAACAAAAAABsAfoAAAACAAAAAABsAfsAAAACAAAAAABsAfwAAAACAAAAAABsAf0AAAACAAAAAABsAf4AAAACAAAAAABsAf8AAAACAAAAAABsAQABAAACAAAAAAC3Aob+AAACAAAAAAC3Aof+AAACAAAAAAC3Aoj+AAACAAAAAAC3Aon+AAACAAAAAAC3Aor+AAACAAAAAAC3Aov+AAACAAAAAAC4Aob+AAACAAAAAAC4Aof+AAACAAAAAAC4Aoj+AAACAAAAAAC4Aon+AAACAAAAAAC4Aor+AAACAAAAAAC4Aov+AAACAAAAAAC5Aob+AAACAAAAAAC5Aof+AAACAAAAAAC5Aoj+AAACAAAAAAC5Aon+AAACAAAAAAC5Aor+AAACAAAAAAC5Aov+AAACAAAAAAC6Aob+AAACAAAAAAC6Aof+AAACAAAAAAC6Aoj+AAACAAAAAAC6Aon+AAACAAAAAAC6Aor+AAACAAAAAAC6Aov+AAACAAAAAAC7Aob+AAACAAAAAAC7Aof+AAACAAAAAAC7Aoj+AAACAAAAAAC7Aon+AAACAAAAAAC7Aor+AAACAAAAAAC7Aov+AAACAAAAAAC8Aob+AAACAAAAAAC8Aof+AAACAAAAAAC8Aoj+AAACAAAAAAC8Aon+AAACAAAAAAC8Aor+AAACAAAAAAC8Aov+AAACAAAAAAC9Aob+AAACAAAAAAC9Aof+AAACAAAAAAC9Aoj+AAACAAAAAAC9Aon+AAACAAAAAAC9Aor+AAACAAAAAAC9Aov+AAACAAAAAAC+Aob+AAACAAAAAAC+Aof+AAACAAAAAAC+Aoj+AAACAAAAAAC+Aon+AAACAAAAAAC+Aor+AAACAAAAAAC+Aov+AAACAAAAAAC/Aob+AAACAAAAAAC/Aof+AAACAAAAAAC/Aoj+AAACAAAAAAC/Aon+AAACAAAAAAC/Aor+AAACAAAAAAC/Aov+AAACAAAAAADAAob+AAACAAAAAADAAof+AAACAAAAAADAAoj+AAACAAAAAADAAon+AAACAAAAAADAAor+AAACAAAAAADAAov+AAACAAAAAADBAob+AAACAAAAAADBAof+AAACAAAAAADBAoj+AAACAAAAAADBAon+AAACAAAAAADBAor+AAACAAAAAADBAov+AAACAAAAAADCAob+AAACAAAAAADCAof+AAACAAAAAADCAoj+AAACAAAAAADCAon+AAACAAAAAADCAor+AAACAAAAAADCAov+AAACAAAAAADDAob+AAACAAAAAADDAof+AAACAAAAAADDAoj+AAACAAAAAADDAon+AAACAAAAAADDAor+AAACAAAAAADDAov+AAACAAAAAADEAob+AAACAAAAAADEAof+AAACAAAAAADEAoj+AAACAAAAAADEAon+AAACAAAAAADEAor+AAACAAAAAADEAov+AAACAAAAAADFAob+AAACAAAAAADFAof+AAACAAAAAADFAoj+AAACAAAAAADFAon+AAACAAAAAADFAor+AAACAAAAAADFAov+AAACAAAAAADGAob+AAACAAAAAADGAof+AAACAAAAAADGAoj+AAACAAAAAADGAon+AAACAAAAAADGAor+AAACAAAAAADGAov+AAACAAAAAADHAob+AAACAAAAAADHAof+AAACAAAAAADHAoj+AAACAAAAAADHAon+AAACAAAAAADHAor+AAACAAAAAADHAov+AAACAAAAAADIAob+AAACAAAAAADIAof+AAACAAAAAADIAoj+AAACAAAAAADIAon+AAACAAAAAADIAor+AAACAAAAAADIAov+AAACAAAAAADJAob+AAACAAAAAADJAof+AAACAAAAAADJAoj+AAACAAAAAADJAon+AAACAAAAAADJAor+AAACAAAAAADJAov+AAACAAAAAADKAob+AAACAAAAAADKAof+AAACAAAAAADKAoj+AAACAAAAAADKAon+AAACAAAAAADKAor+AAACAAAAAADKAov+AAACAAAAAADLAob+AAACAAAAAADLAof+AAACAAAAAADLAoj+AAACAAAAAADLAon+AAACAAAAAADLAor+AAACAAAAAADLAov+AAACAAAAAADMAob+AAACAAAAAADMAof+AAACAAAAAADMAoj+AAACAAAAAADMAon+AAACAAAAAADMAor+AAACAAAAAADMAov+AAACAAAAAADNAob+AAACAAAAAADNAof+AAACAAAAAADNAoj+AAACAAAAAADNAon+AAACAAAAAADNAor+AAACAAAAAADNAov+AAACAAAAAADOAob+AAACAAAAAADOAof+AAACAAAAAADOAoj+AAACAAAAAADOAon+AAACAAAAAADOAor+AAACAAAAAADOAov+AAACAAAAAADPAob+AAACAAAAAADPAof+AAACAAAAAADPAoj+AAACAAAAAADPAon+AAACAAAAAADPAor+AAACAAAAAADPAov+AAACAAAAAADQAob+AAACAAAAAADQAof+AAACAAAAAADQAoj+AAACAAAAAADQAon+AAACAAAAAADQAor+AAACAAAAAADQAov+AAACAAAAAADRAob+AAACAAAAAADRAof+AAACAAAAAADRAoj+AAACAAAAAADRAon+AAACAAAAAADRAor+AAACAAAAAADRAov+AAACAAAAAACaBM39AAACAAAAAACaBM79AAACAAAAAACaBM/9AAACAAAAAACaBND9AAACAAAAAACaBNH9AAACAAAAAACbBM39AAACAAAAAACbBM79AAACAAAAAACbBM/9AAACAAAAAACbBND9AAACAAAAAACbBNH9AAACAAAAAACcBM39AAACAAAAAACcBM79AAACAAAAAACcBM/9AAACAAAAAACcBND9AAACAAAAAACcBNH9AAACAAAAAACdBM39AAACAAAAAACdBM79AAACAAAAAACdBM/9AAACAAAAAACdBND9AAACAAAAAACdBNH9AAACAAAAAACeBM39AAACAAAAAACeBM79AAACAAAAAACeBM/9AAACAAAAAACeBND9AAACAAAAAACeBNH9AAACAAAAAACfBM39AAACAAAAAACfBM79AAACAAAAAACfBM/9AAACAAAAAACfBND9AAACAAAAAACfBNH9AAACAAAAAACgBM39AAACAAAAAACgBM79AAACAAAAAACgBM/9AAACAAAAAACgBND9AAACAAAAAACgBNH9AAACAAAAAAChBM39AAACAAAAAAChBM79AAACAAAAAAChBM/9AAACAAAAAAChBND9AAACAAAAAAChBNH9AAACAAAAAACiBM39AAACAAAAAACiBM79AAACAAAAAACiBM/9AAACAAAAAACiBND9AAACAAAAAACiBNH9AAACAAAAAACjBM39AAACAAAAAACjBM79AAACAAAAAACjBM/9AAACAAAAAACjBND9AAACAAAAAACjBNH9AAACAAAAAACkBM39AAACAAAAAACkBM79AAACAAAAAACkBM/9AAACAAAAAACkBND9AAACAAAAAACkBNH9AAACAAAAAAClBM39AAACAAAAAAClBM79AAACAAAAAAClBM/9AAACAAAAAAClBND9AAACAAAAAAClBNH9AAACAAAAAACmBM39AAACAAAAAACmBM79AAACAAAAAACmBM/9AAACAAAAAACmBND9AAACAAAAAACmBNH9AAACAAAAAACnBM39AAACAAAAAACnBM79AAACAAAAAACnBM/9AAACAAAAAACnBND9AAACAAAAAACnBNH9AAACAAAAAACoBM39AAACAAAAAACoBM79AAACAAAAAACoBM/9AAACAAAAAACoBND9AAACAAAAAACoBNH9AAACAAAAAACpBM39AAACAAAAAACpBM79AAACAAAAAACpBM/9AAACAAAAAACpBND9AAACAAAAAACpBNH9AAACAAAAAACqBM39AAACAAAAAACqBM79AAACAAAAAACqBM/9AAACAAAAAACqBND9AAACAAAAAACqBNH9AAACAAAAAACrBM39AAACAAAAAACrBM79AAACAAAAAACrBM/9AAACAAAAAACrBND9AAACAAAAAACrBNH9AAACAAAAAACsBM39AAACAAAAAACsBM79AAACAAAAAACsBM/9AAACAAAAAACsBND9AAACAAAAAACsBNH9AAACAAAAAACtBCX+AAACAAAAAACtBCb+AAACAAAAAACtBCf+AAACAAAAAACtBCj+AAACAAAAAACtBCn+AAACAAAAAACtBCr+AAACAAAAAACtBCv+AAACAAAAAACtBCz+AAACAAAAAACtBC3+AAACAAAAAACtBC7+AAACAAAAAACtBC/+AAACAAAAAACtBDD+AAACAAAAAACtBDH+AAACAAAAAACtBDL+AAACAAAAAACtBDP+AAACAAAAAACtBDT+AAACAAAAAACtBDX+AAACAAAAAACuBCX+AAACAAAAAACuBCb+AAACAAAAAACuBCf+AAACAAAAAACuBCj+AAACAAAAAACuBCn+AAACAAAAAACuBCr+AAACAAAAAACuBCv+AAACAAAAAACuBCz+AAACAAAAAACuBC3+AAACAAAAAACuBC7+AAACAAAAAACuBC/+AAACAAAAAACuBDD+AAACAAAAAACuBDH+AAACAAAAAACuBDL+AAACAAAAAACuBDP+AAACAAAAAACuBDT+AAACAAAAAACuBDX+AAACAAAAAACvBCX+AAACAAAAAACvBCb+AAACAAAAAACvBCf+AAACAAAAAACvBCj+AAACAAAAAACvBCn+AAACAAAAAACvBCr+AAACAAAAAACvBCv+AAACAAAAAACvBCz+AAACAAAAAACvBC3+AAACAAAAAACvBC7+AAACAAAAAACvBC/+AAACAAAAAACvBDD+AAACAAAAAACvBDH+AAACAAAAAACvBDL+AAACAAAAAACvBDP+AAACAAAAAACvBDT+AAACAAAAAACvBDX+AAACAAAAAACwBCX+AAACAAAAAACwBCb+AAACAAAAAACwBCf+AAACAAAAAACwBCj+AAACAAAAAACwBCn+AAACAAAAAACwBCr+AAACAAAAAACwBCv+AAACAAAAAACwBCz+AAACAAAAAACwBC3+AAACAAAAAACwBC7+AAACAAAAAACwBC/+AAACAAAAAACwBDD+AAACAAAAAACwBDH+AAACAAAAAACwBDL+AAACAAAAAACwBDP+AAACAAAAAACwBDT+AAACAAAAAACwBDX+AAACAAAAAACxBCX+AAACAAAAAACxBCb+AAACAAAAAACxBCf+AAACAAAAAACxBCj+AAACAAAAAACxBCn+AAACAAAAAACxBCr+AAACAAAAAACxBCv+AAACAAAAAACxBCz+AAACAAAAAACxBC3+AAACAAAAAACxBC7+AAACAAAAAACxBC/+AAACAAAAAACxBDD+AAACAAAAAACxBDH+AAACAAAAAACxBDL+AAACAAAAAACxBDP+AAACAAAAAACxBDT+AAACAAAAAACxBDX+AAACAAAAAABeBAoAAAACAAAAAABeBAsAAAACAAAAAABeBAwAAAACAAAAAABeBA0AAAACAAAAAABeBA4AAAACAAAAAABeBA8AAAACAAAAAABfBAoAAAACAAAAAABfBAsAAAACAAAAAABfBAwAAAACAAAAAABfBA0AAAACAAAAAABfBA4AAAACAAAAAABfBA8AAAACAAAAAABgBAoAAAACAAAAAABgBAsAAAACAAAAAABgBAwAAAACAAAAAABgBA0AAAACAAAAAABgBA4AAAACAAAAAABgBA8AAAACAAAAAABhBAoAAAACAAAAAABhBAsAAAACAAAAAABhBAwAAAACAAAAAABhBA0AAAACAAAAAABhBA4AAAACAAAAAABhBA8AAAACAAAAAABiBAoAAAACAAAAAABiBAsAAAACAAAAAABiBAwAAAACAAAAAABiBA0AAAACAAAAAABiBA4AAAACAAAAAABiBA8AAAACAAAAAABjBAoAAAACAAAAAABjBAsAAAACAAAAAABjBAwAAAACAAAAAABjBA0AAAACAAAAAABjBA4AAAACAAAAAABjBA8AAAACAAAAAABkBAoAAAACAAAAAABkBAsAAAACAAAAAABkBAwAAAACAAAAAABkBA0AAAACAAAAAABkBA4AAAACAAAAAABkBA8AAAACAAAAAABlBAoAAAACAAAAAABlBAsAAAACAAAAAABlBAwAAAACAAAAAABlBA0AAAACAAAAAABlBA4AAAACAAAAAABlBA8AAAACAAAAAABmBAoAAAACAAAAAABmBAsAAAACAAAAAABmBAwAAAACAAAAAABmBA0AAAACAAAAAABmBA4AAAACAAAAAABmBA8AAAACAAAAAABnBAoAAAACAAAAAABnBAsAAAACAAAAAABnBAwAAAACAAAAAABnBA0AAAACAAAAAABnBA4AAAACAAAAAABnBA8AAAACAAAAAABoBAoAAAACAAAAAABoBAsAAAACAAAAAABoBAwAAAACAAAAAABoBA0AAAACAAAAAABoBA4AAAACAAAAAABoBA8AAAACAAAAAABpBAoAAAACAAAAAABpBAsAAAACAAAAAABpBAwAAAACAAAAAABpBA0AAAACAAAAAABpBA4AAAACAAAAAABpBA8AAAACAAAAAABqBAoAAAACAAAAAABqBAsAAAACAAAAAABqBAwAAAACAAAAAABqBA0AAAACAAAAAABqBA4AAAACAAAAAABqBA8AAAACAAAAAABrBAoAAAACAAAAAABrBAsAAAACAAAAAABrBAwAAAACAAAAAABrBA0AAAACAAAAAABrBA4AAAACAAAAAABrBA8AAAACAAAAAABsBAoAAAACAAAAAABsBAsAAAACAAAAAABsBAwAAAACAAAAAABsBA0AAAACAAAAAABsBA4AAAACAAAAAABsBA8AAAACAAAAAABtBAoAAAACAAAAAABtBAsAAAACAAAAAABtBAwAAAACAAAAAABtBA0AAAACAAAAAABtBA4AAAACAAAAAABtBA8AAAACAAAAAABuBAoAAAACAAAAAABuBAsAAAACAAAAAABuBAwAAAACAAAAAABuBA0AAAACAAAAAABuBA4AAAACAAAAAABuBA8AAAACAAAAAABvBAoAAAACAAAAAABvBAsAAAACAAAAAABvBAwAAAACAAAAAABvBA0AAAACAAAAAABvBA4AAAACAAAAAABvBA8AAAACAAAAAABwBAoAAAACAAAAAABwBAsAAAACAAAAAABwBAwAAAACAAAAAABwBA0AAAACAAAAAABwBA4AAAACAAAAAABwBA8AAAACAAAAAABxBAoAAAACAAAAAABxBAsAAAACAAAAAABxBAwAAAACAAAAAABxBA0AAAACAAAAAABxBA4AAAACAAAAAABxBA8AAAACAAAAAAByBAoAAAACAAAAAAByBAsAAAACAAAAAAByBAwAAAACAAAAAAByBA0AAAACAAAAAAByBA4AAAACAAAAAAByBA8AAAACAAAAAABzBAoAAAACAAAAAABzBAsAAAACAAAAAABzBAwAAAACAAAAAABzBA0AAAACAAAAAABzBA4AAAACAAAAAABzBA8AAAACAAAAAAB0BAoAAAACAAAAAAB0BAsAAAACAAAAAAB0BAwAAAACAAAAAAB0BA0AAAACAAAAAAB0BA4AAAACAAAAAAB0BA8AAAACAAAAAAB1BAoAAAACAAAAAAB1BAsAAAACAAAAAAB1BAwAAAACAAAAAAB1BA0AAAACAAAAAAB1BA4AAAACAAAAAAB1BA8AAAACAAAAAAB2BAoAAAACAAAAAAB2BAsAAAACAAAAAAB2BAwAAAACAAAAAAB2BA0AAAACAAAAAAB2BA4AAAACAAAAAAB2BA8AAAACAAAAAAB3BAoAAAACAAAAAAB3BAsAAAACAAAAAAB3BAwAAAACAAAAAAB3BA0AAAACAAAAAAB3BA4AAAACAAAAAAB3BA8AAAACAAAAAAB4BAoAAAACAAAAAAB4BAsAAAACAAAAAAB4BAwAAAACAAAAAAB4BA0AAAACAAAAAAB4BA4AAAACAAAAAAB4BA8AAAACAAAAAAB5BAoAAAACAAAAAAB5BAsAAAACAAAAAAB5BAwAAAACAAAAAAB5BA0AAAACAAAAAAB5BA4AAAACAAAAAAB5BA8AAAACAAAAAACMBIwAAAACAAAAAACMBI0AAAACAAAAAACMBI4AAAACAAAAAACMBI8AAAACAAAAAACMBJAAAAACAAAAAACMBJEAAAACAAAAAACMBJIAAAACAAAAAACMBJMAAAACAAAAAACMBJQAAAACAAAAAACMBJUAAAACAAAAAACMBJYAAAACAAAAAACMBJcAAAACAAAAAACMBJgAAAACAAAAAACMBJkAAAACAAAAAACMBJoAAAACAAAAAACMBJsAAAACAAAAAACMBJwAAAACAAAAAACMBJ0AAAACAAAAAACMBJ4AAAACAAAAAACMBJ8AAAACAAAAAACMBKAAAAACAAAAAACMBKEAAAACAAAAAACNBIwAAAACAAAAAACNBI0AAAACAAAAAACNBI4AAAACAAAAAACNBI8AAAACAAAAAACNBJAAAAACAAAAAACNBJEAAAACAAAAAACNBJIAAAACAAAAAACNBJMAAAACAAAAAACNBJQAAAACAAAAAACNBJUAAAACAAAAAACNBJYAAAACAAAAAACNBJcAAAACAAAAAACNBJgAAAACAAAAAACNBJkAAAACAAAAAACNBJoAAAACAAAAAACNBJsAAAACAAAAAACNBJwAAAACAAAAAACNBJ0AAAACAAAAAACNBJ4AAAACAAAAAACNBJ8AAAACAAAAAACNBKAAAAACAAAAAACNBKEAAAACAAAAAACOBIwAAAACAAAAAACOBI0AAAACAAAAAACOBI4AAAACAAAAAACOBI8AAAACAAAAAACOBJAAAAACAAAAAACOBJEAAAACAAAAAACOBJIAAAACAAAAAACOBJMAAAACAAAAAACOBJQAAAACAAAAAACOBJUAAAACAAAAAACOBJYAAAACAAAAAACOBJcAAAACAAAAAACOBJgAAAACAAAAAACOBJkAAAACAAAAAACOBJoAAAACAAAAAACOBJsAAAACAAAAAACOBJwAAAACAAAAAACOBJ0AAAACAAAAAACOBJ4AAAACAAAAAACOBJ8AAAACAAAAAACOBKAAAAACAAAAAACOBKEAAAACAAAAAACPBIwAAAACAAAAAACPBI0AAAACAAAAAACPBI4AAAACAAAAAACPBI8AAAACAAAAAACPBJAAAAACAAAAAACPBJEAAAACAAAAAACPBJIAAAACAAAAAACPBJMAAAACAAAAAACPBJQAAAACAAAAAACPBJUAAAACAAAAAACPBJYAAAACAAAAAACPBJcAAAACAAAAAACPBJgAAAACAAAAAACPBJkAAAACAAAAAACPBJoAAAACAAAAAACPBJsAAAACAAAAAACPBJwAAAACAAAAAACPBJ0AAAACAAAAAACPBJ4AAAACAAAAAACPBJ8AAAACAAAAAACPBKAAAAACAAAAAACPBKEAAAACAAAAAACQBIwAAAACAAAAAACQBI0AAAACAAAAAACQBI4AAAACAAAAAACQBI8AAAACAAAAAACQBJAAAAACAAAAAACQBJEAAAACAAAAAACQBJIAAAACAAAAAACQBJMAAAACAAAAAACQBJQAAAACAAAAAACQBJUAAAACAAAAAACQBJYAAAACAAAAAACQBJcAAAACAAAAAACQBJgAAAACAAAAAACQBJkAAAACAAAAAACQBJoAAAACAAAAAACQBJsAAAACAAAAAACQBJwAAAACAAAAAACQBJ0AAAACAAAAAACQBJ4AAAACAAAAAACQBJ8AAAACAAAAAACQBKAAAAACAAAAAACQBKEAAAACAAAAAACRBIwAAAACAAAAAACRBI0AAAACAAAAAACRBI4AAAACAAAAAACRBI8AAAACAAAAAACRBJAAAAACAAAAAACRBJEAAAACAAAAAACRBJIAAAACAAAAAACRBJMAAAACAAAAAACRBJQAAAACAAAAAACRBJUAAAACAAAAAACRBJYAAAACAAAAAACRBJcAAAACAAAAAACRBJgAAAACAAAAAACRBJkAAAACAAAAAACRBJoAAAACAAAAAACRBJsAAAACAAAAAACRBJwAAAACAAAAAACRBJ0AAAACAAAAAACRBJ4AAAACAAAAAACRBJ8AAAACAAAAAACRBKAAAAACAAAAAACRBKEAAAACAAAAAACSBIwAAAACAAAAAACSBI0AAAACAAAAAACSBI4AAAACAAAAAACSBI8AAAACAAAAAACSBJAAAAACAAAAAACSBJEAAAACAAAAAACSBJIAAAACAAAAAACSBJMAAAACAAAAAACSBJQAAAACAAAAAACSBJUAAAACAAAAAACSBJYAAAACAAAAAACSBJcAAAACAAAAAACSBJgAAAACAAAAAACSBJkAAAACAAAAAACSBJoAAAACAAAAAACSBJsAAAACAAAAAACSBJwAAAACAAAAAACSBJ0AAAACAAAAAACSBJ4AAAACAAAAAACSBJ8AAAACAAAAAACSBKAAAAACAAAAAACSBKEAAAACAAAAAADYBIAAAAACAAAAAADYBIEAAAACAAAAAADYBIIAAAACAAAAAADYBIMAAAACAAAAAADYBIQAAAACAAAAAADYBIUAAAACAAAAAADYBIYAAAACAAAAAADYBIcAAAACAAAAAADYBIgAAAACAAAAAADYBIkAAAACAAAAAADYBIoAAAACAAAAAADYBIsAAAACAAAAAADYBIwAAAACAAAAAADYBI0AAAACAAAAAADYBI4AAAACAAAAAADYBI8AAAACAAAAAADYBJAAAAACAAAAAADYBJEAAAACAAAAAADYBJIAAAACAAAAAADYBJMAAAACAAAAAADYBJQAAAACAAAAAADYBJUAAAACAAAAAADYBJYAAAACAAAAAADYBJcAAAACAAAAAADYBJgAAAACAAAAAADYBJkAAAACAAAAAADYBJoAAAACAAAAAADYBJsAAAACAAAAAADZBIAAAAACAAAAAADZBIEAAAACAAAAAADZBIIAAAACAAAAAADZBIMAAAACAAAAAADZBIQAAAACAAAAAADZBIUAAAACAAAAAADZBIYAAAACAAAAAADZBIcAAAACAAAAAADZBIgAAAACAAAAAADZBIkAAAACAAAAAADZBIoAAAACAAAAAADZBIsAAAACAAAAAADZBIwAAAACAAAAAADZBI0AAAACAAAAAADZBI4AAAACAAAAAADZBI8AAAACAAAAAADZBJAAAAACAAAAAADZBJEAAAACAAAAAADZBJIAAAACAAAAAADZBJMAAAACAAAAAADZBJQAAAACAAAAAADZBJUAAAACAAAAAADZBJYAAAACAAAAAADZBJcAAAACAAAAAADZBJgAAAACAAAAAADZBJkAAAACAAAAAADZBJoAAAACAAAAAADZBJsAAAACAAAAAADaBIAAAAACAAAAAADaBIEAAAACAAAAAADaBIIAAAACAAAAAADaBIMAAAACAAAAAADaBIQAAAACAAAAAADaBIUAAAACAAAAAADaBIYAAAACAAAAAADaBIcAAAACAAAAAADaBIgAAAACAAAAAADaBIkAAAACAAAAAADaBIoAAAACAAAAAADaBIsAAAACAAAAAADaBIwAAAACAAAAAADaBI0AAAACAAAAAADaBI4AAAACAAAAAADaBI8AAAACAAAAAADaBJAAAAACAAAAAADaBJEAAAACAAAAAADaBJIAAAACAAAAAADaBJMAAAACAAAAAADaBJQAAAACAAAAAADaBJUAAAACAAAAAADaBJYAAAACAAAAAADaBJcAAAACAAAAAADaBJgAAAACAAAAAADaBJkAAAACAAAAAADaBJoAAAACAAAAAADaBJsAAAACAAAAAADbBIAAAAACAAAAAADbBIEAAAACAAAAAADbBIIAAAACAAAAAADbBIMAAAACAAAAAADbBIQAAAACAAAAAADbBIUAAAACAAAAAADbBIYAAAACAAAAAADbBIcAAAACAAAAAADbBIgAAAACAAAAAADbBIkAAAACAAAAAADbBIoAAAACAAAAAADbBIsAAAACAAAAAADbBIwAAAACAAAAAADbBI0AAAACAAAAAADbBI4AAAACAAAAAADbBI8AAAACAAAAAADbBJAAAAACAAAAAADbBJEAAAACAAAAAADbBJIAAAACAAAAAADbBJMAAAACAAAAAADbBJQAAAACAAAAAADbBJUAAAACAAAAAADbBJYAAAACAAAAAADbBJcAAAACAAAAAADbBJgAAAACAAAAAADbBJkAAAACAAAAAADbBJoAAAACAAAAAADbBJsAAAACAAAAAADcBIAAAAACAAAAAADcBIEAAAACAAAAAADcBIIAAAACAAAAAADcBIMAAAACAAAAAADcBIQAAAACAAAAAADcBIUAAAACAAAAAADcBIYAAAACAAAAAADcBIcAAAACAAAAAADcBIgAAAACAAAAAADcBIkAAAACAAAAAADcBIoAAAACAAAAAADcBIsAAAACAAAAAADcBIwAAAACAAAAAADcBI0AAAACAAAAAADcBI4AAAACAAAAAADcBI8AAAACAAAAAADcBJAAAAACAAAAAADcBJEAAAACAAAAAADcBJIAAAACAAAAAADcBJMAAAACAAAAAADcBJQAAAACAAAAAADcBJUAAAACAAAAAADcBJYAAAACAAAAAADcBJcAAAACAAAAAADcBJgAAAACAAAAAADcBJkAAAACAAAAAADcBJoAAAACAAAAAADcBJsAAAACAAAAAADdBIAAAAACAAAAAADdBIEAAAACAAAAAADdBIIAAAACAAAAAADdBIMAAAACAAAAAADdBIQAAAACAAAAAADdBIUAAAACAAAAAADdBIYAAAACAAAAAADdBIcAAAACAAAAAADdBIgAAAACAAAAAADdBIkAAAACAAAAAADdBIoAAAACAAAAAADdBIsAAAACAAAAAADdBIwAAAACAAAAAADdBI0AAAACAAAAAADdBI4AAAACAAAAAADdBI8AAAACAAAAAADdBJAAAAACAAAAAADdBJEAAAACAAAAAADdBJIAAAACAAAAAADdBJMAAAACAAAAAADdBJQAAAACAAAAAADdBJUAAAACAAAAAADdBJYAAAACAAAAAADdBJcAAAACAAAAAADdBJgAAAACAAAAAADdBJkAAAACAAAAAADdBJoAAAACAAAAAADdBJsAAAACAAAAAADeBIAAAAACAAAAAADeBIEAAAACAAAAAADeBIIAAAACAAAAAADeBIMAAAACAAAAAADeBIQAAAACAAAAAADeBIUAAAACAAAAAADeBIYAAAACAAAAAADeBIcAAAACAAAAAADeBIgAAAACAAAAAADeBIkAAAACAAAAAADeBIoAAAACAAAAAADeBIsAAAACAAAAAADeBIwAAAACAAAAAADeBI0AAAACAAAAAADeBI4AAAACAAAAAADeBI8AAAACAAAAAADeBJAAAAACAAAAAADeBJEAAAACAAAAAADeBJIAAAACAAAAAADeBJMAAAACAAAAAADeBJQAAAACAAAAAADeBJUAAAACAAAAAADeBJYAAAACAAAAAADeBJcAAAACAAAAAADeBJgAAAACAAAAAADeBJkAAAACAAAAAADeBJoAAAACAAAAAADeBJsAAAACAAAAAADfBIAAAAACAAAAAADfBIEAAAACAAAAAADfBIIAAAACAAAAAADfBIMAAAACAAAAAADfBIQAAAACAAAAAADfBIUAAAACAAAAAADfBIYAAAACAAAAAADfBIcAAAACAAAAAADfBIgAAAACAAAAAADfBIkAAAACAAAAAADfBIoAAAACAAAAAADfBIsAAAACAAAAAADfBIwAAAACAAAAAADfBI0AAAACAAAAAADfBI4AAAACAAAAAADfBI8AAAACAAAAAADfBJAAAAACAAAAAADfBJEAAAACAAAAAADfBJIAAAACAAAAAADfBJMAAAACAAAAAADfBJQAAAACAAAAAADfBJUAAAACAAAAAADfBJYAAAACAAAAAADfBJcAAAACAAAAAADfBJgAAAACAAAAAADfBJkAAAACAAAAAADfBJoAAAACAAAAAADfBJsAAAACAAAAAABRCLcBAAACAAAAAABRCLgBAAACAAAAAABRCLkBAAACAAAAAABRCLoBAAACAAAAAABRCLsBAAACAAAAAABSCLcBAAACAAAAAABSCLgBAAACAAAAAABSCLkBAAACAAAAAABSCLoBAAACAAAAAABSCLsBAAACAAAAAABTCLcBAAACAAAAAABTCLgBAAACAAAAAABTCLkBAAACAAAAAABTCLoBAAACAAAAAABTCLsBAAACAAAAAABUCLcBAAACAAAAAABUCLgBAAACAAAAAABUCLkBAAACAAAAAABUCLoBAAACAAAAAABUCLsBAAACAAAAAABVCLcBAAACAAAAAABVCLgBAAACAAAAAABVCLkBAAACAAAAAABVCLoBAAACAAAAAABVCLsBAAACAAAAAABWCLcBAAACAAAAAABWCLgBAAACAAAAAABWCLkBAAACAAAAAABWCLoBAAACAAAAAABWCLsBAAACAAAAAABXCLcBAAACAAAAAABXCLgBAAACAAAAAABXCLkBAAACAAAAAABXCLoBAAACAAAAAABXCLsBAAACAAAAAABYCLcBAAACAAAAAABYCLgBAAACAAAAAABYCLkBAAACAAAAAABYCLoBAAACAAAAAABYCLsBAAACAAAAAABZCLcBAAACAAAAAABZCLgBAAACAAAAAABZCLkBAAACAAAAAABZCLoBAAACAAAAAABZCLsBAAACAAAAAABaCLcBAAACAAAAAABaCLgBAAACAAAAAABaCLkBAAACAAAAAABaCLoBAAACAAAAAABaCLsBAAACAAAAAABbCLcBAAACAAAAAABbCLgBAAACAAAAAABbCLkBAAACAAAAAABbCLoBAAACAAAAAABbCLsBAAACAAAAAABcCLcBAAACAAAAAABcCLgBAAACAAAAAABcCLkBAAACAAAAAABcCLoBAAACAAAAAABcCLsBAAACAAAAAABdCLcBAAACAAAAAABdCLgBAAACAAAAAABdCLkBAAACAAAAAABdCLoBAAACAAAAAABdCLsBAAACAAAAAABeCLcBAAACAAAAAABeCLgBAAACAAAAAABeCLkBAAACAAAAAABeCLoBAAACAAAAAABeCLsBAAACAAAAAABfCLcBAAACAAAAAABfCLgBAAACAAAAAABfCLkBAAACAAAAAABfCLoBAAACAAAAAABfCLsBAAACAAAAAABgCLcBAAACAAAAAABgCLgBAAACAAAAAABgCLkBAAACAAAAAABgCLoBAAACAAAAAABgCLsBAAACAAAAAABhCLcBAAACAAAAAABhCLgBAAACAAAAAABhCLkBAAACAAAAAABhCLoBAAACAAAAAABhCLsBAAACAAAAAABiCLcBAAACAAAAAABiCLgBAAACAAAAAABiCLkBAAACAAAAAABiCLoBAAACAAAAAABiCLsBAAACAAAAAABLCqYAAAACAAAAAABLCqcAAAACAAAAAABLCqgAAAACAAAAAABLCqkAAAACAAAAAABLCqoAAAACAAAAAABLCqsAAAACAAAAAABLCqwAAAACAAAAAABLCq0AAAACAAAAAABMCqYAAAACAAAAAABMCqcAAAACAAAAAABMCqgAAAACAAAAAABMCqkAAAACAAAAAABMCqoAAAACAAAAAABMCqsAAAACAAAAAABMCqwAAAACAAAAAABMCq0AAAACAAAAAABNCqYAAAACAAAAAABNCqcAAAACAAAAAABNCqgAAAACAAAAAABNCqkAAAACAAAAAABNCqoAAAACAAAAAABNCqsAAAACAAAAAABNCqwAAAACAAAAAABNCq0AAAACAAAAAABOCqYAAAACAAAAAABOCqcAAAACAAAAAABOCqgAAAACAAAAAABOCqkAAAACAAAAAABOCqoAAAACAAAAAABOCqsAAAACAAAAAABOCqwAAAACAAAAAABOCq0AAAACAAAAAABPCqYAAAACAAAAAABPCqcAAAACAAAAAABPCqgAAAACAAAAAABPCqkAAAACAAAAAABPCqoAAAACAAAAAABPCqsAAAACAAAAAABPCqwAAAACAAAAAABPCq0AAAACAAAAAABQCqYAAAACAAAAAABQCqcAAAACAAAAAABQCqgAAAACAAAAAABQCqkAAAACAAAAAABQCqoAAAACAAAAAABQCqsAAAACAAAAAABQCqwAAAACAAAAAABQCq0AAAACAAAAAABRCqYAAAACAAAAAABRCqcAAAACAAAAAABRCqgAAAACAAAAAABRCqkAAAACAAAAAABRCqoAAAACAAAAAABRCqsAAAACAAAAAABRCqwAAAACAAAAAABRCq0AAAACAAAAAABSCqYAAAACAAAAAABSCqcAAAACAAAAAABSCqgAAAACAAAAAABSCqkAAAACAAAAAABSCqoAAAACAAAAAABSCqsAAAACAAAAAABSCqwAAAACAAAAAABSCq0AAAACAAAAAABTCqYAAAACAAAAAABTCqcAAAACAAAAAABTCqgAAAACAAAAAABTCqkAAAACAAAAAABTCqoAAAACAAAAAABTCqsAAAACAAAAAABTCqwAAAACAAAAAABTCq0AAAACAAAAAABUCqYAAAACAAAAAABUCqcAAAACAAAAAABUCqgAAAACAAAAAABUCqkAAAACAAAAAABUCqoAAAACAAAAAABUCqsAAAACAAAAAABUCqwAAAACAAAAAABUCq0AAAACAAAAAABVCqYAAAACAAAAAABVCqcAAAACAAAAAABVCqgAAAACAAAAAABVCqkAAAACAAAAAABVCqoAAAACAAAAAABVCqsAAAACAAAAAABVCqwAAAACAAAAAABVCq0AAAACAAAAAABWCqYAAAACAAAAAABWCqcAAAACAAAAAABWCqgAAAACAAAAAABWCqkAAAACAAAAAABWCqoAAAACAAAAAABWCqsAAAACAAAAAABWCqwAAAACAAAAAABWCq0AAAACAAAAAABXCqYAAAACAAAAAABXCqcAAAACAAAAAABXCqgAAAACAAAAAABXCqkAAAACAAAAAABXCqoAAAACAAAAAABXCqsAAAACAAAAAABXCqwAAAACAAAAAABXCq0AAAACAAAAAABYCqYAAAACAAAAAABYCqcAAAACAAAAAABYCqgAAAACAAAAAABYCqkAAAACAAAAAABYCqoAAAACAAAAAABYCqsAAAACAAAAAABYCqwAAAACAAAAAABYCq0AAAACAAAAAABZCqYAAAACAAAAAABZCqcAAAACAAAAAABZCqgAAAACAAAAAABZCqkAAAACAAAAAABZCqoAAAACAAAAAABZCqsAAAACAAAAAABZCqwAAAACAAAAAABZCq0AAAACAAAAAABaCqYAAAACAAAAAABaCqcAAAACAAAAAABaCqgAAAACAAAAAABaCqkAAAACAAAAAABaCqoAAAACAAAAAABaCqsAAAACAAAAAABaCqwAAAACAAAAAABaCq0AAAACAAAAAABbCqYAAAACAAAAAABbCqcAAAACAAAAAABbCqgAAAACAAAAAABbCqkAAAACAAAAAABbCqoAAAACAAAAAABbCqsAAAACAAAAAABbCqwAAAACAAAAAABbCq0AAAACAAAAAABcCqYAAAACAAAAAABcCqcAAAACAAAAAABcCqgAAAACAAAAAABcCqkAAAACAAAAAABcCqoAAAACAAAAAABcCqsAAAACAAAAAABcCqwAAAACAAAAAABcCq0AAAACAAAAAABdCqYAAAACAAAAAABdCqcAAAACAAAAAABdCqgAAAACAAAAAABdCqkAAAACAAAAAABdCqoAAAACAAAAAABdCqsAAAACAAAAAABdCqwAAAACAAAAAABdCq0AAAACAAAAAABeCqYAAAACAAAAAABeCqcAAAACAAAAAABeCqgAAAACAAAAAABeCqkAAAACAAAAAABeCqoAAAACAAAAAABeCqsAAAACAAAAAABeCqwAAAACAAAAAABeCq0AAAACAAAAAABfCqYAAAACAAAAAABfCqcAAAACAAAAAABfCqgAAAACAAAAAABfCqkAAAACAAAAAABfCqoAAAACAAAAAABfCqsAAAACAAAAAABfCqwAAAACAAAAAABfCq0AAAACAAAAAABgCqYAAAACAAAAAABgCqcAAAACAAAAAABgCqgAAAACAAAAAABgCqkAAAACAAAAAABgCqoAAAACAAAAAABgCqsAAAACAAAAAABgCqwAAAACAAAAAABgCq0AAAACAAAAAABhCqYAAAACAAAAAABhCqcAAAACAAAAAABhCqgAAAACAAAAAABhCqkAAAACAAAAAABhCqoAAAACAAAAAABhCqsAAAACAAAAAABhCqwAAAACAAAAAABhCq0AAAACAAAAAABiCqYAAAACAAAAAABiCqcAAAACAAAAAABiCqgAAAACAAAAAABiCqkAAAACAAAAAABiCqoAAAACAAAAAABiCqsAAAACAAAAAABiCqwAAAACAAAAAABiCq0AAAACAAAAAABjCqYAAAACAAAAAABjCqcAAAACAAAAAABjCqgAAAACAAAAAABjCqkAAAACAAAAAABjCqoAAAACAAAAAABjCqsAAAACAAAAAABjCqwAAAACAAAAAABjCq0AAAACAAAAAABkCqYAAAACAAAAAABkCqcAAAACAAAAAABkCqgAAAACAAAAAABkCqkAAAACAAAAAABkCqoAAAACAAAAAABkCqsAAAACAAAAAABkCqwAAAACAAAAAABkCq0AAAACAAAAAABlCqYAAAACAAAAAABlCqcAAAACAAAAAABlCqgAAAACAAAAAABlCqkAAAACAAAAAABlCqoAAAACAAAAAABlCqsAAAACAAAAAABlCqwAAAACAAAAAABlCq0AAAACAAAAAABmCqYAAAACAAAAAABmCqcAAAACAAAAAABmCqgAAAACAAAAAABmCqkAAAACAAAAAABmCqoAAAACAAAAAABmCqsAAAACAAAAAABmCqwAAAACAAAAAABmCq0AAAACAAAAAABnCqYAAAACAAAAAABnCqcAAAACAAAAAABnCqgAAAACAAAAAABnCqkAAAACAAAAAABnCqoAAAACAAAAAABnCqsAAAACAAAAAABnCqwAAAACAAAAAABnCq0AAAACAAAAAABoCqYAAAACAAAAAABoCqcAAAACAAAAAABoCqgAAAACAAAAAABoCqkAAAACAAAAAABoCqoAAAACAAAAAABoCqsAAAACAAAAAABoCqwAAAACAAAAAABoCq0AAAACAAAAAABpCqYAAAACAAAAAABpCqcAAAACAAAAAABpCqgAAAACAAAAAABpCqkAAAACAAAAAABpCqoAAAACAAAAAABpCqsAAAACAAAAAABpCqwAAAACAAAAAABpCq0AAAACAAAAAABqCqYAAAACAAAAAABqCqcAAAACAAAAAABqCqgAAAACAAAAAABqCqkAAAACAAAAAABqCqoAAAACAAAAAABqCqsAAAACAAAAAABqCqwAAAACAAAAAABqCq0AAAACAAAAAABrCqYAAAACAAAAAABrCqcAAAACAAAAAABrCqgAAAACAAAAAABrCqkAAAACAAAAAABrCqoAAAACAAAAAABrCqsAAAACAAAAAABrCqwAAAACAAAAAABrCq0AAAACAAAAAABsCqYAAAACAAAAAABsCqcAAAACAAAAAABsCqgAAAACAAAAAABsCqkAAAACAAAAAABsCqoAAAACAAAAAABsCqsAAAACAAAAAABsCqwAAAACAAAAAABsCq0AAAACAAAAAABtCqYAAAACAAAAAABtCqcAAAACAAAAAABtCqgAAAACAAAAAABtCqkAAAACAAAAAABtCqoAAAACAAAAAABtCqsAAAACAAAAAABtCqwAAAACAAAAAABtCq0AAAACAAAAAABuCqYAAAACAAAAAABuCqcAAAACAAAAAABuCqgAAAACAAAAAABuCqkAAAACAAAAAABuCqoAAAACAAAAAABuCqsAAAACAAAAAABuCqwAAAACAAAAAABuCq0AAAACAAAAAABvCqYAAAACAAAAAABvCqcAAAACAAAAAABvCqgAAAACAAAAAABvCqkAAAACAAAAAABvCqoAAAACAAAAAABvCqsAAAACAAAAAABvCqwAAAACAAAAAABvCq0AAAACAAAAAABwCqYAAAACAAAAAABwCqcAAAACAAAAAABwCqgAAAACAAAAAABwCqkAAAACAAAAAABwCqoAAAACAAAAAABwCqsAAAACAAAAAABwCqwAAAACAAAAAABwCq0AAAACAAAAAABxCqYAAAACAAAAAABxCqcAAAACAAAAAABxCqgAAAACAAAAAABxCqkAAAACAAAAAABxCqoAAAACAAAAAABxCqsAAAACAAAAAABxCqwAAAACAAAAAABxCq0AAAACAAAAAAByCqYAAAACAAAAAAByCqcAAAACAAAAAAByCqgAAAACAAAAAAByCqkAAAACAAAAAAByCqoAAAACAAAAAAByCqsAAAACAAAAAAByCqwAAAACAAAAAAByCq0AAAACAAAAAABzCqYAAAACAAAAAABzCqcAAAACAAAAAABzCqgAAAACAAAAAABzCqkAAAACAAAAAABzCqoAAAACAAAAAABzCqsAAAACAAAAAABzCqwAAAACAAAAAABzCq0AAAACAAAAAAB0CqYAAAACAAAAAAB0CqcAAAACAAAAAAB0CqgAAAACAAAAAAB0CqkAAAACAAAAAAB0CqoAAAACAAAAAAB0CqsAAAACAAAAAAB0CqwAAAACAAAAAAB0Cq0AAAACAAAAAAA=")
+tile_map_data = PackedByteArray("AADqASkBAAACAAAAAADqASoBAAACAAAAAADqASsBAAACAAAAAADqASwBAAACAAAAAADqAS0BAAACAAAAAADqAS4BAAACAAAAAADqAS8BAAACAAAAAADqATABAAACAAAAAADqATEBAAACAAAAAADqATIBAAACAAAAAADqATMBAAACAAAAAADqATQBAAACAAAAAADqATUBAAACAAAAAADqATYBAAACAAAAAADqATcBAAACAAAAAADqATgBAAACAAAAAADqATkBAAACAAAAAADqAToBAAACAAAAAADqATsBAAACAAAAAADqATwBAAACAAAAAADqAT0BAAACAAAAAADqAT4BAAACAAAAAADqAT8BAAACAAAAAADqAUABAAACAAAAAADqAUEBAAACAAAAAADqAUIBAAACAAAAAADqAUMBAAACAAAAAADqAUQBAAACAAAAAADqAUUBAAACAAAAAADqAUYBAAACAAAAAADqAUcBAAACAAAAAADqAUgBAAACAAAAAADqAUkBAAACAAAAAADqAUoBAAACAAAAAADqAUsBAAACAAAAAADrASkBAAACAAAAAADrASoBAAACAAAAAADrASsBAAACAAAAAADrASwBAAACAAAAAADrAS0BAAACAAAAAADrAS4BAAACAAAAAADrAS8BAAACAAAAAADrATABAAACAAAAAADrATEBAAACAAAAAADrATIBAAACAAAAAADrATMBAAACAAAAAADrATQBAAACAAAAAADrATUBAAACAAAAAADrATYBAAACAAAAAADrATcBAAACAAAAAADrATgBAAACAAAAAADrATkBAAACAAAAAADrAToBAAACAAAAAADrATsBAAACAAAAAADrATwBAAACAAAAAADrAT0BAAACAAAAAADrAT4BAAACAAAAAADrAT8BAAACAAAAAADrAUABAAACAAAAAADrAUEBAAACAAAAAADrAUIBAAACAAAAAADrAUMBAAACAAAAAADrAUQBAAACAAAAAADrAUUBAAACAAAAAADrAUYBAAACAAAAAADrAUcBAAACAAAAAADrAUgBAAACAAAAAADrAUkBAAACAAAAAADrAUoBAAACAAAAAADrAUsBAAACAAAAAADsASkBAAACAAAAAADsASoBAAACAAAAAADsASsBAAACAAAAAADsASwBAAACAAAAAADsAS0BAAACAAAAAADsAS4BAAACAAAAAADsAS8BAAACAAAAAADsATABAAACAAAAAADsATEBAAACAAAAAADsATIBAAACAAAAAADsATMBAAACAAAAAADsATQBAAACAAAAAADsATUBAAACAAAAAADsATYBAAACAAAAAADsATcBAAACAAAAAADsATgBAAACAAAAAADsATkBAAACAAAAAADsAToBAAACAAAAAADsATsBAAACAAAAAADsATwBAAACAAAAAADsAT0BAAACAAAAAADsAT4BAAACAAAAAADsAT8BAAACAAAAAADsAUABAAACAAAAAADsAUEBAAACAAAAAADsAUIBAAACAAAAAADsAUMBAAACAAAAAADsAUQBAAACAAAAAADsAUUBAAACAAAAAADsAUYBAAACAAAAAADsAUcBAAACAAAAAADsAUgBAAACAAAAAADsAUkBAAACAAAAAADsAUoBAAACAAAAAADsAUsBAAACAAAAAADtASkBAAACAAAAAADtASoBAAACAAAAAADtASsBAAACAAAAAADtASwBAAACAAAAAADtAS0BAAACAAAAAADtAS4BAAACAAAAAADtAS8BAAACAAAAAADtATABAAACAAAAAADtATEBAAACAAAAAADtATIBAAACAAAAAADtATMBAAACAAAAAADtATQBAAACAAAAAADtATUBAAACAAAAAADtATYBAAACAAAAAADtATcBAAACAAAAAADtATgBAAACAAAAAADtATkBAAACAAAAAADtAToBAAACAAAAAADtATsBAAACAAAAAADtATwBAAACAAAAAADtAT0BAAACAAAAAADtAT4BAAACAAAAAADtAT8BAAACAAAAAADtAUABAAACAAAAAADtAUEBAAACAAAAAADtAUIBAAACAAAAAADtAUMBAAACAAAAAADtAUQBAAACAAAAAADtAUUBAAACAAAAAADtAUYBAAACAAAAAADtAUcBAAACAAAAAADtAUgBAAACAAAAAADtAUkBAAACAAAAAADtAUoBAAACAAAAAADtAUsBAAACAAAAAADuASkBAAACAAAAAADuASoBAAACAAAAAADuASsBAAACAAAAAADuASwBAAACAAAAAADuAS0BAAACAAAAAADuAS4BAAACAAAAAADuAS8BAAACAAAAAADuATABAAACAAAAAADuATEBAAACAAAAAADuATIBAAACAAAAAADuATMBAAACAAAAAADuATQBAAACAAAAAADuATUBAAACAAAAAADuATYBAAACAAAAAADuATcBAAACAAAAAADuATgBAAACAAAAAADuATkBAAACAAAAAADuAToBAAACAAAAAADuATsBAAACAAAAAADuATwBAAACAAAAAADuAT0BAAACAAAAAADuAT4BAAACAAAAAADuAT8BAAACAAAAAADuAUABAAACAAAAAADuAUEBAAACAAAAAADuAUIBAAACAAAAAADuAUMBAAACAAAAAADuAUQBAAACAAAAAADuAUUBAAACAAAAAADuAUYBAAACAAAAAADuAUcBAAACAAAAAADuAUgBAAACAAAAAADuAUkBAAACAAAAAADuAUoBAAACAAAAAADuAUsBAAACAAAAAADvASkBAAACAAAAAADvASoBAAACAAAAAADvASsBAAACAAAAAADvASwBAAACAAAAAADvAS0BAAACAAAAAADvAS4BAAACAAAAAADvAS8BAAACAAAAAADvATABAAACAAAAAADvATEBAAACAAAAAADvATIBAAACAAAAAADvATMBAAACAAAAAADvATQBAAACAAAAAADvATUBAAACAAAAAADvATYBAAACAAAAAADvATcBAAACAAAAAADvATgBAAACAAAAAADvATkBAAACAAAAAADvAToBAAACAAAAAADvATsBAAACAAAAAADvATwBAAACAAAAAADvAT0BAAACAAAAAADvAT4BAAACAAAAAADvAT8BAAACAAAAAADvAUABAAACAAAAAADvAUEBAAACAAAAAADvAUIBAAACAAAAAADvAUMBAAACAAAAAADvAUQBAAACAAAAAADvAUUBAAACAAAAAADvAUYBAAACAAAAAADvAUcBAAACAAAAAADvAUgBAAACAAAAAADvAUkBAAACAAAAAADvAUoBAAACAAAAAADvAUsBAAACAAAAAABOAfoAAAACAAAAAABOAfsAAAACAAAAAABOAfwAAAACAAAAAABOAf0AAAACAAAAAABOAf4AAAACAAAAAABOAf8AAAACAAAAAABOAQABAAACAAAAAABPAfoAAAACAAAAAABPAfsAAAACAAAAAABPAfwAAAACAAAAAABPAf0AAAACAAAAAABPAf4AAAACAAAAAABPAf8AAAACAAAAAABPAQABAAACAAAAAABQAfoAAAACAAAAAABQAfsAAAACAAAAAABQAfwAAAACAAAAAABQAf0AAAACAAAAAABQAf4AAAACAAAAAABQAf8AAAACAAAAAABQAQABAAACAAAAAABRAfoAAAACAAAAAABRAfsAAAACAAAAAABRAfwAAAACAAAAAABRAf0AAAACAAAAAABRAf4AAAACAAAAAABRAf8AAAACAAAAAABRAQABAAACAAAAAABSAfoAAAACAAAAAABSAfsAAAACAAAAAABSAfwAAAACAAAAAABSAf0AAAACAAAAAABSAf4AAAACAAAAAABSAf8AAAACAAAAAABSAQABAAACAAAAAABTAfoAAAACAAAAAABTAfsAAAACAAAAAABTAfwAAAACAAAAAABTAf0AAAACAAAAAABTAf4AAAACAAAAAABTAf8AAAACAAAAAABTAQABAAACAAAAAABUAfoAAAACAAAAAABUAfsAAAACAAAAAABUAfwAAAACAAAAAABUAf0AAAACAAAAAABUAf4AAAACAAAAAABUAf8AAAACAAAAAABUAQABAAACAAAAAABVAfoAAAACAAAAAABVAfsAAAACAAAAAABVAfwAAAACAAAAAABVAf0AAAACAAAAAABVAf4AAAACAAAAAABVAf8AAAACAAAAAABVAQABAAACAAAAAABWAfoAAAACAAAAAABWAfsAAAACAAAAAABWAfwAAAACAAAAAABWAf0AAAACAAAAAABWAf4AAAACAAAAAABWAf8AAAACAAAAAABWAQABAAACAAAAAABXAfoAAAACAAAAAABXAfsAAAACAAAAAABXAfwAAAACAAAAAABXAf0AAAACAAAAAABXAf4AAAACAAAAAABXAf8AAAACAAAAAABXAQABAAACAAAAAABYAfoAAAACAAAAAABYAfsAAAACAAAAAABYAfwAAAACAAAAAABYAf0AAAACAAAAAABYAf4AAAACAAAAAABYAf8AAAACAAAAAABYAQABAAACAAAAAABZAfoAAAACAAAAAABZAfsAAAACAAAAAABZAfwAAAACAAAAAABZAf0AAAACAAAAAABZAf4AAAACAAAAAABZAf8AAAACAAAAAABZAQABAAACAAAAAABaAfoAAAACAAAAAABaAfsAAAACAAAAAABaAfwAAAACAAAAAABaAf0AAAACAAAAAABaAf4AAAACAAAAAABaAf8AAAACAAAAAABaAQABAAACAAAAAABbAfoAAAACAAAAAABbAfsAAAACAAAAAABbAfwAAAACAAAAAABbAf0AAAACAAAAAABbAf4AAAACAAAAAABbAf8AAAACAAAAAABbAQABAAACAAAAAABcAfoAAAACAAAAAABcAfsAAAACAAAAAABcAfwAAAACAAAAAABcAf0AAAACAAAAAABcAf4AAAACAAAAAABcAf8AAAACAAAAAABcAQABAAACAAAAAABdAfoAAAACAAAAAABdAfsAAAACAAAAAABdAfwAAAACAAAAAABdAf0AAAACAAAAAABdAf4AAAACAAAAAABdAf8AAAACAAAAAABdAQABAAACAAAAAABeAfoAAAACAAAAAABeAfsAAAACAAAAAABeAfwAAAACAAAAAABeAf0AAAACAAAAAABeAf4AAAACAAAAAABeAf8AAAACAAAAAABeAQABAAACAAAAAABfAfoAAAACAAAAAABfAfsAAAACAAAAAABfAfwAAAACAAAAAABfAf0AAAACAAAAAABfAf4AAAACAAAAAABfAf8AAAACAAAAAABfAQABAAACAAAAAABgAfoAAAACAAAAAABgAfsAAAACAAAAAABgAfwAAAACAAAAAABgAf0AAAACAAAAAABgAf4AAAACAAAAAABgAf8AAAACAAAAAABgAQABAAACAAAAAABhAfoAAAACAAAAAABhAfsAAAACAAAAAABhAfwAAAACAAAAAABhAf0AAAACAAAAAABhAf4AAAACAAAAAABhAf8AAAACAAAAAABhAQABAAACAAAAAABiAfoAAAACAAAAAABiAfsAAAACAAAAAABiAfwAAAACAAAAAABiAf0AAAACAAAAAABiAf4AAAACAAAAAABiAf8AAAACAAAAAABiAQABAAACAAAAAABjAfoAAAACAAAAAABjAfsAAAACAAAAAABjAfwAAAACAAAAAABjAf0AAAACAAAAAABjAf4AAAACAAAAAABjAf8AAAACAAAAAABjAQABAAACAAAAAABkAfoAAAACAAAAAABkAfsAAAACAAAAAABkAfwAAAACAAAAAABkAf0AAAACAAAAAABkAf4AAAACAAAAAABkAf8AAAACAAAAAABkAQABAAACAAAAAABlAfoAAAACAAAAAABlAfsAAAACAAAAAABlAfwAAAACAAAAAABlAf0AAAACAAAAAABlAf4AAAACAAAAAABlAf8AAAACAAAAAABlAQABAAACAAAAAABmAfoAAAACAAAAAABmAfsAAAACAAAAAABmAfwAAAACAAAAAABmAf0AAAACAAAAAABmAf4AAAACAAAAAABmAf8AAAACAAAAAABmAQABAAACAAAAAABnAfoAAAACAAAAAABnAfsAAAACAAAAAABnAfwAAAACAAAAAABnAf0AAAACAAAAAABnAf4AAAACAAAAAABnAf8AAAACAAAAAABnAQABAAACAAAAAABoAfoAAAACAAAAAABoAfsAAAACAAAAAABoAfwAAAACAAAAAABoAf0AAAACAAAAAABoAf4AAAACAAAAAABoAf8AAAACAAAAAABoAQABAAACAAAAAABpAfoAAAACAAAAAABpAfsAAAACAAAAAABpAfwAAAACAAAAAABpAf0AAAACAAAAAABpAf4AAAACAAAAAABpAf8AAAACAAAAAABpAQABAAACAAAAAABqAfoAAAACAAAAAABqAfsAAAACAAAAAABqAfwAAAACAAAAAABqAf0AAAACAAAAAABqAf4AAAACAAAAAABqAf8AAAACAAAAAABqAQABAAACAAAAAABrAfoAAAACAAAAAABrAfsAAAACAAAAAABrAfwAAAACAAAAAABrAf0AAAACAAAAAABrAf4AAAACAAAAAABrAf8AAAACAAAAAABrAQABAAACAAAAAABsAfoAAAACAAAAAABsAfsAAAACAAAAAABsAfwAAAACAAAAAABsAf0AAAACAAAAAABsAf4AAAACAAAAAABsAf8AAAACAAAAAABsAQABAAACAAAAAAC3Aob+AAACAAAAAAC3Aof+AAACAAAAAAC3Aoj+AAACAAAAAAC3Aon+AAACAAAAAAC3Aor+AAACAAAAAAC3Aov+AAACAAAAAAC4Aob+AAACAAAAAAC4Aof+AAACAAAAAAC4Aoj+AAACAAAAAAC4Aon+AAACAAAAAAC4Aor+AAACAAAAAAC4Aov+AAACAAAAAAC5Aob+AAACAAAAAAC5Aof+AAACAAAAAAC5Aoj+AAACAAAAAAC5Aon+AAACAAAAAAC5Aor+AAACAAAAAAC5Aov+AAACAAAAAAC6Aob+AAACAAAAAAC6Aof+AAACAAAAAAC6Aoj+AAACAAAAAAC6Aon+AAACAAAAAAC6Aor+AAACAAAAAAC6Aov+AAACAAAAAAC7Aob+AAACAAAAAAC7Aof+AAACAAAAAAC7Aoj+AAACAAAAAAC7Aon+AAACAAAAAAC7Aor+AAACAAAAAAC7Aov+AAACAAAAAAC8Aob+AAACAAAAAAC8Aof+AAACAAAAAAC8Aoj+AAACAAAAAAC8Aon+AAACAAAAAAC8Aor+AAACAAAAAAC8Aov+AAACAAAAAAC9Aob+AAACAAAAAAC9Aof+AAACAAAAAAC9Aoj+AAACAAAAAAC9Aon+AAACAAAAAAC9Aor+AAACAAAAAAC9Aov+AAACAAAAAAC+Aob+AAACAAAAAAC+Aof+AAACAAAAAAC+Aoj+AAACAAAAAAC+Aon+AAACAAAAAAC+Aor+AAACAAAAAAC+Aov+AAACAAAAAAC/Aob+AAACAAAAAAC/Aof+AAACAAAAAAC/Aoj+AAACAAAAAAC/Aon+AAACAAAAAAC/Aor+AAACAAAAAAC/Aov+AAACAAAAAADAAob+AAACAAAAAADAAof+AAACAAAAAADAAoj+AAACAAAAAADAAon+AAACAAAAAADAAor+AAACAAAAAADAAov+AAACAAAAAADBAob+AAACAAAAAADBAof+AAACAAAAAADBAoj+AAACAAAAAADBAon+AAACAAAAAADBAor+AAACAAAAAADBAov+AAACAAAAAADCAob+AAACAAAAAADCAof+AAACAAAAAADCAoj+AAACAAAAAADCAon+AAACAAAAAADCAor+AAACAAAAAADCAov+AAACAAAAAADDAob+AAACAAAAAADDAof+AAACAAAAAADDAoj+AAACAAAAAADDAon+AAACAAAAAADDAor+AAACAAAAAADDAov+AAACAAAAAADEAob+AAACAAAAAADEAof+AAACAAAAAADEAoj+AAACAAAAAADEAon+AAACAAAAAADEAor+AAACAAAAAADEAov+AAACAAAAAADFAob+AAACAAAAAADFAof+AAACAAAAAADFAoj+AAACAAAAAADFAon+AAACAAAAAADFAor+AAACAAAAAADFAov+AAACAAAAAADGAob+AAACAAAAAADGAof+AAACAAAAAADGAoj+AAACAAAAAADGAon+AAACAAAAAADGAor+AAACAAAAAADGAov+AAACAAAAAADHAob+AAACAAAAAADHAof+AAACAAAAAADHAoj+AAACAAAAAADHAon+AAACAAAAAADHAor+AAACAAAAAADHAov+AAACAAAAAADIAob+AAACAAAAAADIAof+AAACAAAAAADIAoj+AAACAAAAAADIAon+AAACAAAAAADIAor+AAACAAAAAADIAov+AAACAAAAAADJAob+AAACAAAAAADJAof+AAACAAAAAADJAoj+AAACAAAAAADJAon+AAACAAAAAADJAor+AAACAAAAAADJAov+AAACAAAAAADKAob+AAACAAAAAADKAof+AAACAAAAAADKAoj+AAACAAAAAADKAon+AAACAAAAAADKAor+AAACAAAAAADKAov+AAACAAAAAADLAob+AAACAAAAAADLAof+AAACAAAAAADLAoj+AAACAAAAAADLAon+AAACAAAAAADLAor+AAACAAAAAADLAov+AAACAAAAAADMAob+AAACAAAAAADMAof+AAACAAAAAADMAoj+AAACAAAAAADMAon+AAACAAAAAADMAor+AAACAAAAAADMAov+AAACAAAAAADNAob+AAACAAAAAADNAof+AAACAAAAAADNAoj+AAACAAAAAADNAon+AAACAAAAAADNAor+AAACAAAAAADNAov+AAACAAAAAADOAob+AAACAAAAAADOAof+AAACAAAAAADOAoj+AAACAAAAAADOAon+AAACAAAAAADOAor+AAACAAAAAADOAov+AAACAAAAAADPAob+AAACAAAAAADPAof+AAACAAAAAADPAoj+AAACAAAAAADPAon+AAACAAAAAADPAor+AAACAAAAAADPAov+AAACAAAAAADQAob+AAACAAAAAADQAof+AAACAAAAAADQAoj+AAACAAAAAADQAon+AAACAAAAAADQAor+AAACAAAAAADQAov+AAACAAAAAADRAob+AAACAAAAAADRAof+AAACAAAAAADRAoj+AAACAAAAAADRAon+AAACAAAAAADRAor+AAACAAAAAADRAov+AAACAAAAAACaBM39AAACAAAAAACaBM79AAACAAAAAACaBM/9AAACAAAAAACaBND9AAACAAAAAACaBNH9AAACAAAAAACbBM39AAACAAAAAACbBM79AAACAAAAAACbBM/9AAACAAAAAACbBND9AAACAAAAAACbBNH9AAACAAAAAACcBM39AAACAAAAAACcBM79AAACAAAAAACcBM/9AAACAAAAAACcBND9AAACAAAAAACcBNH9AAACAAAAAACdBM39AAACAAAAAACdBM79AAACAAAAAACdBM/9AAACAAAAAACdBND9AAACAAAAAACdBNH9AAACAAAAAACeBM39AAACAAAAAACeBM79AAACAAAAAACeBM/9AAACAAAAAACeBND9AAACAAAAAACeBNH9AAACAAAAAACfBM39AAACAAAAAACfBM79AAACAAAAAACfBM/9AAACAAAAAACfBND9AAACAAAAAACfBNH9AAACAAAAAACgBM39AAACAAAAAACgBM79AAACAAAAAACgBM/9AAACAAAAAACgBND9AAACAAAAAACgBNH9AAACAAAAAAChBM39AAACAAAAAAChBM79AAACAAAAAAChBM/9AAACAAAAAAChBND9AAACAAAAAAChBNH9AAACAAAAAACiBM39AAACAAAAAACiBM79AAACAAAAAACiBM/9AAACAAAAAACiBND9AAACAAAAAACiBNH9AAACAAAAAACjBM39AAACAAAAAACjBM79AAACAAAAAACjBM/9AAACAAAAAACjBND9AAACAAAAAACjBNH9AAACAAAAAACkBM39AAACAAAAAACkBM79AAACAAAAAACkBM/9AAACAAAAAACkBND9AAACAAAAAACkBNH9AAACAAAAAAClBM39AAACAAAAAAClBM79AAACAAAAAAClBM/9AAACAAAAAAClBND9AAACAAAAAAClBNH9AAACAAAAAACmBM39AAACAAAAAACmBM79AAACAAAAAACmBM/9AAACAAAAAACmBND9AAACAAAAAACmBNH9AAACAAAAAACnBM39AAACAAAAAACnBM79AAACAAAAAACnBM/9AAACAAAAAACnBND9AAACAAAAAACnBNH9AAACAAAAAACoBM39AAACAAAAAACoBM79AAACAAAAAACoBM/9AAACAAAAAACoBND9AAACAAAAAACoBNH9AAACAAAAAACpBM39AAACAAAAAACpBM79AAACAAAAAACpBM/9AAACAAAAAACpBND9AAACAAAAAACpBNH9AAACAAAAAACqBM39AAACAAAAAACqBM79AAACAAAAAACqBM/9AAACAAAAAACqBND9AAACAAAAAACqBNH9AAACAAAAAACrBM39AAACAAAAAACrBM79AAACAAAAAACrBM/9AAACAAAAAACrBND9AAACAAAAAACrBNH9AAACAAAAAACsBM39AAACAAAAAACsBM79AAACAAAAAACsBM/9AAACAAAAAACsBND9AAACAAAAAACsBNH9AAACAAAAAACtBCX+AAACAAAAAACtBCb+AAACAAAAAACtBCf+AAACAAAAAACtBCj+AAACAAAAAACtBCn+AAACAAAAAACtBCr+AAACAAAAAACtBCv+AAACAAAAAACtBCz+AAACAAAAAACtBC3+AAACAAAAAACtBC7+AAACAAAAAACtBC/+AAACAAAAAACtBDD+AAACAAAAAACtBDH+AAACAAAAAACtBDL+AAACAAAAAACtBDP+AAACAAAAAACtBDT+AAACAAAAAACtBDX+AAACAAAAAACuBCX+AAACAAAAAACuBCb+AAACAAAAAACuBCf+AAACAAAAAACuBCj+AAACAAAAAACuBCn+AAACAAAAAACuBCr+AAACAAAAAACuBCv+AAACAAAAAACuBCz+AAACAAAAAACuBC3+AAACAAAAAACuBC7+AAACAAAAAACuBC/+AAACAAAAAACuBDD+AAACAAAAAACuBDH+AAACAAAAAACuBDL+AAACAAAAAACuBDP+AAACAAAAAACuBDT+AAACAAAAAACuBDX+AAACAAAAAACvBCX+AAACAAAAAACvBCb+AAACAAAAAACvBCf+AAACAAAAAACvBCj+AAACAAAAAACvBCn+AAACAAAAAACvBCr+AAACAAAAAACvBCv+AAACAAAAAACvBCz+AAACAAAAAACvBC3+AAACAAAAAACvBC7+AAACAAAAAACvBC/+AAACAAAAAACvBDD+AAACAAAAAACvBDH+AAACAAAAAACvBDL+AAACAAAAAACvBDP+AAACAAAAAACvBDT+AAACAAAAAACvBDX+AAACAAAAAACwBCX+AAACAAAAAACwBCb+AAACAAAAAACwBCf+AAACAAAAAACwBCj+AAACAAAAAACwBCn+AAACAAAAAACwBCr+AAACAAAAAACwBCv+AAACAAAAAACwBCz+AAACAAAAAACwBC3+AAACAAAAAACwBC7+AAACAAAAAACwBC/+AAACAAAAAACwBDD+AAACAAAAAACwBDH+AAACAAAAAACwBDL+AAACAAAAAACwBDP+AAACAAAAAACwBDT+AAACAAAAAACwBDX+AAACAAAAAACxBCX+AAACAAAAAACxBCb+AAACAAAAAACxBCf+AAACAAAAAACxBCj+AAACAAAAAACxBCn+AAACAAAAAACxBCr+AAACAAAAAACxBCv+AAACAAAAAACxBCz+AAACAAAAAACxBC3+AAACAAAAAACxBC7+AAACAAAAAACxBC/+AAACAAAAAACxBDD+AAACAAAAAACxBDH+AAACAAAAAACxBDL+AAACAAAAAACxBDP+AAACAAAAAACxBDT+AAACAAAAAACxBDX+AAACAAAAAABeBAoAAAACAAAAAABeBAsAAAACAAAAAABeBAwAAAACAAAAAABeBA0AAAACAAAAAABeBA4AAAACAAAAAABeBA8AAAACAAAAAABfBAoAAAACAAAAAABfBAsAAAACAAAAAABfBAwAAAACAAAAAABfBA0AAAACAAAAAABfBA4AAAACAAAAAABfBA8AAAACAAAAAABgBAoAAAACAAAAAABgBAsAAAACAAAAAABgBAwAAAACAAAAAABgBA0AAAACAAAAAABgBA4AAAACAAAAAABgBA8AAAACAAAAAABhBAoAAAACAAAAAABhBAsAAAACAAAAAABhBAwAAAACAAAAAABhBA0AAAACAAAAAABhBA4AAAACAAAAAABhBA8AAAACAAAAAABiBAoAAAACAAAAAABiBAsAAAACAAAAAABiBAwAAAACAAAAAABiBA0AAAACAAAAAABiBA4AAAACAAAAAABiBA8AAAACAAAAAABjBAoAAAACAAAAAABjBAsAAAACAAAAAABjBAwAAAACAAAAAABjBA0AAAACAAAAAABjBA4AAAACAAAAAABjBA8AAAACAAAAAABkBAoAAAACAAAAAABkBAsAAAACAAAAAABkBAwAAAACAAAAAABkBA0AAAACAAAAAABkBA4AAAACAAAAAABkBA8AAAACAAAAAABlBAoAAAACAAAAAABlBAsAAAACAAAAAABlBAwAAAACAAAAAABlBA0AAAACAAAAAABlBA4AAAACAAAAAABlBA8AAAACAAAAAABmBAoAAAACAAAAAABmBAsAAAACAAAAAABmBAwAAAACAAAAAABmBA0AAAACAAAAAABmBA4AAAACAAAAAABmBA8AAAACAAAAAABnBAoAAAACAAAAAABnBAsAAAACAAAAAABnBAwAAAACAAAAAABnBA0AAAACAAAAAABnBA4AAAACAAAAAABnBA8AAAACAAAAAABoBAoAAAACAAAAAABoBAsAAAACAAAAAABoBAwAAAACAAAAAABoBA0AAAACAAAAAABoBA4AAAACAAAAAABoBA8AAAACAAAAAABpBAoAAAACAAAAAABpBAsAAAACAAAAAABpBAwAAAACAAAAAABpBA0AAAACAAAAAABpBA4AAAACAAAAAABpBA8AAAACAAAAAABqBAoAAAACAAAAAABqBAsAAAACAAAAAABqBAwAAAACAAAAAABqBA0AAAACAAAAAABqBA4AAAACAAAAAABqBA8AAAACAAAAAABrBAoAAAACAAAAAABrBAsAAAACAAAAAABrBAwAAAACAAAAAABrBA0AAAACAAAAAABrBA4AAAACAAAAAABrBA8AAAACAAAAAABsBAoAAAACAAAAAABsBAsAAAACAAAAAABsBAwAAAACAAAAAABsBA0AAAACAAAAAABsBA4AAAACAAAAAABsBA8AAAACAAAAAABtBAoAAAACAAAAAABtBAsAAAACAAAAAABtBAwAAAACAAAAAABtBA0AAAACAAAAAABtBA4AAAACAAAAAABtBA8AAAACAAAAAABuBAoAAAACAAAAAABuBAsAAAACAAAAAABuBAwAAAACAAAAAABuBA0AAAACAAAAAABuBA4AAAACAAAAAABuBA8AAAACAAAAAABvBAoAAAACAAAAAABvBAsAAAACAAAAAABvBAwAAAACAAAAAABvBA0AAAACAAAAAABvBA4AAAACAAAAAABvBA8AAAACAAAAAABwBAoAAAACAAAAAABwBAsAAAACAAAAAABwBAwAAAACAAAAAABwBA0AAAACAAAAAABwBA4AAAACAAAAAABwBA8AAAACAAAAAABxBAoAAAACAAAAAABxBAsAAAACAAAAAABxBAwAAAACAAAAAABxBA0AAAACAAAAAABxBA4AAAACAAAAAABxBA8AAAACAAAAAAByBAoAAAACAAAAAAByBAsAAAACAAAAAAByBAwAAAACAAAAAAByBA0AAAACAAAAAAByBA4AAAACAAAAAAByBA8AAAACAAAAAABzBAoAAAACAAAAAABzBAsAAAACAAAAAABzBAwAAAACAAAAAABzBA0AAAACAAAAAABzBA4AAAACAAAAAABzBA8AAAACAAAAAAB0BAoAAAACAAAAAAB0BAsAAAACAAAAAAB0BAwAAAACAAAAAAB0BA0AAAACAAAAAAB0BA4AAAACAAAAAAB0BA8AAAACAAAAAAB1BAoAAAACAAAAAAB1BAsAAAACAAAAAAB1BAwAAAACAAAAAAB1BA0AAAACAAAAAAB1BA4AAAACAAAAAAB1BA8AAAACAAAAAAB2BAoAAAACAAAAAAB2BAsAAAACAAAAAAB2BAwAAAACAAAAAAB2BA0AAAACAAAAAAB2BA4AAAACAAAAAAB2BA8AAAACAAAAAAB3BAoAAAACAAAAAAB3BAsAAAACAAAAAAB3BAwAAAACAAAAAAB3BA0AAAACAAAAAAB3BA4AAAACAAAAAAB3BA8AAAACAAAAAAB4BAoAAAACAAAAAAB4BAsAAAACAAAAAAB4BAwAAAACAAAAAAB4BA0AAAACAAAAAAB4BA4AAAACAAAAAAB4BA8AAAACAAAAAAB5BAoAAAACAAAAAAB5BAsAAAACAAAAAAB5BAwAAAACAAAAAAB5BA0AAAACAAAAAAB5BA4AAAACAAAAAAB5BA8AAAACAAAAAACMBIwAAAACAAAAAACMBI0AAAACAAAAAACMBI4AAAACAAAAAACMBI8AAAACAAAAAACMBJAAAAACAAAAAACMBJEAAAACAAAAAACMBJIAAAACAAAAAACMBJMAAAACAAAAAACMBJQAAAACAAAAAACMBJUAAAACAAAAAACMBJYAAAACAAAAAACMBJcAAAACAAAAAACMBJgAAAACAAAAAACMBJkAAAACAAAAAACMBJoAAAACAAAAAACMBJsAAAACAAAAAACMBJwAAAACAAAAAACMBJ0AAAACAAAAAACMBJ4AAAACAAAAAACMBJ8AAAACAAAAAACMBKAAAAACAAAAAACMBKEAAAACAAAAAACNBIwAAAACAAAAAACNBI0AAAACAAAAAACNBI4AAAACAAAAAACNBI8AAAACAAAAAACNBJAAAAACAAAAAACNBJEAAAACAAAAAACNBJIAAAACAAAAAACNBJMAAAACAAAAAACNBJQAAAACAAAAAACNBJUAAAACAAAAAACNBJYAAAACAAAAAACNBJcAAAACAAAAAACNBJgAAAACAAAAAACNBJkAAAACAAAAAACNBJoAAAACAAAAAACNBJsAAAACAAAAAACNBJwAAAACAAAAAACNBJ0AAAACAAAAAACNBJ4AAAACAAAAAACNBJ8AAAACAAAAAACNBKAAAAACAAAAAACNBKEAAAACAAAAAACOBIwAAAACAAAAAACOBI0AAAACAAAAAACOBI4AAAACAAAAAACOBI8AAAACAAAAAACOBJAAAAACAAAAAACOBJEAAAACAAAAAACOBJIAAAACAAAAAACOBJMAAAACAAAAAACOBJQAAAACAAAAAACOBJUAAAACAAAAAACOBJYAAAACAAAAAACOBJcAAAACAAAAAACOBJgAAAACAAAAAACOBJkAAAACAAAAAACOBJoAAAACAAAAAACOBJsAAAACAAAAAACOBJwAAAACAAAAAACOBJ0AAAACAAAAAACOBJ4AAAACAAAAAACOBJ8AAAACAAAAAACOBKAAAAACAAAAAACOBKEAAAACAAAAAACPBIwAAAACAAAAAACPBI0AAAACAAAAAACPBI4AAAACAAAAAACPBI8AAAACAAAAAACPBJAAAAACAAAAAACPBJEAAAACAAAAAACPBJIAAAACAAAAAACPBJMAAAACAAAAAACPBJQAAAACAAAAAACPBJUAAAACAAAAAACPBJYAAAACAAAAAACPBJcAAAACAAAAAACPBJgAAAACAAAAAACPBJkAAAACAAAAAACPBJoAAAACAAAAAACPBJsAAAACAAAAAACPBJwAAAACAAAAAACPBJ0AAAACAAAAAACPBJ4AAAACAAAAAACPBJ8AAAACAAAAAACPBKAAAAACAAAAAACPBKEAAAACAAAAAACQBIwAAAACAAAAAACQBI0AAAACAAAAAACQBI4AAAACAAAAAACQBI8AAAACAAAAAACQBJAAAAACAAAAAACQBJEAAAACAAAAAACQBJIAAAACAAAAAACQBJMAAAACAAAAAACQBJQAAAACAAAAAACQBJUAAAACAAAAAACQBJYAAAACAAAAAACQBJcAAAACAAAAAACQBJgAAAACAAAAAACQBJkAAAACAAAAAACQBJoAAAACAAAAAACQBJsAAAACAAAAAACQBJwAAAACAAAAAACQBJ0AAAACAAAAAACQBJ4AAAACAAAAAACQBJ8AAAACAAAAAACQBKAAAAACAAAAAACQBKEAAAACAAAAAACRBIwAAAACAAAAAACRBI0AAAACAAAAAACRBI4AAAACAAAAAACRBI8AAAACAAAAAACRBJAAAAACAAAAAACRBJEAAAACAAAAAACRBJIAAAACAAAAAACRBJMAAAACAAAAAACRBJQAAAACAAAAAACRBJUAAAACAAAAAACRBJYAAAACAAAAAACRBJcAAAACAAAAAACRBJgAAAACAAAAAACRBJkAAAACAAAAAACRBJoAAAACAAAAAACRBJsAAAACAAAAAACRBJwAAAACAAAAAACRBJ0AAAACAAAAAACRBJ4AAAACAAAAAACRBJ8AAAACAAAAAACRBKAAAAACAAAAAACRBKEAAAACAAAAAACSBIwAAAACAAAAAACSBI0AAAACAAAAAACSBI4AAAACAAAAAACSBI8AAAACAAAAAACSBJAAAAACAAAAAACSBJEAAAACAAAAAACSBJIAAAACAAAAAACSBJMAAAACAAAAAACSBJQAAAACAAAAAACSBJUAAAACAAAAAACSBJYAAAACAAAAAACSBJcAAAACAAAAAACSBJgAAAACAAAAAACSBJkAAAACAAAAAACSBJoAAAACAAAAAACSBJsAAAACAAAAAACSBJwAAAACAAAAAACSBJ0AAAACAAAAAACSBJ4AAAACAAAAAACSBJ8AAAACAAAAAACSBKAAAAACAAAAAACSBKEAAAACAAAAAADYBIAAAAACAAAAAADYBIEAAAACAAAAAADYBIIAAAACAAAAAADYBIMAAAACAAAAAADYBIQAAAACAAAAAADYBIUAAAACAAAAAADYBIYAAAACAAAAAADYBIcAAAACAAAAAADYBIgAAAACAAAAAADYBIkAAAACAAAAAADYBIoAAAACAAAAAADYBIsAAAACAAAAAADYBIwAAAACAAAAAADYBI0AAAACAAAAAADYBI4AAAACAAAAAADYBI8AAAACAAAAAADYBJAAAAACAAAAAADYBJEAAAACAAAAAADYBJIAAAACAAAAAADYBJMAAAACAAAAAADYBJQAAAACAAAAAADYBJUAAAACAAAAAADYBJYAAAACAAAAAADYBJcAAAACAAAAAADYBJgAAAACAAAAAADYBJkAAAACAAAAAADYBJoAAAACAAAAAADYBJsAAAACAAAAAADZBIAAAAACAAAAAADZBIEAAAACAAAAAADZBIIAAAACAAAAAADZBIMAAAACAAAAAADZBIQAAAACAAAAAADZBIUAAAACAAAAAADZBIYAAAACAAAAAADZBIcAAAACAAAAAADZBIgAAAACAAAAAADZBIkAAAACAAAAAADZBIoAAAACAAAAAADZBIsAAAACAAAAAADZBIwAAAACAAAAAADZBI0AAAACAAAAAADZBI4AAAACAAAAAADZBI8AAAACAAAAAADZBJAAAAACAAAAAADZBJEAAAACAAAAAADZBJIAAAACAAAAAADZBJMAAAACAAAAAADZBJQAAAACAAAAAADZBJUAAAACAAAAAADZBJYAAAACAAAAAADZBJcAAAACAAAAAADZBJgAAAACAAAAAADZBJkAAAACAAAAAADZBJoAAAACAAAAAADZBJsAAAACAAAAAADaBIAAAAACAAAAAADaBIEAAAACAAAAAADaBIIAAAACAAAAAADaBIMAAAACAAAAAADaBIQAAAACAAAAAADaBIUAAAACAAAAAADaBIYAAAACAAAAAADaBIcAAAACAAAAAADaBIgAAAACAAAAAADaBIkAAAACAAAAAADaBIoAAAACAAAAAADaBIsAAAACAAAAAADaBIwAAAACAAAAAADaBI0AAAACAAAAAADaBI4AAAACAAAAAADaBI8AAAACAAAAAADaBJAAAAACAAAAAADaBJEAAAACAAAAAADaBJIAAAACAAAAAADaBJMAAAACAAAAAADaBJQAAAACAAAAAADaBJUAAAACAAAAAADaBJYAAAACAAAAAADaBJcAAAACAAAAAADaBJgAAAACAAAAAADaBJkAAAACAAAAAADaBJoAAAACAAAAAADaBJsAAAACAAAAAADbBIAAAAACAAAAAADbBIEAAAACAAAAAADbBIIAAAACAAAAAADbBIMAAAACAAAAAADbBIQAAAACAAAAAADbBIUAAAACAAAAAADbBIYAAAACAAAAAADbBIcAAAACAAAAAADbBIgAAAACAAAAAADbBIkAAAACAAAAAADbBIoAAAACAAAAAADbBIsAAAACAAAAAADbBIwAAAACAAAAAADbBI0AAAACAAAAAADbBI4AAAACAAAAAADbBI8AAAACAAAAAADbBJAAAAACAAAAAADbBJEAAAACAAAAAADbBJIAAAACAAAAAADbBJMAAAACAAAAAADbBJQAAAACAAAAAADbBJUAAAACAAAAAADbBJYAAAACAAAAAADbBJcAAAACAAAAAADbBJgAAAACAAAAAADbBJkAAAACAAAAAADbBJoAAAACAAAAAADbBJsAAAACAAAAAADcBIAAAAACAAAAAADcBIEAAAACAAAAAADcBIIAAAACAAAAAADcBIMAAAACAAAAAADcBIQAAAACAAAAAADcBIUAAAACAAAAAADcBIYAAAACAAAAAADcBIcAAAACAAAAAADcBIgAAAACAAAAAADcBIkAAAACAAAAAADcBIoAAAACAAAAAADcBIsAAAACAAAAAADcBIwAAAACAAAAAADcBI0AAAACAAAAAADcBI4AAAACAAAAAADcBI8AAAACAAAAAADcBJAAAAACAAAAAADcBJEAAAACAAAAAADcBJIAAAACAAAAAADcBJMAAAACAAAAAADcBJQAAAACAAAAAADcBJUAAAACAAAAAADcBJYAAAACAAAAAADcBJcAAAACAAAAAADcBJgAAAACAAAAAADcBJkAAAACAAAAAADcBJoAAAACAAAAAADcBJsAAAACAAAAAADdBIAAAAACAAAAAADdBIEAAAACAAAAAADdBIIAAAACAAAAAADdBIMAAAACAAAAAADdBIQAAAACAAAAAADdBIUAAAACAAAAAADdBIYAAAACAAAAAADdBIcAAAACAAAAAADdBIgAAAACAAAAAADdBIkAAAACAAAAAADdBIoAAAACAAAAAADdBIsAAAACAAAAAADdBIwAAAACAAAAAADdBI0AAAACAAAAAADdBI4AAAACAAAAAADdBI8AAAACAAAAAADdBJAAAAACAAAAAADdBJEAAAACAAAAAADdBJIAAAACAAAAAADdBJMAAAACAAAAAADdBJQAAAACAAAAAADdBJUAAAACAAAAAADdBJYAAAACAAAAAADdBJcAAAACAAAAAADdBJgAAAACAAAAAADdBJkAAAACAAAAAADdBJoAAAACAAAAAADdBJsAAAACAAAAAADeBIAAAAACAAAAAADeBIEAAAACAAAAAADeBIIAAAACAAAAAADeBIMAAAACAAAAAADeBIQAAAACAAAAAADeBIUAAAACAAAAAADeBIYAAAACAAAAAADeBIcAAAACAAAAAADeBIgAAAACAAAAAADeBIkAAAACAAAAAADeBIoAAAACAAAAAADeBIsAAAACAAAAAADeBIwAAAACAAAAAADeBI0AAAACAAAAAADeBI4AAAACAAAAAADeBI8AAAACAAAAAADeBJAAAAACAAAAAADeBJEAAAACAAAAAADeBJIAAAACAAAAAADeBJMAAAACAAAAAADeBJQAAAACAAAAAADeBJUAAAACAAAAAADeBJYAAAACAAAAAADeBJcAAAACAAAAAADeBJgAAAACAAAAAADeBJkAAAACAAAAAADeBJoAAAACAAAAAADeBJsAAAACAAAAAADfBIAAAAACAAAAAADfBIEAAAACAAAAAADfBIIAAAACAAAAAADfBIMAAAACAAAAAADfBIQAAAACAAAAAADfBIUAAAACAAAAAADfBIYAAAACAAAAAADfBIcAAAACAAAAAADfBIgAAAACAAAAAADfBIkAAAACAAAAAADfBIoAAAACAAAAAADfBIsAAAACAAAAAADfBIwAAAACAAAAAADfBI0AAAACAAAAAADfBI4AAAACAAAAAADfBI8AAAACAAAAAADfBJAAAAACAAAAAADfBJEAAAACAAAAAADfBJIAAAACAAAAAADfBJMAAAACAAAAAADfBJQAAAACAAAAAADfBJUAAAACAAAAAADfBJYAAAACAAAAAADfBJcAAAACAAAAAADfBJgAAAACAAAAAADfBJkAAAACAAAAAADfBJoAAAACAAAAAADfBJsAAAACAAAAAABRCLcBAAACAAAAAABRCLgBAAACAAAAAABRCLkBAAACAAAAAABRCLoBAAACAAAAAABRCLsBAAACAAAAAABSCLcBAAACAAAAAABSCLgBAAACAAAAAABSCLkBAAACAAAAAABSCLoBAAACAAAAAABSCLsBAAACAAAAAABTCLcBAAACAAAAAABTCLgBAAACAAAAAABTCLkBAAACAAAAAABTCLoBAAACAAAAAABTCLsBAAACAAAAAABUCLcBAAACAAAAAABUCLgBAAACAAAAAABUCLkBAAACAAAAAABUCLoBAAACAAAAAABUCLsBAAACAAAAAABVCLcBAAACAAAAAABVCLgBAAACAAAAAABVCLkBAAACAAAAAABVCLoBAAACAAAAAABVCLsBAAACAAAAAABWCLcBAAACAAAAAABWCLgBAAACAAAAAABWCLkBAAACAAAAAABWCLoBAAACAAAAAABWCLsBAAACAAAAAABXCLcBAAACAAAAAABXCLgBAAACAAAAAABXCLkBAAACAAAAAABXCLoBAAACAAAAAABXCLsBAAACAAAAAABYCLcBAAACAAAAAABYCLgBAAACAAAAAABYCLkBAAACAAAAAABYCLoBAAACAAAAAABYCLsBAAACAAAAAABZCLcBAAACAAAAAABZCLgBAAACAAAAAABZCLkBAAACAAAAAABZCLoBAAACAAAAAABZCLsBAAACAAAAAABaCLcBAAACAAAAAABaCLgBAAACAAAAAABaCLkBAAACAAAAAABaCLoBAAACAAAAAABaCLsBAAACAAAAAABbCLcBAAACAAAAAABbCLgBAAACAAAAAABbCLkBAAACAAAAAABbCLoBAAACAAAAAABbCLsBAAACAAAAAABcCLcBAAACAAAAAABcCLgBAAACAAAAAABcCLkBAAACAAAAAABcCLoBAAACAAAAAABcCLsBAAACAAAAAABdCLcBAAACAAAAAABdCLgBAAACAAAAAABdCLkBAAACAAAAAABdCLoBAAACAAAAAABdCLsBAAACAAAAAABeCLcBAAACAAAAAABeCLgBAAACAAAAAABeCLkBAAACAAAAAABeCLoBAAACAAAAAABeCLsBAAACAAAAAABfCLcBAAACAAAAAABfCLgBAAACAAAAAABfCLkBAAACAAAAAABfCLoBAAACAAAAAABfCLsBAAACAAAAAABgCLcBAAACAAAAAABgCLgBAAACAAAAAABgCLkBAAACAAAAAABgCLoBAAACAAAAAABgCLsBAAACAAAAAABhCLcBAAACAAAAAABhCLgBAAACAAAAAABhCLkBAAACAAAAAABhCLoBAAACAAAAAABhCLsBAAACAAAAAABiCLcBAAACAAAAAABiCLgBAAACAAAAAABiCLkBAAACAAAAAABiCLoBAAACAAAAAABiCLsBAAACAAAAAABLCqYAAAACAAAAAABLCqcAAAACAAAAAABLCqgAAAACAAAAAABLCqkAAAACAAAAAABLCqoAAAACAAAAAABLCqsAAAACAAAAAABLCqwAAAACAAAAAABLCq0AAAACAAAAAABMCqYAAAACAAAAAABMCqcAAAACAAAAAABMCqgAAAACAAAAAABMCqkAAAACAAAAAABMCqoAAAACAAAAAABMCqsAAAACAAAAAABMCqwAAAACAAAAAABMCq0AAAACAAAAAABNCqYAAAACAAAAAABNCqcAAAACAAAAAABNCqgAAAACAAAAAABNCqkAAAACAAAAAABNCqoAAAACAAAAAABNCqsAAAACAAAAAABNCqwAAAACAAAAAABNCq0AAAACAAAAAABOCqYAAAACAAAAAABOCqcAAAACAAAAAABOCqgAAAACAAAAAABOCqkAAAACAAAAAABOCqoAAAACAAAAAABOCqsAAAACAAAAAABOCqwAAAACAAAAAABOCq0AAAACAAAAAABPCqYAAAACAAAAAABPCqcAAAACAAAAAABPCqgAAAACAAAAAABPCqkAAAACAAAAAABPCqoAAAACAAAAAABPCqsAAAACAAAAAABPCqwAAAACAAAAAABPCq0AAAACAAAAAABQCqYAAAACAAAAAABQCqcAAAACAAAAAABQCqgAAAACAAAAAABQCqkAAAACAAAAAABQCqoAAAACAAAAAABQCqsAAAACAAAAAABQCqwAAAACAAAAAABQCq0AAAACAAAAAABRCqYAAAACAAAAAABRCqcAAAACAAAAAABRCqgAAAACAAAAAABRCqkAAAACAAAAAABRCqoAAAACAAAAAABRCqsAAAACAAAAAABRCqwAAAACAAAAAABRCq0AAAACAAAAAABSCqYAAAACAAAAAABSCqcAAAACAAAAAABSCqgAAAACAAAAAABSCqkAAAACAAAAAABSCqoAAAACAAAAAABSCqsAAAACAAAAAABSCqwAAAACAAAAAABSCq0AAAACAAAAAABTCqYAAAACAAAAAABTCqcAAAACAAAAAABTCqgAAAACAAAAAABTCqkAAAACAAAAAABTCqoAAAACAAAAAABTCqsAAAACAAAAAABTCqwAAAACAAAAAABTCq0AAAACAAAAAABUCqYAAAACAAAAAABUCqcAAAACAAAAAABUCqgAAAACAAAAAABUCqkAAAACAAAAAABUCqoAAAACAAAAAABUCqsAAAACAAAAAABUCqwAAAACAAAAAABUCq0AAAACAAAAAABVCqYAAAACAAAAAABVCqcAAAACAAAAAABVCqgAAAACAAAAAABVCqkAAAACAAAAAABVCqoAAAACAAAAAABVCqsAAAACAAAAAABVCqwAAAACAAAAAABVCq0AAAACAAAAAABWCqYAAAACAAAAAABWCqcAAAACAAAAAABWCqgAAAACAAAAAABWCqkAAAACAAAAAABWCqoAAAACAAAAAABWCqsAAAACAAAAAABWCqwAAAACAAAAAABWCq0AAAACAAAAAABXCqYAAAACAAAAAABXCqcAAAACAAAAAABXCqgAAAACAAAAAABXCqkAAAACAAAAAABXCqoAAAACAAAAAABXCqsAAAACAAAAAABXCqwAAAACAAAAAABXCq0AAAACAAAAAABYCqYAAAACAAAAAABYCqcAAAACAAAAAABYCqgAAAACAAAAAABYCqkAAAACAAAAAABYCqoAAAACAAAAAABYCqsAAAACAAAAAABYCqwAAAACAAAAAABYCq0AAAACAAAAAABZCqYAAAACAAAAAABZCqcAAAACAAAAAABZCqgAAAACAAAAAABZCqkAAAACAAAAAABZCqoAAAACAAAAAABZCqsAAAACAAAAAABZCqwAAAACAAAAAABZCq0AAAACAAAAAABaCqYAAAACAAAAAABaCqcAAAACAAAAAABaCqgAAAACAAAAAABaCqkAAAACAAAAAABaCqoAAAACAAAAAABaCqsAAAACAAAAAABaCqwAAAACAAAAAABaCq0AAAACAAAAAABbCqYAAAACAAAAAABbCqcAAAACAAAAAABbCqgAAAACAAAAAABbCqkAAAACAAAAAABbCqoAAAACAAAAAABbCqsAAAACAAAAAABbCqwAAAACAAAAAABbCq0AAAACAAAAAABcCqYAAAACAAAAAABcCqcAAAACAAAAAABcCqgAAAACAAAAAABcCqkAAAACAAAAAABcCqoAAAACAAAAAABcCqsAAAACAAAAAABcCqwAAAACAAAAAABcCq0AAAACAAAAAABdCqYAAAACAAAAAABdCqcAAAACAAAAAABdCqgAAAACAAAAAABdCqkAAAACAAAAAABdCqoAAAACAAAAAABdCqsAAAACAAAAAABdCqwAAAACAAAAAABdCq0AAAACAAAAAABeCqYAAAACAAAAAABeCqcAAAACAAAAAABeCqgAAAACAAAAAABeCqkAAAACAAAAAABeCqoAAAACAAAAAABeCqsAAAACAAAAAABeCqwAAAACAAAAAABeCq0AAAACAAAAAABfCqYAAAACAAAAAABfCqcAAAACAAAAAABfCqgAAAACAAAAAABfCqkAAAACAAAAAABfCqoAAAACAAAAAABfCqsAAAACAAAAAABfCqwAAAACAAAAAABfCq0AAAACAAAAAABgCqYAAAACAAAAAABgCqcAAAACAAAAAABgCqgAAAACAAAAAABgCqkAAAACAAAAAABgCqoAAAACAAAAAABgCqsAAAACAAAAAABgCqwAAAACAAAAAABgCq0AAAACAAAAAABhCqYAAAACAAAAAABhCqcAAAACAAAAAABhCqgAAAACAAAAAABhCqkAAAACAAAAAABhCqoAAAACAAAAAABhCqsAAAACAAAAAABhCqwAAAACAAAAAABhCq0AAAACAAAAAABiCqYAAAACAAAAAABiCqcAAAACAAAAAABiCqgAAAACAAAAAABiCqkAAAACAAAAAABiCqoAAAACAAAAAABiCqsAAAACAAAAAABiCqwAAAACAAAAAABiCq0AAAACAAAAAABjCqYAAAACAAAAAABjCqcAAAACAAAAAABjCqgAAAACAAAAAABjCqkAAAACAAAAAABjCqoAAAACAAAAAABjCqsAAAACAAAAAABjCqwAAAACAAAAAABjCq0AAAACAAAAAABkCqYAAAACAAAAAABkCqcAAAACAAAAAABkCqgAAAACAAAAAABkCqkAAAACAAAAAABkCqoAAAACAAAAAABkCqsAAAACAAAAAABkCqwAAAACAAAAAABkCq0AAAACAAAAAABlCqYAAAACAAAAAABlCqcAAAACAAAAAABlCqgAAAACAAAAAABlCqkAAAACAAAAAABlCqoAAAACAAAAAABlCqsAAAACAAAAAABlCqwAAAACAAAAAABlCq0AAAACAAAAAABmCqYAAAACAAAAAABmCqcAAAACAAAAAABmCqgAAAACAAAAAABmCqkAAAACAAAAAABmCqoAAAACAAAAAABmCqsAAAACAAAAAABmCqwAAAACAAAAAABmCq0AAAACAAAAAABnCqYAAAACAAAAAABnCqcAAAACAAAAAABnCqgAAAACAAAAAABnCqkAAAACAAAAAABnCqoAAAACAAAAAABnCqsAAAACAAAAAABnCqwAAAACAAAAAABnCq0AAAACAAAAAABoCqYAAAACAAAAAABoCqcAAAACAAAAAABoCqgAAAACAAAAAABoCqkAAAACAAAAAABoCqoAAAACAAAAAABoCqsAAAACAAAAAABoCqwAAAACAAAAAABoCq0AAAACAAAAAABpCqYAAAACAAAAAABpCqcAAAACAAAAAABpCqgAAAACAAAAAABpCqkAAAACAAAAAABpCqoAAAACAAAAAABpCqsAAAACAAAAAABpCqwAAAACAAAAAABpCq0AAAACAAAAAABqCqYAAAACAAAAAABqCqcAAAACAAAAAABqCqgAAAACAAAAAABqCqkAAAACAAAAAABqCqoAAAACAAAAAABqCqsAAAACAAAAAABqCqwAAAACAAAAAABqCq0AAAACAAAAAABrCqYAAAACAAAAAABrCqcAAAACAAAAAABrCqgAAAACAAAAAABrCqkAAAACAAAAAABrCqoAAAACAAAAAABrCqsAAAACAAAAAABrCqwAAAACAAAAAABrCq0AAAACAAAAAABsCqYAAAACAAAAAABsCqcAAAACAAAAAABsCqgAAAACAAAAAABsCqkAAAACAAAAAABsCqoAAAACAAAAAABsCqsAAAACAAAAAABsCqwAAAACAAAAAABsCq0AAAACAAAAAABtCqYAAAACAAAAAABtCqcAAAACAAAAAABtCqgAAAACAAAAAABtCqkAAAACAAAAAABtCqoAAAACAAAAAABtCqsAAAACAAAAAABtCqwAAAACAAAAAABtCq0AAAACAAAAAABuCqYAAAACAAAAAABuCqcAAAACAAAAAABuCqgAAAACAAAAAABuCqkAAAACAAAAAABuCqoAAAACAAAAAABuCqsAAAACAAAAAABuCqwAAAACAAAAAABuCq0AAAACAAAAAABvCqYAAAACAAAAAABvCqcAAAACAAAAAABvCqgAAAACAAAAAABvCqkAAAACAAAAAABvCqoAAAACAAAAAABvCqsAAAACAAAAAABvCqwAAAACAAAAAABvCq0AAAACAAAAAABwCqYAAAACAAAAAABwCqcAAAACAAAAAABwCqgAAAACAAAAAABwCqkAAAACAAAAAABwCqoAAAACAAAAAABwCqsAAAACAAAAAABwCqwAAAACAAAAAABwCq0AAAACAAAAAABxCqYAAAACAAAAAABxCqcAAAACAAAAAABxCqgAAAACAAAAAABxCqkAAAACAAAAAABxCqoAAAACAAAAAABxCqsAAAACAAAAAABxCqwAAAACAAAAAABxCq0AAAACAAAAAAByCqYAAAACAAAAAAByCqcAAAACAAAAAAByCqgAAAACAAAAAAByCqkAAAACAAAAAAByCqoAAAACAAAAAAByCqsAAAACAAAAAAByCqwAAAACAAAAAAByCq0AAAACAAAAAABzCqYAAAACAAAAAABzCqcAAAACAAAAAABzCqgAAAACAAAAAABzCqkAAAACAAAAAABzCqoAAAACAAAAAABzCqsAAAACAAAAAABzCqwAAAACAAAAAABzCq0AAAACAAAAAAB0CqYAAAACAAAAAAB0CqcAAAACAAAAAAB0CqgAAAACAAAAAAB0CqkAAAACAAAAAAB0CqoAAAACAAAAAAB0CqsAAAACAAAAAAB0CqwAAAACAAAAAAB0Cq0AAAACAAAAAACOCLcBAAACAAAAAACOCLgBAAACAAAAAACOCLkBAAACAAAAAACOCLoBAAACAAAAAACOCLsBAAACAAAAAACOCLwBAAACAAAAAACOCL0BAAACAAAAAACOCL4BAAACAAAAAACOCL8BAAACAAAAAACPCLcBAAACAAAAAACPCLgBAAACAAAAAACPCLkBAAACAAAAAACPCLoBAAACAAAAAACPCLsBAAACAAAAAACPCLwBAAACAAAAAACPCL0BAAACAAAAAACPCL4BAAACAAAAAACPCL8BAAACAAAAAACQCLcBAAACAAAAAACQCLgBAAACAAAAAACQCLkBAAACAAAAAACQCLoBAAACAAAAAACQCLsBAAACAAAAAACQCLwBAAACAAAAAACQCL0BAAACAAAAAACQCL4BAAACAAAAAACQCL8BAAACAAAAAACRCLcBAAACAAAAAACRCLgBAAACAAAAAACRCLkBAAACAAAAAACRCLoBAAACAAAAAACRCLsBAAACAAAAAACRCLwBAAACAAAAAACRCL0BAAACAAAAAACRCL4BAAACAAAAAACRCL8BAAACAAAAAACSCLcBAAACAAAAAACSCLgBAAACAAAAAACSCLkBAAACAAAAAACSCLoBAAACAAAAAACSCLsBAAACAAAAAACSCLwBAAACAAAAAACSCL0BAAACAAAAAACSCL4BAAACAAAAAACSCL8BAAACAAAAAACTCLcBAAACAAAAAACTCLgBAAACAAAAAACTCLkBAAACAAAAAACTCLoBAAACAAAAAACTCLsBAAACAAAAAACTCLwBAAACAAAAAACTCL0BAAACAAAAAACTCL4BAAACAAAAAACTCL8BAAACAAAAAACUCLcBAAACAAAAAACUCLgBAAACAAAAAACUCLkBAAACAAAAAACUCLoBAAACAAAAAACUCLsBAAACAAAAAACUCLwBAAACAAAAAACUCL0BAAACAAAAAACUCL4BAAACAAAAAACUCL8BAAACAAAAAACVCLcBAAACAAAAAACVCLgBAAACAAAAAACVCLkBAAACAAAAAACVCLoBAAACAAAAAACVCLsBAAACAAAAAACVCLwBAAACAAAAAACVCL0BAAACAAAAAACVCL4BAAACAAAAAACVCL8BAAACAAAAAACWCLcBAAACAAAAAACWCLgBAAACAAAAAACWCLkBAAACAAAAAACWCLoBAAACAAAAAACWCLsBAAACAAAAAACWCLwBAAACAAAAAACWCL0BAAACAAAAAACWCL4BAAACAAAAAACWCL8BAAACAAAAAACXCLcBAAACAAAAAACXCLgBAAACAAAAAACXCLkBAAACAAAAAACXCLoBAAACAAAAAACXCLsBAAACAAAAAACXCLwBAAACAAAAAACXCL0BAAACAAAAAACXCL4BAAACAAAAAACXCL8BAAACAAAAAACYCLcBAAACAAAAAACYCLgBAAACAAAAAACYCLkBAAACAAAAAACYCLoBAAACAAAAAACYCLsBAAACAAAAAACYCLwBAAACAAAAAACYCL0BAAACAAAAAACYCL4BAAACAAAAAACYCL8BAAACAAAAAACZCLcBAAACAAAAAACZCLgBAAACAAAAAACZCLkBAAACAAAAAACZCLoBAAACAAAAAACZCLsBAAACAAAAAACZCLwBAAACAAAAAACZCL0BAAACAAAAAACZCL4BAAACAAAAAACZCL8BAAACAAAAAACaCLcBAAACAAAAAACaCLgBAAACAAAAAACaCLkBAAACAAAAAACaCLoBAAACAAAAAACaCLsBAAACAAAAAACaCLwBAAACAAAAAACaCL0BAAACAAAAAACaCL4BAAACAAAAAACaCL8BAAACAAAAAACbCLcBAAACAAAAAACbCLgBAAACAAAAAACbCLkBAAACAAAAAACbCLoBAAACAAAAAACbCLsBAAACAAAAAACbCLwBAAACAAAAAACbCL0BAAACAAAAAACbCL4BAAACAAAAAACbCL8BAAACAAAAAACcCLcBAAACAAAAAACcCLgBAAACAAAAAACcCLkBAAACAAAAAACcCLoBAAACAAAAAACcCLsBAAACAAAAAACcCLwBAAACAAAAAACcCL0BAAACAAAAAACcCL4BAAACAAAAAACcCL8BAAACAAAAAACdCLcBAAACAAAAAACdCLgBAAACAAAAAACdCLkBAAACAAAAAACdCLoBAAACAAAAAACdCLsBAAACAAAAAACdCLwBAAACAAAAAACdCL0BAAACAAAAAACdCL4BAAACAAAAAACdCL8BAAACAAAAAACeCLcBAAACAAAAAACeCLgBAAACAAAAAACeCLkBAAACAAAAAACeCLoBAAACAAAAAACeCLsBAAACAAAAAACeCLwBAAACAAAAAACeCL0BAAACAAAAAACeCL4BAAACAAAAAACeCL8BAAACAAAAAACfCLcBAAACAAAAAACfCLgBAAACAAAAAACfCLkBAAACAAAAAACfCLoBAAACAAAAAACfCLsBAAACAAAAAACfCLwBAAACAAAAAACfCL0BAAACAAAAAACfCL4BAAACAAAAAACfCL8BAAACAAAAAACgCLcBAAACAAAAAACgCLgBAAACAAAAAACgCLkBAAACAAAAAACgCLoBAAACAAAAAACgCLsBAAACAAAAAACgCLwBAAACAAAAAACgCL0BAAACAAAAAACgCL4BAAACAAAAAACgCL8BAAACAAAAAAChCLcBAAACAAAAAAChCLgBAAACAAAAAAChCLkBAAACAAAAAAChCLoBAAACAAAAAAChCLsBAAACAAAAAAChCLwBAAACAAAAAAChCL0BAAACAAAAAAChCL4BAAACAAAAAAChCL8BAAACAAAAAACiCLcBAAACAAAAAACiCLgBAAACAAAAAACiCLkBAAACAAAAAACiCLoBAAACAAAAAACiCLsBAAACAAAAAACiCLwBAAACAAAAAACiCL0BAAACAAAAAACiCL4BAAACAAAAAACiCL8BAAACAAAAAACjCLcBAAACAAAAAACjCLgBAAACAAAAAACjCLkBAAACAAAAAACjCLoBAAACAAAAAACjCLsBAAACAAAAAACjCLwBAAACAAAAAACjCL0BAAACAAAAAACjCL4BAAACAAAAAACjCL8BAAACAAAAAACkCLcBAAACAAAAAACkCLgBAAACAAAAAACkCLkBAAACAAAAAACkCLoBAAACAAAAAACkCLsBAAACAAAAAACkCLwBAAACAAAAAACkCL0BAAACAAAAAACkCL4BAAACAAAAAACkCL8BAAACAAAAAAClCLcBAAACAAAAAAClCLgBAAACAAAAAAClCLkBAAACAAAAAAClCLoBAAACAAAAAAClCLsBAAACAAAAAAClCLwBAAACAAAAAAClCL0BAAACAAAAAAClCL4BAAACAAAAAAClCL8BAAACAAAAAACmCLcBAAACAAAAAACmCLgBAAACAAAAAACmCLkBAAACAAAAAACmCLoBAAACAAAAAACmCLsBAAACAAAAAACmCLwBAAACAAAAAACmCL0BAAACAAAAAACmCL4BAAACAAAAAACmCL8BAAACAAAAAACnCLcBAAACAAAAAACnCLgBAAACAAAAAACnCLkBAAACAAAAAACnCLoBAAACAAAAAACnCLsBAAACAAAAAACnCLwBAAACAAAAAACnCL0BAAACAAAAAACnCL4BAAACAAAAAACnCL8BAAACAAAAAACoCLcBAAACAAAAAACoCLgBAAACAAAAAACoCLkBAAACAAAAAACoCLoBAAACAAAAAACoCLsBAAACAAAAAACoCLwBAAACAAAAAACoCL0BAAACAAAAAACoCL4BAAACAAAAAACoCL8BAAACAAAAAACpCLcBAAACAAAAAACpCLgBAAACAAAAAACpCLkBAAACAAAAAACpCLoBAAACAAAAAACpCLsBAAACAAAAAACpCLwBAAACAAAAAACpCL0BAAACAAAAAACpCL4BAAACAAAAAACpCL8BAAACAAAAAACqCLcBAAACAAAAAACqCLgBAAACAAAAAACqCLkBAAACAAAAAACqCLoBAAACAAAAAACqCLsBAAACAAAAAACqCLwBAAACAAAAAACqCL0BAAACAAAAAACqCL4BAAACAAAAAACqCL8BAAACAAAAAACrCLcBAAACAAAAAACrCLgBAAACAAAAAACrCLkBAAACAAAAAACrCLoBAAACAAAAAACrCLsBAAACAAAAAACrCLwBAAACAAAAAACrCL0BAAACAAAAAACrCL4BAAACAAAAAACrCL8BAAACAAAAAACsCLcBAAACAAAAAACsCLgBAAACAAAAAACsCLkBAAACAAAAAACsCLoBAAACAAAAAACsCLsBAAACAAAAAACsCLwBAAACAAAAAACsCL0BAAACAAAAAACsCL4BAAACAAAAAACsCL8BAAACAAAAAACtCLcBAAACAAAAAACtCLgBAAACAAAAAACtCLkBAAACAAAAAACtCLoBAAACAAAAAACtCLsBAAACAAAAAACtCLwBAAACAAAAAACtCL0BAAACAAAAAACtCL4BAAACAAAAAACtCL8BAAACAAAAAACuCLcBAAACAAAAAACuCLgBAAACAAAAAACuCLkBAAACAAAAAACuCLoBAAACAAAAAACuCLsBAAACAAAAAACuCLwBAAACAAAAAACuCL0BAAACAAAAAACuCL4BAAACAAAAAACuCL8BAAACAAAAAACvCLcBAAACAAAAAACvCLgBAAACAAAAAACvCLkBAAACAAAAAACvCLoBAAACAAAAAACvCLsBAAACAAAAAACvCLwBAAACAAAAAACvCL0BAAACAAAAAACvCL4BAAACAAAAAACvCL8BAAACAAAAAACwCLcBAAACAAAAAACwCLgBAAACAAAAAACwCLkBAAACAAAAAACwCLoBAAACAAAAAACwCLsBAAACAAAAAACwCLwBAAACAAAAAACwCL0BAAACAAAAAACwCL4BAAACAAAAAACwCL8BAAACAAAAAACtBDb+AAACAAAAAACtBDf+AAACAAAAAACtBDj+AAACAAAAAACtBDn+AAACAAAAAACtBDr+AAACAAAAAACtBDv+AAACAAAAAACtBDz+AAACAAAAAACtBD3+AAACAAAAAACtBD7+AAACAAAAAACtBD/+AAACAAAAAACtBED+AAACAAAAAACtBEH+AAACAAAAAACuBDb+AAACAAAAAACuBDf+AAACAAAAAACuBDj+AAACAAAAAACuBDn+AAACAAAAAACuBDr+AAACAAAAAACuBDv+AAACAAAAAACuBDz+AAACAAAAAACuBD3+AAACAAAAAACuBD7+AAACAAAAAACuBD/+AAACAAAAAACuBED+AAACAAAAAACuBEH+AAACAAAAAACvBDb+AAACAAAAAACvBDf+AAACAAAAAACvBDj+AAACAAAAAACvBDn+AAACAAAAAACvBDr+AAACAAAAAACvBDv+AAACAAAAAACvBDz+AAACAAAAAACvBD3+AAACAAAAAACvBD7+AAACAAAAAACvBD/+AAACAAAAAACvBED+AAACAAAAAACvBEH+AAACAAAAAACwBDb+AAACAAAAAACwBDf+AAACAAAAAACwBDj+AAACAAAAAACwBDn+AAACAAAAAACwBDr+AAACAAAAAACwBDv+AAACAAAAAACwBDz+AAACAAAAAACwBD3+AAACAAAAAACwBD7+AAACAAAAAACwBD/+AAACAAAAAACwBED+AAACAAAAAACwBEH+AAACAAAAAACxBDb+AAACAAAAAACxBDf+AAACAAAAAACxBDj+AAACAAAAAACxBDn+AAACAAAAAACxBDr+AAACAAAAAACxBDv+AAACAAAAAACxBDz+AAACAAAAAACxBD3+AAACAAAAAACxBD7+AAACAAAAAACxBD/+AAACAAAAAACxBED+AAACAAAAAACxBEH+AAACAAAAAAA=")
 tile_set = SubResource("TileSet_w1qmf")
 
 [node name="BasicInst" type="RichTextLabel" parent="."]
-offset_left = 231.0
-offset_top = -681.0
-offset_right = 1190.0
-offset_bottom = -336.0
+offset_left = 356.0
+offset_top = -932.0
+offset_right = 1780.0
+offset_bottom = -311.0
 theme_override_font_sizes/normal_font_size = 50
 text = "Move with wasd
+
 Jump with space 
-Dash with space in air
-GrappleHook by holding mouse L
+
+Dash with space in air, cooldown resets on ground
+
+GrappleHook by holding mouse L and hitting colored tiles
+
 Restart level with R "
 fit_content = true
 
@@ -1945,7 +1935,7 @@ offset_top = -11294.0
 offset_right = 15627.0
 offset_bottom = -11133.0
 theme_override_font_sizes/normal_font_size = 70
-text = "Pushingfist by holding mouseR"
+text = "Pushingfist by holding mouseR. Get momentum away from the point you click and hold."
 fit_content = true
 
 [node name="GoalText" type="RichTextLabel" parent="."]

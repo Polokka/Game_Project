@@ -1,11 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://1j180dimwu8e"]
+[gd_scene load_steps=6 format=3 uid="uid://1j180dimwu8e"]
 
 [ext_resource type="Texture2D" uid="uid://djaefu7bu51g5" path="res://Images/BackgroundTextures/DarkGreenBackgroundTile.png" id="1_n4yt8"]
 [ext_resource type="PackedScene" uid="uid://bm4bq3sjubneq" path="res://Scenes/Player_Scenes/ablities.tscn" id="2_28lkl"]
+[ext_resource type="PackedScene" uid="uid://dou886b0bgpf2" path="res://Scenes/UI_Scenes/close_scene_anim.tscn" id="2_df4a1"]
 [ext_resource type="PackedScene" uid="uid://fycg8gpkdyq8" path="res://Scenes/Player_Scenes/player.tscn" id="3_if6io"]
-[ext_resource type="PackedScene" uid="uid://dedliuutebnks" path="res://Scenes/Stages/Lvl3.tscn" id="4_eo32a"]
+[ext_resource type="PackedScene" uid="uid://dji8b03lug87v" path="res://Scenes/Stages/Lvl2.tscn" id="4_5y20n"]
 
 [node name="Main_Scene" type="Node"]
+
+[node name="CloseSceneAnim" parent="." groups=["AnimPlayers"] instance=ExtResource("2_df4a1")]
+layer = 0
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -20,8 +24,8 @@ grow_vertical = 0
 texture = ExtResource("1_n4yt8")
 
 [node name="Player" parent="." instance=ExtResource("3_if6io")]
-position = Vector2(9961.24, -33972.4)
+position = Vector2(23934.8, -25204)
 
 [node name="Ablities" parent="." instance=ExtResource("2_28lkl")]
 
-[node name="Lvl3" parent="." instance=ExtResource("4_eo32a")]
+[node name="Lvl2" parent="." instance=ExtResource("4_5y20n")]

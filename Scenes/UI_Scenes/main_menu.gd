@@ -35,3 +35,8 @@ func _on_lvl_3_pressed() -> void:
 	
 func _on_quit_button_pressed() -> void:
 	get_tree().quit()
+
+
+func _on_reset_times_pressed() -> void:
+	Globals.resetTimes()
+	_ready()
